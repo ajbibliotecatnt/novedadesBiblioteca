@@ -1,0 +1,5043 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE libros SYSTEM "libros.dtd">
+<libros mes="September" numero="237">
+  <libro id="9917904099904201">
+    <id>9917904099904201</id>
+    <iep>21177327850004201</iep>
+    <titulo>1808: la revolución española</titulo>
+    <autor>Artola, Miguel (1923-).</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Alianza</editor>
+    <fecha>D.L. 2008.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(460)"1808/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460)"18/..." ARTOLAMI milochoc</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599304201">
+    <id>9917906599304201</id>
+    <iep>21178627660004201</iep>
+    <titulo>Abenteuer Gott : den christlichen Glauben neu denken</titulo>
+    <autor>Reck, Norbert.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>2003.</fecha>
+    <isbn>3534157583; 9783534157587</isbn>
+    <cdu>
+      <num>27-14</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27 RECKNORB abenteue</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905898104201">
+    <id>9917905898104201</id>
+    <iep>21178535620004201</iep>
+    <titulo>Abt Suger von Saint-Denis : ausgewählte schriften</titulo>
+    <autor>Suger abbé de Saint-Denis (1081-1151).</autor>
+    <lugar>Darmstadt, Alemania :, :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2005.</fecha>
+    <isbn>3534184947; 9783534184941</isbn>
+    <cdu>
+      <num>1"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>1"04/14" SUGERABB abtsuger</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597604201">
+    <id>9917906597604201</id>
+    <iep>21178627140004201</iep>
+    <titulo>Alltag im Mittelalter : natürliches Lebensumfeld und menschliches Miteinander</titulo>
+    <autor>Schubert, Ernst.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2002.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94"04/14" SCHUBERT alltagim</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903499404201">
+    <id>9917903499404201</id>
+    <iep>21177177620004201</iep>
+    <titulo>Am Anfang war das Korn : eine andere Geschichte der Menschheit</titulo>
+    <autor>Kuster, Hansjorg.</autor>
+    <lugar>München :</lugar>
+    <editor>CH Beck</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn>9783406652172; 3406652174</isbn>
+    <cdu>
+      <num>338.43(091)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>338.43 KISTERHA amanfang</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905398304201">
+    <id>9917905398304201</id>
+    <iep>21178407370004201</iep>
+    <titulo>Antike Sklaverei</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn>9783534238545; 3534238540</isbn>
+    <cdu>
+      <num>94(430)""04/14</num>
+      <num>326</num>
+      <num>343.431</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" antikesk</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904094304201">
+    <id>9917904094304201</id>
+    <iep>21177325540004201</iep>
+    <titulo>Aufbruch ins zweite Jahrtausend : Innovation und Kontinuität in der Mitte des Mittelalters</titulo>
+    <autor></autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>Thorbecke</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn>3799542671; 9783799542678</isbn>
+    <cdu>
+      <num>94(430)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" aufbruch</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905398004201">
+    <id>9917905398004201</id>
+    <iep>21178407280004201</iep>
+    <titulo>Baubetrieb im Mittelalter</titulo>
+    <autor>Binding, Günther.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn>9783534256167; 3534256166</isbn>
+    <cdu>
+      <num>72.033.3</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>7"04/14" BINDINGG baubetri</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904094804201">
+    <id>9917904094804201</id>
+    <iep>21177325710004201</iep>
+    <titulo>Begegnungen zwischen dem ostfränkisch-deutschen Reich und England (850 - 1100) : Kontakte - Konstellationen - Funktionalisierungen - Wirkungen</titulo>
+    <autor>Bihrer, Andreas.</autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>Thorbecke</editor>
+    <fecha>2012.</fecha>
+    <isbn>9783799542906; 3799542906</isbn>
+    <cdu>
+      <num>94(430)"07/10"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" BIHRERAN begegnun</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904094904201">
+    <id>9917904094904201</id>
+    <iep>21177325740004201</iep>
+    <titulo>Beherrschter Raum und anerkannte Herrschaft : Friedrich I. Barbarossa und das Königreich Burgund</titulo>
+    <autor>Türck, Verena.</autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>J Thorbecke</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn>9783799543613; 3799543619</isbn>
+    <cdu>
+      <num>94(430)</num>
+      <num>929 Federico I</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" TURCKVER beherrsc</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906899104201">
+    <id>9917906899104201</id>
+    <iep>21178657410004201</iep>
+    <titulo>Berlin gibt immer den Tom an : kleine prosa aus und über Berlin</titulo>
+    <autor>Walser, Robert (1878-1956.)</autor>
+    <lugar>Frankfurt :</lugar>
+    <editor>Insel Verlag</editor>
+    <fecha>2012.</fecha>
+    <isbn>9783458349129; 345834912X</isbn>
+    <cdu>
+      <num>821.112.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.112.2 WALSERRO berlingi</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904095004201">
+    <id>9917904095004201</id>
+    <iep>21177325770004201</iep>
+    <titulo>Bilder von Europa im Mittelalter</titulo>
+    <autor>Oschema, Klaus.</autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>J Thorbecke</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn>9783799543620; 3799543627</isbn>
+    <cdu>
+      <num>94(4)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" OSCHEMAK bildervo</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905897304201">
+    <id>9917905897304201</id>
+    <iep>21178535380004201</iep>
+    <titulo>Blutiger Sommer : eine Deutschlandreise im Dreißigjährigen Krieg</titulo>
+    <autor>Crowne, William.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>2012.</fecha>
+    <isbn>9783534255368; 3534255364</isbn>
+    <cdu>
+      <num>94(430)"15/16"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"15/17" CROWNEWI blutiger</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904197904201">
+    <id>9917904197904201</id>
+    <iep>21177337160004201</iep>
+    <titulo>Buenos Aires : tiempo de Borges</titulo>
+    <autor>Tenenbaum, León.</autor>
+    <lugar>Buenos Aires :</lugar>
+    <editor>Ediciones Turísticas de M Banchik</editor>
+    <fecha>2001.</fecha>
+    <isbn>9879473051; 9789879473054</isbn>
+    <cdu>
+      <num>821.134.2(82) Borges, Jorge Luis.09</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.134.2"18/..." Bo.0 TENENBAU buenosai</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903498904201">
+    <id>9917903498904201</id>
+    <iep>21177177440004201</iep>
+    <titulo>Canossa : die Entzauberung der Welt</titulo>
+    <autor>Weinfurter, Stefan.</autor>
+    <lugar>München :</lugar>
+    <editor>Beck</editor>
+    <fecha>2006.</fecha>
+    <isbn>3406535909; 9783406535901</isbn>
+    <cdu>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" WEINFURT canossad</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906896604201">
+    <id>9917906896604201</id>
+    <iep>21178656600004201</iep>
+    <titulo>Carlota en Weimar</titulo>
+    <autor>Mann, Thomas (1875-1955).</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Edhasa</editor>
+    <fecha>2006.</fecha>
+    <isbn>8435009823; 9788435009829</isbn>
+    <cdu>
+      <num>821.11</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.11 Mann MANNTHOM carlotae</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902297004201">
+    <id>9917902297004201</id>
+    <iep>21177006650004201</iep>
+    <titulo>Castillejo de Monteagudo : poder y producción en la almunia del Rey Lobo : guía de la exposición : 24 abril - 30 de septiembre 2019</titulo>
+    <autor></autor>
+    <lugar>Murcia [etc.] :</lugar>
+    <editor>Región de Murcia etc</editor>
+    <fecha>[2019].</fecha>
+    <isbn>9788475647456; 8475647456</isbn>
+    <cdu>
+      <num>904(460.33)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Pamphlet</mat>
+        <col>Folletos</col>
+        <sig>FOL/384922</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905399604201">
+    <id>9917905399604201</id>
+    <iep>21178407770004201</iep>
+    <titulo>Chronologie des Dritten Reiches : ereignisse, personen, begriffe</titulo>
+    <autor>Tofahrn, Klaus W.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>2003.</fecha>
+    <isbn>3534166639; 9783534166633</isbn>
+    <cdu>
+      <num>94(430)"1933/1945"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." TOFAHRNK chronolo</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887104201">
+    <id>9917906887104201</id>
+    <iep>21178653050004201</iep>
+    <titulo>Crónica de los reinos de Chile</titulo>
+    <autor>Vivar, Jerónimo de.</autor>
+    <lugar>Las Rozas (Madrid) :</lugar>
+    <editor>Dastin</editor>
+    <fecha>2001.</fecha>
+    <isbn>8449202213; 9788449202216</isbn>
+    <cdu>
+      <num>929 Valdivia, Pedro de</num>
+      <num>94(83)"1535/60"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(83) VIVARJER cronicad</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887404201">
+    <id>9917906887404201</id>
+    <iep>21178653150004201</iep>
+    <titulo>Crónica mexicana</titulo>
+    <autor>Alvarado Tezozómoc, Fernando.</autor>
+    <lugar>Las Rozas (Madrid) :</lugar>
+    <editor>Dastin</editor>
+    <fecha>2001.</fecha>
+    <isbn>8449202164</isbn>
+    <cdu>
+      <num>9(=822.21 Aztecas)</num>
+      <num>94(72)".../1517"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(72) ALVARADO cronicam</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905398104201">
+    <id>9917905398104201</id>
+    <iep>21178407310004201</iep>
+    <titulo>Das Burgenbuch</titulo>
+    <autor>Losse, Michael</autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Theiss</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn>9783806227109; 3806227101</isbn>
+    <cdu>
+      <num>94(430)"04/14"</num>
+      <num>728.81</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" LOSSEMIC burgenbu</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906598104201">
+    <id>9917906598104201</id>
+    <iep>21178627310004201</iep>
+    <titulo>Das Byzantinische Reich : Geschichte und Kultur eines Jahrtausends</titulo>
+    <autor>Haldon, John F.</autor>
+    <lugar>Düsseldorf :</lugar>
+    <editor>Artemis und Winkler</editor>
+    <fecha>2002.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(495)"03/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" HALDONJO byzantin</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906896804201">
+    <id>9917906896804201</id>
+    <iep>21178656690004201</iep>
+    <titulo>Das Günter-Grass-Lesebuch</titulo>
+    <autor>Grass, Günter (1927-2015).</autor>
+    <lugar>München :</lugar>
+    <editor>Dt Taschenbuch-Verl</editor>
+    <fecha>2009.</fecha>
+    <isbn>9783423137607; 3423137606</isbn>
+    <cdu>
+      <num>821.112.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.112.2 GRASSGUN guntergr</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899604201">
+    <id>9917905899604201</id>
+    <iep>21178537750004201</iep>
+    <titulo>Das Kaiserreich : Portrait einer Epoche in Biographien</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>2001.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(430)"17/18"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." kaiserre</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906897204201">
+    <id>9917906897204201</id>
+    <iep>21178656780004201</iep>
+    <titulo>Das Leben Jesu</titulo>
+    <autor>Hegel, Georg Wilhelm Friedrich (1770-1831).</autor>
+    <lugar>[Alemania?] :</lugar>
+    <editor>Frank Ackermann</editor>
+    <fecha>2007.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>27-3</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27-3Jesucristo HEGELGEO lebenjes</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905399504201">
+    <id>9917905399504201</id>
+    <iep>21178407740004201</iep>
+    <titulo>Das Personenlexikon zum Dritten Reich : wer war was vor und nach 1945?</titulo>
+    <autor>Klee, Ernst.</autor>
+    <lugar>Franfurt am Main :</lugar>
+    <editor>Kramer</editor>
+    <fecha>cop. 2003.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(430)"1933/1945"</num>
+      <num>329.18(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." KLEEERNS personen</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903499504201">
+    <id>9917903499504201</id>
+    <iep>21177177650004201</iep>
+    <titulo>Das Reich im Mittelalter : kleine deutsche Geschichte von 500 bis 1500</titulo>
+    <autor>Weinfurter, Stefan.</autor>
+    <lugar>München :</lugar>
+    <editor>Beck</editor>
+    <fecha>2008.</fecha>
+    <isbn>9783406569005; 3406569005</isbn>
+    <cdu>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" WEINFURT reichimm</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903499804201">
+    <id>9917903499804201</id>
+    <iep>21177177820004201</iep>
+    <titulo>Der Bauernjög : Feldherr im Bauernkrieg : Georg Truchsess von Waldburg, 1488-1531</titulo>
+    <autor>Blickle, Peter.</autor>
+    <lugar>München :</lugar>
+    <editor>C H Beck</editor>
+    <fecha>2015.</fecha>
+    <isbn>9783406675010; 3406675018</isbn>
+    <cdu>
+      <num>94(430)"16"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" BLICKLEP bauernjo</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905398604201">
+    <id>9917905398604201</id>
+    <iep>21178407460004201</iep>
+    <titulo>Der Dom zu Speyer</titulo>
+    <autor>Kubach, Hans Erich.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wiss Buchges</editor>
+    <fecha>2011.</fecha>
+    <isbn>9783534244805; 353424480X</isbn>
+    <cdu>
+      <num>94(430)"1106"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" KUBACHHA domzuspe</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906895404201">
+    <id>9917906895404201</id>
+    <iep>21178656100004201</iep>
+    <titulo>Der Nationalsozialismus : mit 23 abbildungen</titulo>
+    <autor>Thamer, Hans-Ulrich.</autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Reclam</editor>
+    <fecha>2002.</fecha>
+    <isbn>3150170370; 9783150170373</isbn>
+    <cdu>
+      <num>329.18(430)</num>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." THAMERHA national</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905399304201">
+    <id>9917905399304201</id>
+    <iep>21178407700004201</iep>
+    <titulo>Der deutsche Widerstand gegen Hitler : Wahrnehmung und Wertung in Europa und den USA</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>2002.</fecha>
+    <isbn>3534131460; 9783534131464</isbn>
+    <cdu>
+      <num>94(430)"1933/1945"</num>
+      <num>329.18(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." deutsche</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906899404201">
+    <id>9917906899404201</id>
+    <iep>21178657630004201</iep>
+    <titulo>Der sinnreiche Junker Don Quijote von der Mancha</titulo>
+    <autor>Cervantes Saavedra, Miguel de (1547-1616).</autor>
+    <lugar>München :</lugar>
+    <editor>Deutscher Taschenbuch Verlag</editor>
+    <fecha>2005.</fecha>
+    <isbn>3423123516; 9783423123518</isbn>
+    <cdu>
+      <num>821.134.2"15/17"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.134.2"15/17" Cer.0 CERVANTE sinnreic</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597204201">
+    <id>9917906597204201</id>
+    <iep>21178626960004201</iep>
+    <titulo>Deutsche : die geschichte unserer Sprache</titulo>
+    <autor>Casemir, Kirstin</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(430)</num>
+      <num>81(091)(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>81 CASEMIRK deutsched</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906899804201">
+    <id>9917906899804201</id>
+    <iep>21178657760004201</iep>
+    <titulo>Deutschstunde : roman</titulo>
+    <autor>Lenz, Siegfried (1926-).</autor>
+    <lugar>München :</lugar>
+    <editor>Deutscher Taschenbuch Verlag</editor>
+    <fecha>2002.</fecha>
+    <isbn>3423009446; 9783423009447</isbn>
+    <cdu>
+      <num>821.112.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.112.2 LENZSIEG deutschs</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905399804201">
+    <id>9917905399804201</id>
+    <iep>21178407830004201</iep>
+    <titulo>Die "Endlösung" und das Auswärtige Amt : das Referat D III der Abteilung Deutschland 1940-1943</titulo>
+    <autor>Browning, Christopher R.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>2cop. 010.</fecha>
+    <isbn>9783534228706; 3534228707</isbn>
+    <cdu>
+      <num>94(430)"1940/1943"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." BROWNING endlosun</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905897004201">
+    <id>9917905897004201</id>
+    <iep>21178535350004201</iep>
+    <titulo>Die Geschichte der Jagd : Kultur, Gesellschaft und Jagdwesen im Wandel der Zeit</titulo>
+    <autor>Rösener, Werner.</autor>
+    <lugar>Dusseldorf :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>639.1(091)</num>
+      <num>338.46(.):799.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>796/799 ROSENERW geschich</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904095104201">
+    <id>9917904095104201</id>
+    <iep>21177325800004201</iep>
+    <titulo>Die Herolde im römisch-deutschen Reich : Studie zur adligen Kommunikation im späten Mittelalter</titulo>
+    <autor>Bock, Nils</autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>J Thorbecke</editor>
+    <fecha>cop. 2015.</fecha>
+    <isbn>9783799543682; 3799543686</isbn>
+    <cdu>
+      <num>94(430)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" BOCKNILS heroldei</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905896304201">
+    <id>9917905896304201</id>
+    <iep>21178535220004201</iep>
+    <titulo>Die Kultur der Bitte : Herrschaft und Kommunikation im mittelalterlichen Reich</titulo>
+    <autor>Garnier, Claudia</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2008.</fecha>
+    <isbn>9783534219568; 3534219562</isbn>
+    <cdu>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" GARNIERC kulturde</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905896104201">
+    <id>9917905896104201</id>
+    <iep>21178535190004201</iep>
+    <titulo>Die Kämpfe der Herrscher und der Heiligen : Krieg und historische Erinnerung in der Karolingerzeit</titulo>
+    <autor>Scharff, Thomas</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2002.</fecha>
+    <isbn>353415990X; 9783534159901</isbn>
+    <cdu>
+      <num>94(4)"7/9"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" SCHARFFT kampfede</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903499604201">
+    <id>9917903499604201</id>
+    <iep>21177177680004201</iep>
+    <titulo>Die M0acht des Knigs : 4Herrschaft in Europa vom Frhmittelalter bis in die Neuzeit</titulo>
+    <autor></autor>
+    <lugar>Mnchen :</lugar>
+    <editor>C H Beck</editor>
+    <fecha>2005.</fecha>
+    <isbn>3406532306; 9783406532306</isbn>
+    <cdu>
+      <num>94(4)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" machtdes</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905896704201">
+    <id>9917905896704201</id>
+    <iep>21178535290004201</iep>
+    <titulo>Die Macht der Rituale : Symbolik und Herrschaft im Mittelalter</titulo>
+    <autor>Althoff, Gerd.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2003.</fecha>
+    <isbn>3534147499; 9783534147496</isbn>
+    <cdu>
+      <num>39(4)(091)</num>
+      <num>930</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>39(4) ALTHOFFG machtder</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905897504201">
+    <id>9917905897504201</id>
+    <iep>21178535410004201</iep>
+    <titulo>Die Römer im Rhein-Main-Gebiet</titulo>
+    <autor>Zahrnt, Michael</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2012.</fecha>
+    <isbn>9783534237678; 3534237676</isbn>
+    <cdu>
+      <num>94(=1:37)</num>
+      <num>94(4)".../03"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)".../03" romerimr</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905399104201">
+    <id>9917905399104201</id>
+    <iep>21178407640004201</iep>
+    <titulo>Die Schlacht : Waterloo 1815</titulo>
+    <autor>Bremm, Klaus-Jürgen</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2015.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(493)"1815"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." BREMMKLA schlacht</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902388804201">
+    <id>9917902388804201</id>
+    <iep>21176983270004201</iep>
+    <titulo>Die Sprache des Schweigens : die deutsche literatur und der Holocaust</titulo>
+    <autor>Schlant, Ernestine 1935-</autor>
+    <lugar>München :</lugar>
+    <editor>Beck</editor>
+    <fecha>comp. 2001.</fecha>
+    <isbn>3406471889; 9783406471889</isbn>
+    <cdu>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) SCHLANTE sprached</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899504201">
+    <id>9917905899504201</id>
+    <iep>21178537720004201</iep>
+    <titulo>Die Universität : Geschichte einer europäischen Institution</titulo>
+    <autor>Koch, Hans-Albrecht.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2008.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>378(4)(091)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>378 KOCHHANS universi</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903499304201">
+    <id>9917903499304201</id>
+    <iep>21177177590004201</iep>
+    <titulo>Die Verwandlung der Welt : Eine Geschichte des 19. Jahrhunderts</titulo>
+    <autor>Osterhammel, Jürgen.</autor>
+    <lugar>München :</lugar>
+    <editor>CH Beck</editor>
+    <fecha>2011.</fecha>
+    <isbn>9783406614811; 3406614817</isbn>
+    <cdu>
+      <num>94(100)"18"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94"18/..." OSTERHANM verwandl</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905399704201">
+    <id>9917905399704201</id>
+    <iep>21178407800004201</iep>
+    <titulo>Die Wehrmacht : Feindbilder, Vernichtungskrieg, Legenden</titulo>
+    <autor>Wette, Wolfram.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2002.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(430)"1935/1945"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." WETTEWOL wehrmach</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906896704201">
+    <id>9917906896704201</id>
+    <iep>21178656660004201</iep>
+    <titulo>Die Weimarer Republik : %%b eine unvollendete demokratie</titulo>
+    <autor>Möller, Horst</autor>
+    <lugar>Munchen :</lugar>
+    <editor>Deutscher Taschenbuch Verlag</editor>
+    <fecha>2004.</fecha>
+    <isbn>3423340592; 9783423340595</isbn>
+    <cdu>
+      <num>32(430)"1933-1945"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>32(4) MOLLERHO weimarer</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905898804201">
+    <id>9917905898804201</id>
+    <iep>21178536790004201</iep>
+    <titulo>Die Weimarer Republik : Portrait einer Epoche in Biographien</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>Cop. 2002.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(430)"1918/1933"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." weimarer</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906598404201">
+    <id>9917906598404201</id>
+    <iep>21178627400004201</iep>
+    <titulo>Die Welt der Rituale : von der Antike bis heute</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2005.</fecha>
+    <isbn>3534187016; 9783534187010</isbn>
+    <cdu>
+      <num>2-5</num>
+      <num>39</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>39 weltderr</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904092404201">
+    <id>9917904092404201</id>
+    <iep>21177324970004201</iep>
+    <titulo>Die Wettiner : Aufstieg einer Dynastie im Mittelalter</titulo>
+    <autor>Rogge, Jörg.</autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>Thorbecke</editor>
+    <fecha>cop. 2005.</fecha>
+    <isbn>3799501517; 9783799501514</isbn>
+    <cdu>
+      <num>94(430)"04/..."</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" ROGGEJOR wettiner</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905898504201">
+    <id>9917905898504201</id>
+    <iep>21178536730004201</iep>
+    <titulo>Die entwicklungsgeschichte der Mühlen</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Reprint-Verl Leipzig</editor>
+    <fecha>cop. 2012.</fecha>
+    <isbn>9783826230196; 3826230191</isbn>
+    <cdu>
+      <num>621.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>62(091) entwickl</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599804201">
+    <id>9917906599804201</id>
+    <iep>21178627780004201</iep>
+    <titulo>Die großen Themen des christlichen Glaubens</titulo>
+    <autor>Scholl, Norbert</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>2002.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>27</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27 SCHOLLNO grossent</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899304201">
+    <id>9917905899304201</id>
+    <iep>21178537040004201</iep>
+    <titulo>Die literarische Welt des Mittelalters</titulo>
+    <autor>Brinker-von der Heyde, Claudia</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2007.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>338.45(.):655.41(4)(091)</num>
+      <num>82(091)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>82(091) BRINKERV literari</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905897804201">
+    <id>9917905897804201</id>
+    <iep>21178535520004201</iep>
+    <titulo>Die römische Kunst : ein Handbuch</titulo>
+    <autor>Wohlmayr, Wolfgang</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2011.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>7.032(37)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>7".../03" WOHLMAYR romische</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904096304201">
+    <id>9917904096304201</id>
+    <iep>21177326310004201</iep>
+    <titulo>DieSalier, das Reich und der Niederrhein</titulo>
+    <autor></autor>
+    <lugar>Köln, Weimar, Wien :</lugar>
+    <editor>Böhlau</editor>
+    <fecha>cop. 2008.</fecha>
+    <isbn>9783412202019; 3412202010</isbn>
+    <cdu>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) salierda</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="990011423480204201">
+    <id>990011423480204201</id>
+    <iep>21125085290004201</iep>
+    <titulo>Don Juan Negrín</titulo>
+    <autor>Moradiellos García, Enrique (1961-).</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Península</editor>
+    <fecha>2006.</fecha>
+    <isbn>8483077531; 9788483077535</isbn>
+    <cdu>
+      <num>92</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460)"1801/1939" MORADIEL donjuann</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906890304201">
+    <id>9917906890304201</id>
+    <iep>21178654110004201</iep>
+    <titulo>Eichmann en Jerusalén</titulo>
+    <autor>Arendt, Hannah (1906-1975).</autor>
+    <lugar>[Barcelona] :</lugar>
+    <editor>Debolsillo</editor>
+    <fecha>2005.</fecha>
+    <isbn>8497933605; 9788497933605</isbn>
+    <cdu>
+      <num>1 Arendt, Hannah</num>
+      <num>929 Eichmann, Adolf</num>
+      <num>94(=411.16:4)"1939/45"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>SXX</col>
+        <sig>SXX/56888</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906899504201">
+    <id>9917906899504201</id>
+    <iep>21178657660004201</iep>
+    <titulo>Ein Dichter gibt Auskunft : 121 Gedichte</titulo>
+    <autor>Kästner, Erich.</autor>
+    <lugar>München :</lugar>
+    <editor>Dt Taschenbuch-Verl</editor>
+    <fecha>2006.</fecha>
+    <isbn>3423134755; 9783423134750</isbn>
+    <cdu>
+      <num>821.112.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.112.2 KASTNERE eindicht</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="990015190900204201">
+    <id>990015190900204201</id>
+    <iep>21111790760004201</iep>
+    <titulo>El Dorado en el pantano : oro, esclavos y almas entre los Andes y la Amazonia</titulo>
+    <autor>Livi Bacci, Massimo</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Marcial Pons Historia</editor>
+    <fecha>2012.</fecha>
+    <isbn>9788492820658; 8492820659</isbn>
+    <cdu>
+      <num>94(=873.21 Mojos:309 El Dorado)"15/17"</num>
+      <num>266(84)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>SXX</col>
+        <sig>SXX/56874</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902389604201">
+    <id>9917902389604201</id>
+    <iep>21176983610004201</iep>
+    <titulo>El Tercer Reich en guerra (1939-1945)</titulo>
+    <autor>Evans, Richard J.</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Península</editor>
+    <fecha>2011.</fecha>
+    <isbn>9788499420936; 8499420931</isbn>
+    <cdu>
+      <num>94(=411.16:4)"1939/45"</num>
+      <num>94(430)"1933/45"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." EVANSRIC tercerre</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902389304201">
+    <id>9917902389304201</id>
+    <iep>21176983480004201</iep>
+    <titulo>El lado oscuro de la democracia: : un estudio sobre la limpieza étnica</titulo>
+    <autor>Mann, Michael, 1942-</autor>
+    <lugar>[València] :</lugar>
+    <editor>Publicacions de la Universitat de València</editor>
+    <fecha>D.L. 2009.</fecha>
+    <isbn>9788437073903; 8437073901</isbn>
+    <cdu>
+      <num>316.72(100):32</num>
+      <num>341.322.5</num>
+      <num>323.282</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>32 MANNMICH ladooscu</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904098204201">
+    <id>9917904098204201</id>
+    <iep>21177326980004201</iep>
+    <titulo>El reloj de piedra</titulo>
+    <autor>Konrád, György.</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Alianza Editorial</editor>
+    <fecha>D.L. 2006.</fecha>
+    <isbn>8420647578; 9788420647579</isbn>
+    <cdu>
+      <num>821.511.141-31"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.51 KONRADGY relojdep</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904099804201">
+    <id>9917904099804201</id>
+    <iep>21177327800004201</iep>
+    <titulo>El viaje de Baldassare</titulo>
+    <autor>Maalouf, Amin.</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Círculo de Lectores</editor>
+    <fecha>2001.</fecha>
+    <isbn>8422686031; 9788422686033</isbn>
+    <cdu>
+      <num>821.133.1(569.3)-31"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.13 Maalouf MAALOUFA viajedeb</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906894304201">
+    <id>9917906894304201</id>
+    <iep>21178655440004201</iep>
+    <titulo>Eneasroman : Mittelhochdeutsch-neuhohdeutsch</titulo>
+    <autor>Veldeke, Hendrich van</autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Philipp Reclam</editor>
+    <fecha>cop. 2007.</fecha>
+    <isbn>9783150083031; 3150083036</isbn>
+    <cdu>
+      <num>821.112.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.112.2 VELDEKEH eneasrom</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904095604201">
+    <id>9917904095604201</id>
+    <iep>21177325970004201</iep>
+    <titulo>Episcopus : Wissen über Bischöfe im Frankenreich des späten 8. bis frühen 10. Jahrhunderts</titulo>
+    <autor>Patzold, Steffen.</autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>J Thorbecke</editor>
+    <fecha>cop. 2008.</fecha>
+    <isbn>9783799542760; 3799542760</isbn>
+    <cdu>
+      <num>272-722.52(44)</num>
+      <num>27-9(44)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27-9 PATZOLDS episcopu</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904095804201">
+    <id>9917904095804201</id>
+    <iep>21177326080004201</iep>
+    <titulo>Erfurt im 13. Jahrhundert : städtische Gesellschaft zwischen Mainzer Erzbischof, Adel und Reich</titulo>
+    <autor>Wolf, Stephanie</autor>
+    <lugar>Köln, Weimar, Wien :</lugar>
+    <editor>Böhlau</editor>
+    <fecha>2005.</fecha>
+    <isbn>9783412124052; 3412124052</isbn>
+    <cdu>
+      <num>94(430)</num>
+      <num>316.342.2-058.1</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" WOLFSTEP erfurtim</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597404201">
+    <id>9917906597404201</id>
+    <iep>21178627080004201</iep>
+    <titulo>Essen und Trinken im Mittelalter</titulo>
+    <autor>Schubert, Ernst.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2006.</fecha>
+    <isbn>3534198972; 9783534198979</isbn>
+    <cdu>
+      <num>94"04/14"</num>
+      <num>394.1"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94"04/14" SCHUBERT essenund</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597004201">
+    <id>9917906597004201</id>
+    <iep>21178626900004201</iep>
+    <titulo>Europa in der Geographie des Ptolemaios : die Entschlüsselung des "Atlas Oikumene" zwischen Orkney, Gibraltar und den Dinariden</titulo>
+    <autor>Kleineberg, Andreas</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2012.</fecha>
+    <isbn>9783534248353; 353424835X</isbn>
+    <cdu>
+      <num>91(4)(084.3)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>91(4) KLEINEBE europain</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899704201">
+    <id>9917905899704201</id>
+    <iep>21178537810004201</iep>
+    <titulo>Europas Norden im Mittelalter : die Integration Skandinaviens in das christliche Europa (9.-13. Jh.)</titulo>
+    <autor>Kaufhold, Martin</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wiss Buchges</editor>
+    <fecha>cop. 2001.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(4)"09/13"</num>
+      <num>27</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) KAUFHOLD europasn</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906899004201">
+    <id>9917906899004201</id>
+    <iep>21178657380004201</iep>
+    <titulo>Exil : roman</titulo>
+    <autor>Feuchtwanger, Lion.</autor>
+    <lugar>Berlin :</lugar>
+    <editor>Aufbau Verlagsgruppe</editor>
+    <fecha>2012.</fecha>
+    <isbn>9783746656311; 3746656311</isbn>
+    <cdu>
+      <num>821.112.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.112.2 FEUCHTWA exilroma</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903500304201">
+    <id>9917903500304201</id>
+    <iep>21177177990004201</iep>
+    <titulo>Friedrich Barbarossa : eine Biographie</titulo>
+    <autor>Görich, Knut.</autor>
+    <lugar>München :</lugar>
+    <editor>C H Beck</editor>
+    <fecha>2011.</fecha>
+    <isbn>9783406598234; 3406598234</isbn>
+    <cdu>
+      <num>94(430)"1152/90"</num>
+      <num>929 Barbarossa, Friedrich</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" GORICHKN friedric</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903499704201">
+    <id>9917903499704201</id>
+    <iep>21177177730004201</iep>
+    <titulo>Friedrich II. : der Sizilianer auf dem Kaiserthron : eine Biographie</titulo>
+    <autor>Rader, Olaf B.</autor>
+    <lugar>München :</lugar>
+    <editor>C H Beck</editor>
+    <fecha>2010.</fecha>
+    <isbn>9783406604850; 3406604854</isbn>
+    <cdu>
+      <num>94(4)"11/12"</num>
+      <num>929 Federico II</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>SXX</col>
+        <sig>SXX/56838</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904097404201">
+    <id>9917904097404201</id>
+    <iep>21177326700004201</iep>
+    <titulo>Friedrich II. zwischen Deutschland und Polen : Ereignis- und Erinnerungsgeschichte</titulo>
+    <autor>Bömelburg, Hans-Jürgen</autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Alfred Kröner Verlag</editor>
+    <fecha>2011.</fecha>
+    <isbn>3520331012; 9783520331014</isbn>
+    <cdu>
+      <num>94(470+571)</num>
+      <num>929</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) BOMELBUR friedric</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899804201">
+    <id>9917905899804201</id>
+    <iep>21178537840004201</iep>
+    <titulo>Friedrich der Grosse : der König und seine Zeit</titulo>
+    <autor>Kunisch, Johannes</autor>
+    <lugar>München :</lugar>
+    <editor>Beck</editor>
+    <fecha>2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>929 Frederic (430) II</num>
+      <num>321.61(431)"17"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>32(4) KUNISCHJ friedric</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597804201">
+    <id>9917906597804201</id>
+    <iep>21178627200004201</iep>
+    <titulo>Frühe Völker Europas : Thraker - Illyrer - Kelten - Germanen - Etrusker - Italiker - Griechen</titulo>
+    <autor></autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Theiss</editor>
+    <fecha>cop. 2003.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(4)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)".../03" fruhevol</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596504201">
+    <id>9917906596504201</id>
+    <iep>21178626780004201</iep>
+    <titulo>Für ein anderes Deutschland : der deutsche Widerstand gegen den NS-Staat 1933-1945</titulo>
+    <autor>Ueberschär, Gerd R.</autor>
+    <lugar>Frankfurt :</lugar>
+    <editor>Fischer Verlag</editor>
+    <fecha>cop. 2005.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(430)"1933/1945"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." UEBERSCH fureinan</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905898904201">
+    <id>9917905898904201</id>
+    <iep>21178536820004201</iep>
+    <titulo>Gemeinschaft und Gesellschaft : grundbegriffe der reinen Soziologie</titulo>
+    <autor>Tönnies, Ferdinand.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>2005.</fecha>
+    <isbn>3534051807; 9783534051809</isbn>
+    <cdu>
+      <num>316</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>316 TONNIESF gemeinsc</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597904201">
+    <id>9917906597904201</id>
+    <iep>21178627240004201</iep>
+    <titulo>Genesis des Genozids : Polen 1939-1941</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn>3534180968; 9783534180967</isbn>
+    <cdu>
+      <num>94(438)"1939/1941"</num>
+      <num>341.322.5</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." genesisd</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596904201">
+    <id>9917906596904201</id>
+    <iep>21178626870004201</iep>
+    <titulo>Germania und die Insel Thule : die Entschlüsselung von Ptolemaios' "Atlas der Oikumene"</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG (Wissenschaftliche Buchgesellschaft)</editor>
+    <fecha>cop. 2011.</fecha>
+    <isbn>9783534245253; 3534245253</isbn>
+    <cdu>
+      <num>91(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>91(4) germania</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899004201">
+    <id>9917905899004201</id>
+    <iep>21178536910004201</iep>
+    <titulo>Geschichte Italiens im Mittelalter</titulo>
+    <autor>Goez, Elke.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2010.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(450)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" GOEZELKE geschich</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906886504201">
+    <id>9917906886504201</id>
+    <iep>21178652860004201</iep>
+    <titulo>Geschichte der Kriegskunst</titulo>
+    <autor>Delbrück, Hans.</autor>
+    <lugar>Hamburg :</lugar>
+    <editor>Nikol</editor>
+    <fecha>2008.</fecha>
+    <isbn>9783937872414; 3937872418; 9783937872421; 3937872426</isbn>
+    <cdu>
+      <num>355.01(091)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>35 DELBRUCK geschich V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906886504201">
+    <id>9917906886504201</id>
+    <iep>21178652860004201</iep>
+    <titulo>Geschichte der Kriegskunst</titulo>
+    <autor>Delbrück, Hans.</autor>
+    <lugar>Hamburg :</lugar>
+    <editor>Nikol</editor>
+    <fecha>2008.</fecha>
+    <isbn>9783937872414; 3937872418; 9783937872421; 3937872426</isbn>
+    <cdu>
+      <num>355.01(091)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>35 DELBRUCK geschich V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597104201">
+    <id>9917906597104201</id>
+    <iep>21178626930004201</iep>
+    <titulo>Geschichte der Langobarden = Historia Langobardorum</titulo>
+    <autor>Paulus Diácono (ca. 720-797).</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2009.</fecha>
+    <isbn>9783534222582; 353422258X</isbn>
+    <cdu>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" PAULUSDI geschich</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899904201">
+    <id>9917905899904201</id>
+    <iep>21178537870004201</iep>
+    <titulo>Geschichte des Lesens : von den Anfängen bis Gutenberg</titulo>
+    <autor>Griep, Hans-Joachim</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Primus-Verl</editor>
+    <fecha>cop. 2005.</fecha>
+    <isbn>9783534166167</isbn>
+    <cdu>
+      <num>82(091)</num>
+      <num>028.1(091)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>82/(091) GRIEPHAN geschich</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905399204201">
+    <id>9917905399204201</id>
+    <iep>21178407670004201</iep>
+    <titulo>Geschichte des hellenismus</titulo>
+    <autor>Droysen, Johann Gustav (1808-1884).</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2008.</fecha>
+    <isbn>9783534219964; 3534219961</isbn>
+    <cdu>
+      <num>930.85(38)"-03/+00"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>930 DROYSENJ geschich V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905399204201">
+    <id>9917905399204201</id>
+    <iep>21178407670004201</iep>
+    <titulo>Geschichte des hellenismus</titulo>
+    <autor>Droysen, Johann Gustav (1808-1884).</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2008.</fecha>
+    <isbn>9783534219964; 3534219961</isbn>
+    <cdu>
+      <num>930.85(38)"-03/+00"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>930 DROYSENJ geschich V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905399204201">
+    <id>9917905399204201</id>
+    <iep>21178407670004201</iep>
+    <titulo>Geschichte des hellenismus</titulo>
+    <autor>Droysen, Johann Gustav (1808-1884).</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2008.</fecha>
+    <isbn>9783534219964; 3534219961</isbn>
+    <cdu>
+      <num>930.85(38)"-03/+00"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>930 DROYSENJ geschich V. 3</sig>
+        <des>V. 3</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904096104201">
+    <id>9917904096104201</id>
+    <iep>21177326250004201</iep>
+    <titulo>Geschichtsvorstellungen : Bilder, Texte und Begriffe aus dem Mittelalter : Festschrift für Hans-Werner Goetz zum 65. Geburtstag</titulo>
+    <autor></autor>
+    <lugar>Wien, Köln, Weimar :</lugar>
+    <editor>Böhlau</editor>
+    <fecha>2012.</fecha>
+    <isbn>9783412208981; 3412208981</isbn>
+    <cdu>
+      <num>94(430)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" geschich</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599404201">
+    <id>9917906599404201</id>
+    <iep>21178627710004201</iep>
+    <titulo>Gott als Poet der Welt : Anliegen und Perspektiven der Prozesstheologie</titulo>
+    <autor>Faber, Roland, 1960-</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2003.</fecha>
+    <isbn>3534158644; 9783534158645</isbn>
+    <cdu>
+      <num>27-14</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27 FABERROL gottalsp</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599204201">
+    <id>9917906599204201</id>
+    <iep>21178627630004201</iep>
+    <titulo>Gott und das Glück : das Schicksal des guten Lebens im Christentum</titulo>
+    <autor>Lauster, Jörg</autor>
+    <lugar>Gütersloh :</lugar>
+    <editor>Gütersloher Verl-Haus</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>27-14</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27 LAUSTERJ gottundd</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905898204201">
+    <id>9917905898204201</id>
+    <iep>21178535650004201</iep>
+    <titulo>Gregor VII. : Papst zwischen Canossa und Kirchenreform</titulo>
+    <autor>Blumenthal, Uta-Renate.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2001.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>929Gregor VII</num>
+      <num>272-732.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27 BLUMENTH gregorvi</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906898304201">
+    <id>9917906898304201</id>
+    <iep>21178657150004201</iep>
+    <titulo>Große Enzyklopädie der Archäologie : die wichtigsten archäologischen Stätten der Welt</titulo>
+    <autor></autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Theiss</editor>
+    <fecha>2013.</fecha>
+    <isbn>9783806227536; 3806227535</isbn>
+    <cdu>
+      <num>902(031)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Grandes formatos</col>
+        <sig>GRA/58351</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="990017447450204201">
+    <id>990017447450204201</id>
+    <iep>21131489060004201</iep>
+    <titulo>Guerra santa, cruzada y yihad en Andalucía y el Reino de Granada (siglos XIII-XV)</titulo>
+    <autor>Peinado Santaella, Rafael Gerardo</autor>
+    <lugar>Granada :</lugar>
+    <editor>Universidad</editor>
+    <fecha>2017.</fecha>
+    <isbn>9788433859563; 8433859560</isbn>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460)"04/14" PEINADOS guerrasa</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905897904201">
+    <id>9917905897904201</id>
+    <iep>21178535550004201</iep>
+    <titulo>Halbmond und Hakenkreuz : das Dritte Reich, die Araber und Palästina</titulo>
+    <autor>Mallmann, Klaus-Michael,.</autor>
+    <lugar>Darmstadt (Alemania) :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>2007.</fecha>
+    <isbn>9783534197293; 3534197291</isbn>
+    <cdu>
+      <num>94(569.4)"1917/1948"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(56) MALLMANN halbmond</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596604201">
+    <id>9917906596604201</id>
+    <iep>21178626810004201</iep>
+    <titulo>Handbuch der Heiligen</titulo>
+    <autor>Meier, Esther</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2010.</fecha>
+    <isbn>9783534224135; 3534224132</isbn>
+    <cdu>
+      <num>2-36</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>2 MEIEREST handbuch</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906598604201">
+    <id>9917906598604201</id>
+    <iep>21178627460004201</iep>
+    <titulo>Heinrich IV</titulo>
+    <autor>Althoff, Gerd.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>2006.</fecha>
+    <isbn>9783534112739; 3534112733</isbn>
+    <cdu>
+      <num>94(430)"10/11"</num>
+      <num>929 Enrique IV</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" ALTHOFFG heinrich</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906886104201">
+    <id>9917906886104201</id>
+    <iep>21178652700004201</iep>
+    <titulo>Histoire de l'Estonie et de la nation estonienne</titulo>
+    <autor>Minaudier, Jean-Pierre.</autor>
+    <lugar>Paris :</lugar>
+    <editor>ADÉFO; Harmattan</editor>
+    <fecha>c2007.</fecha>
+    <isbn>9782296046733; 2296046738</isbn>
+    <cdu>
+      <num>94(474.2)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) MINAUDIE histoire</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902391004201">
+    <id>9917902391004201</id>
+    <iep>21176984140004201</iep>
+    <titulo>Historia de Florencia, 1378-1509</titulo>
+    <autor>Guicciardini, Francesco (1483-1540).</autor>
+    <lugar>Mexico :</lugar>
+    <editor>Fondo de Cultura económica</editor>
+    <fecha>2006.</fecha>
+    <isbn>9681677560; 9789681677565</isbn>
+    <cdu>
+      <num>94(4)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" GUICCIAR historia</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887204201">
+    <id>9917906887204201</id>
+    <iep>21178653080004201</iep>
+    <titulo>Historia de Nuevo México</titulo>
+    <autor>Villagra, Gaspar de.</autor>
+    <lugar>Las Rozas (Madrid) :</lugar>
+    <editor>Dastin</editor>
+    <fecha>2001.</fecha>
+    <isbn>8449202221; 9788449202223</isbn>
+    <cdu>
+      <num>929 Oñate, Juan de (0:82)</num>
+      <num>94(738.9)</num>
+      <num>821.134.2-13"15"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(71+73) VILLAGRA historia</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887904201">
+    <id>9917906887904201</id>
+    <iep>21178653310004201</iep>
+    <titulo>Historia de los indios de la Nueva España</titulo>
+    <autor>Motolinía, Toribio de.</autor>
+    <lugar>Las Rozas (Madrid) :</lugar>
+    <editor>Dastin</editor>
+    <fecha>2001.</fecha>
+    <isbn>8449202175; 9788449202179</isbn>
+    <cdu>
+      <num>271.3(72)"15"</num>
+      <num>94(=82:72)"15"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(72) MOTOLINI historia</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887304201">
+    <id>9917906887304201</id>
+    <iep>21178653120004201</iep>
+    <titulo>Historia general de las cosas de la Nueva España</titulo>
+    <autor>Bernardino de Sahagún (O.F.M.)</autor>
+    <lugar>Las Rozas (Madrid) :</lugar>
+    <editor>Dastin</editor>
+    <fecha>2001.</fecha>
+    <isbn>844920223X; 9788449202230</isbn>
+    <cdu>
+      <num>930.85(=822.21 Aztecas)</num>
+      <num>94(72)"1517-1521"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(72) BERNARDI historia V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887304201">
+    <id>9917906887304201</id>
+    <iep>21178653120004201</iep>
+    <titulo>Historia general de las cosas de la Nueva España</titulo>
+    <autor>Bernardino de Sahagún (O.F.M.)</autor>
+    <lugar>Las Rozas (Madrid) :</lugar>
+    <editor>Dastin</editor>
+    <fecha>2001.</fecha>
+    <isbn>844920223X; 9788449202230</isbn>
+    <cdu>
+      <num>930.85(=822.21 Aztecas)</num>
+      <num>94(72)"1517-1521"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(72) BERNARDI historia V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887704201">
+    <id>9917906887704201</id>
+    <iep>21178653270004201</iep>
+    <titulo>Historia general del Perú</titulo>
+    <autor>Murúa, Martín de.</autor>
+    <lugar>Las Rozas (Madrid) :</lugar>
+    <editor>Dastin</editor>
+    <fecha>2001.</fecha>
+    <isbn>8449202205; 9788449202209</isbn>
+    <cdu>
+      <num>94(85)".../1548"</num>
+      <num>929.52:929.731(85)</num>
+      <num>930.85(=873.122)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(85) MURUAMAR historia</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906897504201">
+    <id>9917906897504201</id>
+    <iep>21178656930004201</iep>
+    <titulo>Història de Catalunya</titulo>
+    <autor></autor>
+    <lugar>Barcelona :</lugar>
+    <editor>L'Esfera dels Llibres</editor>
+    <fecha>2006.</fecha>
+    <isbn>8497345207; 9788497345200; 8497344170; 9788497344173; 8497344197; 9788497344197; 8497344200; 9788497344203; 8497344219; 9788497344210</isbn>
+    <cdu>
+      <num>94(460.23)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460) historia V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906897504201">
+    <id>9917906897504201</id>
+    <iep>21178656930004201</iep>
+    <titulo>Història de Catalunya</titulo>
+    <autor></autor>
+    <lugar>Barcelona :</lugar>
+    <editor>L'Esfera dels Llibres</editor>
+    <fecha>2006.</fecha>
+    <isbn>8497345207; 9788497345200; 8497344170; 9788497344173; 8497344197; 9788497344197; 8497344200; 9788497344203; 8497344219; 9788497344210</isbn>
+    <cdu>
+      <num>94(460.23)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460) historia V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906897504201">
+    <id>9917906897504201</id>
+    <iep>21178656930004201</iep>
+    <titulo>Història de Catalunya</titulo>
+    <autor></autor>
+    <lugar>Barcelona :</lugar>
+    <editor>L'Esfera dels Llibres</editor>
+    <fecha>2006.</fecha>
+    <isbn>8497345207; 9788497345200; 8497344170; 9788497344173; 8497344197; 9788497344197; 8497344200; 9788497344203; 8497344219; 9788497344210</isbn>
+    <cdu>
+      <num>94(460.23)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460) historia V. 3</sig>
+        <des>V. 3</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906897504201">
+    <id>9917906897504201</id>
+    <iep>21178656930004201</iep>
+    <titulo>Història de Catalunya</titulo>
+    <autor></autor>
+    <lugar>Barcelona :</lugar>
+    <editor>L'Esfera dels Llibres</editor>
+    <fecha>2006.</fecha>
+    <isbn>8497345207; 9788497345200; 8497344170; 9788497344173; 8497344197; 9788497344197; 8497344200; 9788497344203; 8497344219; 9788497344210</isbn>
+    <cdu>
+      <num>94(460.23)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460) historia V. 4</sig>
+        <des>V. 4</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906600304201">
+    <id>9917906600304201</id>
+    <iep>21178627980004201</iep>
+    <titulo>Hitlers militärische Elite : 68 Lebensläufe</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2011.</fecha>
+    <isbn>9783534239801; 3534239806</isbn>
+    <cdu>
+      <num>94(430)"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." hitlersm</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902292804201">
+    <id>9917902292804201</id>
+    <iep>21177004880004201</iep>
+    <titulo>Hockney : Portrait of an Artist (Pool with Two Figures)</titulo>
+    <autor>Hockney, David (1937-).</autor>
+    <lugar>[London] :</lugar>
+    <editor>Christie´s</editor>
+    <fecha>cop. 2018.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>75 Hockney, David</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>7"18/..." HOCKNEYD hockneyp</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905398504201">
+    <id>9917905398504201</id>
+    <iep>21178407430004201</iep>
+    <titulo>Höhepunkte des Mittelalters</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Primus</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn></isbn>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" hohepunk</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599004201">
+    <id>9917906599004201</id>
+    <iep>21178627570004201</iep>
+    <titulo>Im Herzen der Materie : Glaube im Zeitalter der Naturwissenschaften</titulo>
+    <autor>Stadelmann, Hans-Rudolf</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn>3534174402; 9783534174409</isbn>
+    <cdu>
+      <num>2-184.3</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>2-1 STADELMA imherzen</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906598304201">
+    <id>9917906598304201</id>
+    <iep>21178627370004201</iep>
+    <titulo>Inszenierte Herrschaft : Geschichtsschreibung und politisches Handeln im Mittelalter</titulo>
+    <autor>Althoff, Gerd.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2003.</fecha>
+    <isbn>3534172477; 9783534172474</isbn>
+    <cdu>
+      <num>930</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>930 ALTHOFFG inszenie</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902293604201">
+    <id>9917902293604201</id>
+    <iep>21177005180004201</iep>
+    <titulo>Introducción a la fonética judicial : variación inter e intralocutor en español : el Proyecto VILE</titulo>
+    <autor></autor>
+    <lugar>Valencia :</lugar>
+    <editor>Tirant lo Blanch</editor>
+    <fecha>2017.</fecha>
+    <isbn>9788491193999; 8491193995</isbn>
+    <cdu>
+      <num>81'342:34</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>81'34 introduc</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904096004201">
+    <id>9917904096004201</id>
+    <iep>21177326190004201</iep>
+    <titulo>Investitur und Krönungsrituale : Herrschaftseinsetzungen im kulturellen Vergleich</titulo>
+    <autor></autor>
+    <lugar>Köln, Weimar, Wien :</lugar>
+    <editor>Böhlau</editor>
+    <fecha>2005.</fecha>
+    <isbn>3412096040; 9783412096045</isbn>
+    <cdu>
+      <num>394.43</num>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) investit</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599104201">
+    <id>9917906599104201</id>
+    <iep>21178627600004201</iep>
+    <titulo>Ist Gott Person? : ein Weg zum Verstehen des christlichen Gottesbildes</titulo>
+    <autor>Berger, Klaus.</autor>
+    <lugar>Gütersloh :</lugar>
+    <editor>Gütersloher Verl-Haus</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>27-14</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27 BERGERKL istgottp</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899104201">
+    <id>9917905899104201</id>
+    <iep>21178536940004201</iep>
+    <titulo>Johann Wolfgang von Goethe : Entwürfe eines Lebens</titulo>
+    <autor>Hamacher, Bernd</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG (Wissenschaftliche Buchgesellschaft)</editor>
+    <fecha>cop. 2010.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>92 9Goethe, Johann Wolfgang von</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.11 Goethe.0 HAMACHER johannwo</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905898004201">
+    <id>9917905898004201</id>
+    <iep>21178535590004201</iep>
+    <titulo>Juden in Europa : ihre Geschichte in Quellen</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2001.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>26(4)(091)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>26 judenine V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906598904201">
+    <id>9917906598904201</id>
+    <iep>21178627530004201</iep>
+    <titulo>Karl der Grosse</titulo>
+    <autor>McKitterick, Rosamond.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2008.</fecha>
+    <isbn>9783534141494; 3534141490</isbn>
+    <cdu>
+      <num>94(430)"742/814"</num>
+      <num>929 Carlomagno</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" MCKITTER karlderg</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904100204201">
+    <id>9917904100204201</id>
+    <iep>21177327960004201</iep>
+    <titulo>Karl der Grosse : Gewalt und Glaube : eine Biographie</titulo>
+    <autor>Fried, Johannes.</autor>
+    <lugar>München :</lugar>
+    <editor>CH Beck</editor>
+    <fecha>cop. 2014.</fecha>
+    <isbn>9783406652899; 3406652891</isbn>
+    <cdu>
+      <num>929 Karl der Grosse</num>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" FRIEDJOH karlderg</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905898404201">
+    <id>9917905898404201</id>
+    <iep>21178536700004201</iep>
+    <titulo>Katastrophen im Spätmittelalter</titulo>
+    <autor>Fouquet, Gerhard.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>^hilipp von Zabern</editor>
+    <fecha>2011.</fecha>
+    <isbn>9783805343626; 3805343620</isbn>
+    <cdu>
+      <num>94(4)"04/14"</num>
+      <num>504.4()</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" FOUQUETG katastro</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887004201">
+    <id>9917906887004201</id>
+    <iep>21178653020004201</iep>
+    <titulo>Khubilai Khan : his life and times</titulo>
+    <autor>Rossabi, Morris.</autor>
+    <lugar>Berkeley [etc.] :</lugar>
+    <editor>University of California Press</editor>
+    <fecha>2009.</fecha>
+    <isbn>9780520261327; 0520261321</isbn>
+    <cdu>
+      <num>930.85(=512.3)"12"</num>
+      <num>929.731(510)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(5) ROSSABIM khubilai</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904100104201">
+    <id>9917904100104201</id>
+    <iep>21177327930004201</iep>
+    <titulo>Kleine Geschichte Dresdens</titulo>
+    <autor>Rader, Olaf B.</autor>
+    <lugar>München :</lugar>
+    <editor>C H Beck</editor>
+    <fecha>2005.</fecha>
+    <isbn>406528570</isbn>
+    <cdu>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) RADEROLA kleinege</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905900004201">
+    <id>9917905900004201</id>
+    <iep>21178537900004201</iep>
+    <titulo>Kleine Kunstgeschichte der deutschen Burg</titulo>
+    <autor>Hotz, Walter.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Primus-Verl</editor>
+    <fecha>2011.</fecha>
+    <isbn>9783896787224; 3896787225</isbn>
+    <cdu>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) HOTZWALT kleineku</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905900104201">
+    <id>9917905900104201</id>
+    <iep>21178537930004201</iep>
+    <titulo>Kleine Kunstgeschichte der deutschen Schlösser</titulo>
+    <autor>Hotz, Walter.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Primus-Verl</editor>
+    <fecha>2011.</fecha>
+    <isbn>9783896787620; 3896787624</isbn>
+    <cdu>
+      <num>728.81(430)(091)</num>
+      <num>94(430)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" HOTZWALT kleineku</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905900204201">
+    <id>9917905900204201</id>
+    <iep>21178537960004201</iep>
+    <titulo>Kleine Kunstgeschichte der deutschen Stadt im Mittelalter</titulo>
+    <autor>Meckseper, Cord.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Primus-Verl</editor>
+    <fecha>2011.</fecha>
+    <isbn>9783896787231; 3896787233</isbn>
+    <cdu>
+      <num>7(430)(091)</num>
+      <num>94(430)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" MECKSEPE kleineku</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906898904201">
+    <id>9917906898904201</id>
+    <iep>21178657340004201</iep>
+    <titulo>Kleiner Mann-was nun? : roman</titulo>
+    <autor>Fallada, Hans.</autor>
+    <lugar>Berlin :</lugar>
+    <editor>Aufbau Verl</editor>
+    <fecha>[2014.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>978-3-7466-2676-5</num>
+      <num>821.112.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.112.2 FALLADAH kleinerm</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596804201">
+    <id>9917906596804201</id>
+    <iep>21178626840004201</iep>
+    <titulo>Kulturgeschichte des Heiligen Römischen Reiches1648 bis 1806 : Verfassung, Religion und Kultur</titulo>
+    <autor>Hartmann, Peter Claus.</autor>
+    <lugar>Wien, etc :</lugar>
+    <editor>Bohlau</editor>
+    <fecha>cop. 2001.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(430)"1648/1806"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"15/17" HARTMANN kulturge</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899404201">
+    <id>9917905899404201</id>
+    <iep>21178537350004201</iep>
+    <titulo>Kurze Beschreibung Germaniens = Brevis Germanie descriptio (1512)</titulo>
+    <autor>Cochlaeus, Johannes.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>2010.</fecha>
+    <isbn>9783534232222; 3534232224</isbn>
+    <cdu>
+      <num>94(430)"15"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"15/17" COCHLAUS kurzebes</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904094004201">
+    <id>9917904094004201</id>
+    <iep>21177325420004201</iep>
+    <titulo>König, Fürsten und Reich und Reich (1056- 1159) : Herrschaftsverständnis im Wandel</titulo>
+    <autor>Schlick, Jutta, 1968-</autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Thorbecke</editor>
+    <fecha>cop. 2001.</fecha>
+    <isbn>3799542582; 9783799542586</isbn>
+    <cdu>
+      <num>94(430)"1056/1159"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" SCHLICKJ konigfur</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906997104201">
+    <id>9917906997104201</id>
+    <iep>21178676660004201</iep>
+    <titulo>La Cordillera Cantábrica</titulo>
+    <autor>García Gaona, José Félix.</autor>
+    <lugar>Barcelona ; :</lugar>
+    <editor>Lunwerg</editor>
+    <fecha>D.L. 2002.</fecha>
+    <isbn>8477829136; 9788477829133</isbn>
+    <cdu>
+      <num>502(234.1 Cantábrica)(084)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Tumbos</col>
+        <sig>TUMBOS/1680</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906885904201">
+    <id>9917906885904201</id>
+    <iep>21178652640004201</iep>
+    <titulo>La División Azul : Rusia 1941-1944</titulo>
+    <autor>Reverte, Jorge M,.</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>RBA</editor>
+    <fecha>2011.</fecha>
+    <isbn>9788498679465; 849867946X</isbn>
+    <cdu>
+      <num>355.318.2(430:460-82)"19"</num>
+      <num>355.48(47+57)"1939/45"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>35 REVERTEJ division</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904098304201">
+    <id>9917904098304201</id>
+    <iep>21177327010004201</iep>
+    <titulo>La Gran Vía es New York</titulo>
+    <autor>Guerra Garrido, Raúl.</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Alianza Editorial</editor>
+    <fecha>D.L. 2004.</fecha>
+    <isbn>8420645745; 9788420645742</isbn>
+    <cdu>
+      <num>821.134.2-31"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.134.2"18/…" Gu GUERRAGA granvia</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="990016735120204201">
+    <id>990016735120204201</id>
+    <iep>21142912340004201</iep>
+    <titulo>La Reconquista : una construcción historiográfica (siglos XVI-XIX)</titulo>
+    <autor>Ríos Saloma, Martín F.</autor>
+    <lugar>México D.F. ; Madrid :</lugar>
+    <editor>Universidad Nacional Autónoma de México Instituto de Investigaciones Históricas Marcial Pons</editor>
+    <fecha>2011.</fecha>
+    <isbn>9786070222818; 6070222814; 9788492820474; 8492820470</isbn>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460)"15/17" RIOSSALO reconqui</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906000004201">
+    <id>9917906000004201</id>
+    <iep>21178547860004201</iep>
+    <titulo>La arquitectura neomudéjar en Aragón</titulo>
+    <autor>Biel Ibáñez, María Pilar.</autor>
+    <lugar>Zaragoza :</lugar>
+    <editor>Institución "Fernando el Católico"; Rolde de Estudios Aragoneses</editor>
+    <fecha>D.L. 2005.</fecha>
+    <isbn>8487333834; 9788487333835</isbn>
+    <cdu>
+      <num>72.033.3(460.22)</num>
+      <num>72(460.22)"18/19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>7"18/..." BIELIBAÑ arquitec</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="990017562730204201">
+    <id>990017562730204201</id>
+    <iep>21108798530004201</iep>
+    <titulo>La caballería</titulo>
+    <autor>Flori, Jean</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Alianza</editor>
+    <fecha>D.L. 2001.</fecha>
+    <isbn>8420637270; 9788420637273</isbn>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Series editoriales</col>
+        <sig>gen LIB BOL HUM 4199</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906890904201">
+    <id>9917906890904201</id>
+    <iep>21178654300004201</iep>
+    <titulo>La divina commedia</titulo>
+    <autor>Dante Alighieri (1265-1321).</autor>
+    <lugar>Milano :</lugar>
+    <editor>U Hoepli</editor>
+    <fecha>2002.</fecha>
+    <isbn>8820302098; 9788820302092</isbn>
+    <cdu>
+      <num>821,13</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.13 Dante Alig DANTEALI divinaco</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902293904201">
+    <id>9917902293904201</id>
+    <iep>21177005270004201</iep>
+    <titulo>La frontière romaine de L'Africa sous le Haut-Empire</titulo>
+    <autor>Guédon, Stéphanie.</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Casa de Velázquez</editor>
+    <fecha>2018.</fecha>
+    <isbn>9788490962046; 8490962049</isbn>
+    <cdu>
+      <num>94(37:6-17)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Series editoriales</col>
+        <sig>94 BIB CAS 74</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906898804201">
+    <id>9917906898804201</id>
+    <iep>21178657280004201</iep>
+    <titulo>La herencia del pasado : las memorias históricas de España</titulo>
+    <autor>García Cárcel, Ricardo.</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Círculo de Lectores; Galaxia Gutenberg</editor>
+    <fecha>2013.</fecha>
+    <isbn>9788416072019; 8416072019; 9788467258967; 8467258969</isbn>
+    <cdu>
+      <num>94(460)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460) GARCIACA herencia</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902389804201">
+    <id>9917902389804201</id>
+    <iep>21176983680004201</iep>
+    <titulo>La nación inventada : una historia diferente de Castilla</titulo>
+    <autor>Escolar, Arsenio</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Península</editor>
+    <fecha>2011.</fecha>
+    <isbn>9788499420479; 8499420478</isbn>
+    <cdu>
+      <num>94(460.18)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460)"04/14" ESCOLASRA nacionin</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902390604201">
+    <id>9917902390604201</id>
+    <iep>21176984000004201</iep>
+    <titulo>La provocación : y otros relatos</titulo>
+    <autor>Kadaré, Ismaïl.</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Alianza Editorial</editor>
+    <fecha>D.L. 2014.</fecha>
+    <isbn>9788420691671; 8420691674</isbn>
+    <cdu>
+      <num>821.18-32"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.1/.2 KADAREIS provocac</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903499204201">
+    <id>9917903499204201</id>
+    <iep>21177177550004201</iep>
+    <titulo>La riqueza de las naciones : (libros I-II-III y selección de los libros IV y V)</titulo>
+    <autor>Smith, Adam (1723-1790).</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Alianza Editorial</editor>
+    <fecha>2002.</fecha>
+    <isbn>8420635960; 9788420635965</isbn>
+    <cdu>
+      <num>33</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>33 SMITHADA riquezad</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="990016322720204201">
+    <id>990016322720204201</id>
+    <iep>21144482100004201</iep>
+    <titulo>La romanización en tierras valencianas : una historia documental</titulo>
+    <autor>Seguí Marco, Juan José</autor>
+    <lugar>[València] :</lugar>
+    <editor>Universitat de València</editor>
+    <fecha>c2005.</fecha>
+    <isbn>8437061059; 9788437061054</isbn>
+    <cdu>
+      <num>94(460.31)".../04"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Grandes formatos</col>
+        <sig>GRA/58343</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905997104201">
+    <id>9917905997104201</id>
+    <iep>21178547020004201</iep>
+    <titulo>La villa romana de Arellano</titulo>
+    <autor>Mezquíriz, María Angeles.</autor>
+    <lugar>[Pamplona] :</lugar>
+    <editor>Gobierno de Navarra Departamento de Cultura y Turismo Institución Príncipe de Viana</editor>
+    <fecha>D.L. 2003.</fecha>
+    <isbn>8423524477; 9788423524471</isbn>
+    <cdu>
+      <num>902/904(460.16)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>902 MEZQUIRI villarom</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="990015003690204201">
+    <id>990015003690204201</id>
+    <iep>21145140080004201</iep>
+    <titulo>Las tribus de Israel</titulo>
+    <autor>Carbajosa, Ana</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>RBA</editor>
+    <fecha>2011.</fecha>
+    <isbn>9788498679885; 8498679885</isbn>
+    <cdu>
+      <num>308(569.4)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>32 CARBAJOS tribusde</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906894404201">
+    <id>9917906894404201</id>
+    <iep>21178655470004201</iep>
+    <titulo>Legenda aurea : lateinisch-deutsch</titulo>
+    <autor>Jacobo de Vorágine Beato</autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Philipp Reclam</editor>
+    <fecha>cop. 2005.</fecha>
+    <isbn>9783150084649; 3150084644</isbn>
+    <cdu>
+      <num>27-36</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27-3 VORAGINE legendaa</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904197304201">
+    <id>9917904197304201</id>
+    <iep>21177336990004201</iep>
+    <titulo>Littérature et religion : avant et après "Le Génie du christianisme" = Letteratura e religione : prima e dopo "Le Génie du christianisme"</titulo>
+    <autor></autor>
+    <lugar>Pisa :</lugar>
+    <editor>Pacini</editor>
+    <fecha>imp. 2019.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>821.133.1"16/18".09:2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Pamphlet</mat>
+        <col>Folletos</col>
+        <sig>FOL/384923</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902294004201">
+    <id>9917902294004201</id>
+    <iep>21177005300004201</iep>
+    <titulo>Llamada a las armas : las mujeres en la Revolución Cubana, 1952-1959</titulo>
+    <autor>Ramírez Chicharro, Manuel</autor>
+    <lugar>[Aranjuez, Madrid] :</lugar>
+    <editor>Doce Calles</editor>
+    <fecha>D.L. 2019.</fecha>
+    <isbn>9788497442428; 8497442423</isbn>
+    <cdu>
+      <num>94(729.1)"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(729) RAMIREZC llamadaa</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902389204201">
+    <id>9917902389204201</id>
+    <iep>21176983450004201</iep>
+    <titulo>Lo seco y lo húmedo : una breve incursión en territorio fascista</titulo>
+    <autor>Littell, Jonathan 1967-</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>RBA</editor>
+    <fecha>2009.</fecha>
+    <isbn>9788498675313; 8498675316</isbn>
+    <cdu>
+      <num>929 Degrelle, León</num>
+      <num>321.64(4)"19"</num>
+      <num>94(4)"1918/45"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." LITTELLJ secoyloh</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906896304201">
+    <id>9917906896304201</id>
+    <iep>21178656500004201</iep>
+    <titulo>Londres : historia de una ciudad</titulo>
+    <autor>Wilson, A. N.</autor>
+    <lugar>[Barcelona] :</lugar>
+    <editor>Debate</editor>
+    <fecha>2005.</fecha>
+    <isbn>8483066157; 9788483066157</isbn>
+    <cdu>
+      <num>94(410.111 L.)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) WILSONAN londresh</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903599804201">
+    <id>9917903599804201</id>
+    <iep>21177207800004201</iep>
+    <titulo>Los dioses cautivos</titulo>
+    <autor></autor>
+    <lugar>Madrid :</lugar>
+    <editor>Círculo de Lectores; Galaxia Gutenberg; Fundación Amigos Museo del Prado</editor>
+    <fecha>D.L. 2011.</fecha>
+    <isbn>9788481099584; 8481099589; 9788467246438; 846724643X</isbn>
+    <cdu>
+      <num>75.046.1</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>7 diosesca</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="990010912690204201">
+    <id>990010912690204201</id>
+    <iep>21142368490004201</iep>
+    <titulo>Los judíos en España</titulo>
+    <autor>Pérez, Joseph.</autor>
+    <lugar>[Madrid] :</lugar>
+    <editor>Marcial Pons Historia</editor>
+    <fecha>2005.</fecha>
+    <isbn>8496467031; 9788496467033</isbn>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460) PEREZJOS judiosen</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902390804201">
+    <id>9917902390804201</id>
+    <iep>21176984110004201</iep>
+    <titulo>Los orígenes del totalitarismo</titulo>
+    <autor>Arendt, Hannah (1906-1975).</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Taurus</editor>
+    <fecha>2001.</fecha>
+    <isbn>8430602887; 9788430602889</isbn>
+    <cdu>
+      <num>321.64</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>1"18/..." Arendt ARENDTHA origenes</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906600104201">
+    <id>9917906600104201</id>
+    <iep>21178627920004201</iep>
+    <titulo>Ludwig der Deutsche</titulo>
+    <autor>Hartmann, Wilfried.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2002.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>94(430)"840/843"</num>
+      <num>929Luis II</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" HARTMANN ludwigde</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596404201">
+    <id>9917906596404201</id>
+    <iep>21178626750004201</iep>
+    <titulo>Lukullische Genüsse : die Küche der alten Römer</titulo>
+    <autor>Cech, Brigitte.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>641.5</num>
+      <num>94(450)".../03"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)".../03" CECHBRIG lukullis</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905897704201">
+    <id>9917905897704201</id>
+    <iep>21178535470004201</iep>
+    <titulo>Malerei verstehen</titulo>
+    <autor>Wolf, Norbert.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2012.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>75</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>7 WOLFNORB malereiv</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906598204201">
+    <id>9917906598204201</id>
+    <iep>21178627340004201</iep>
+    <titulo>Marc Aurel</titulo>
+    <autor>Fündling, Jörg</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2008.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>929Marco Aurelio</num>
+      <num>94(450)"1"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)".../03" FUNDLING marcaure</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="990009141760204201">
+    <id>990009141760204201</id>
+    <iep>21107095620004201</iep>
+    <titulo>Marco Polo y el descubrimiento del mundo</titulo>
+    <autor>Larner, John</autor>
+    <lugar>Barcelona [etc.] :</lugar>
+    <editor>Paidós</editor>
+    <fecha>[2001].</fecha>
+    <isbn>8449310288; 9788449310287</isbn>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Series editoriales</col>
+        <sig>94 PAI 19</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906885504201">
+    <id>9917906885504201</id>
+    <iep>21178652520004201</iep>
+    <titulo>Medio ambiente en España.</titulo>
+    <autor></autor>
+    <lugar>Madrid :</lugar>
+    <editor>Centro de Publicaciones Ministerio de Medio Ambiente</editor>
+    <fecha>2007.</fecha>
+    <isbn>9788483204023; 8483204029</isbn>
+    <cdu>
+      <num>502(460)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Grandes formatos</col>
+        <sig>GRA/58379</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906885504201">
+    <id>9917906885504201</id>
+    <iep>21178652520004201</iep>
+    <titulo>Medio ambiente en España.</titulo>
+    <autor></autor>
+    <lugar>Madrid :</lugar>
+    <editor>Centro de Publicaciones Ministerio de Medio Ambiente</editor>
+    <fecha>2007.</fecha>
+    <isbn>9788483204023; 8483204029</isbn>
+    <cdu>
+      <num>502(460)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>CD-ROM</mat>
+        <col>Mediateca</col>
+        <sig>MED/42687</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905897604201">
+    <id>9917905897604201</id>
+    <iep>21178535440004201</iep>
+    <titulo>Mithras : Kult und Mysterien</titulo>
+    <autor>Clauss, Manfred.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2012.</fecha>
+    <isbn>9783534256211; 3534256212</isbn>
+    <cdu>
+      <num>295.21</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>2 CLAUSSMA mithrask</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902389504201">
+    <id>9917902389504201</id>
+    <iep>21176983560004201</iep>
+    <titulo>Mozart : biografía de uno de los grandes artistas de la historia de la humanidad</titulo>
+    <autor>Jackson, Gabriel (1921-).</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Península</editor>
+    <fecha>2006.</fecha>
+    <isbn>8483077124; 9788483077122</isbn>
+    <cdu>
+      <num>929 Mozart, Wolfgang Amadeus</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>7 Mozart JACKSONG mozart</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597304201">
+    <id>9917906597304201</id>
+    <iep>21178627050004201</iep>
+    <titulo>Mythen europas : schlüsselfiguren der imagination</titulo>
+    <autor></autor>
+    <lugar>Regensburg :</lugar>
+    <editor>F Pustet</editor>
+    <fecha>2004-2009.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>291.13(4)</num>
+      <num>94(4)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) mytheneu V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597304201">
+    <id>9917906597304201</id>
+    <iep>21178627050004201</iep>
+    <titulo>Mythen europas : schlüsselfiguren der imagination</titulo>
+    <autor></autor>
+    <lugar>Regensburg :</lugar>
+    <editor>F Pustet</editor>
+    <fecha>2004-2009.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>291.13(4)</num>
+      <num>94(4)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) mytheneu V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597304201">
+    <id>9917906597304201</id>
+    <iep>21178627050004201</iep>
+    <titulo>Mythen europas : schlüsselfiguren der imagination</titulo>
+    <autor></autor>
+    <lugar>Regensburg :</lugar>
+    <editor>F Pustet</editor>
+    <fecha>2004-2009.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>291.13(4)</num>
+      <num>94(4)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) mytheneu V. 3</sig>
+        <des>V. 3</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597304201">
+    <id>9917906597304201</id>
+    <iep>21178627050004201</iep>
+    <titulo>Mythen europas : schlüsselfiguren der imagination</titulo>
+    <autor></autor>
+    <lugar>Regensburg :</lugar>
+    <editor>F Pustet</editor>
+    <fecha>2004-2009.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>291.13(4)</num>
+      <num>94(4)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) mytheneu V. 4</sig>
+        <des>V. 4</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597304201">
+    <id>9917906597304201</id>
+    <iep>21178627050004201</iep>
+    <titulo>Mythen europas : schlüsselfiguren der imagination</titulo>
+    <autor></autor>
+    <lugar>Regensburg :</lugar>
+    <editor>F Pustet</editor>
+    <fecha>2004-2009.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>291.13(4)</num>
+      <num>94(4)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) mytheneu V. 5</sig>
+        <des>V. 5</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597304201">
+    <id>9917906597304201</id>
+    <iep>21178627050004201</iep>
+    <titulo>Mythen europas : schlüsselfiguren der imagination</titulo>
+    <autor></autor>
+    <lugar>Regensburg :</lugar>
+    <editor>F Pustet</editor>
+    <fecha>2004-2009.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>291.13(4)</num>
+      <num>94(4)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) mytheneu V. 6</sig>
+        <des>V. 6</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597304201">
+    <id>9917906597304201</id>
+    <iep>21178627050004201</iep>
+    <titulo>Mythen europas : schlüsselfiguren der imagination</titulo>
+    <autor></autor>
+    <lugar>Regensburg :</lugar>
+    <editor>F Pustet</editor>
+    <fecha>2004-2009.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>291.13(4)</num>
+      <num>94(4)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) mytheneu V. 7</sig>
+        <des>V. 7</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905993004201">
+    <id>9917905993004201</id>
+    <iep>21178647990004201</iep>
+    <titulo>Más allá de las casas : familias, linajes y comunidades en la protohistoria peninsular</titulo>
+    <autor></autor>
+    <lugar>Cáceres :</lugar>
+    <editor>Universidad de Extremadura Servicio de Publicaciones</editor>
+    <fecha>2018.</fecha>
+    <isbn>9788491270218; 8491270213</isbn>
+    <cdu>
+      <num>94(460)".../03"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460)".../03" masallad</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905898704201">
+    <id>9917905898704201</id>
+    <iep>21178536760004201</iep>
+    <titulo>Mönche, Schreiber und Gelehrte : Bildung und Wissenschaft im Mittelalter</titulo>
+    <autor>Nonn, Ulrich</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2012.</fecha>
+    <isbn>9783534230723; 3534230728</isbn>
+    <cdu>
+      <num>37"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>37(091) NONNULRI monchesc</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902293704201">
+    <id>9917902293704201</id>
+    <iep>21177005210004201</iep>
+    <titulo>O teatro como experiência pública</titulo>
+    <autor></autor>
+    <lugar>São Paulo :</lugar>
+    <editor>Hucitec</editor>
+    <fecha>2019.</fecha>
+    <isbn>978858404117</isbn>
+    <cdu>
+      <num>792.01</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>792/793 teatroco</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906000204201">
+    <id>9917906000204201</id>
+    <iep>21178547920004201</iep>
+    <titulo>Obra antológica de Carlos Carrete Parrondo : investigaciones sobre el pasado judío y converso hispanomedieval</titulo>
+    <autor>Carrete Parrondo, Carlos.</autor>
+    <lugar>Béjar :</lugar>
+    <editor>Museo Judío David Melul</editor>
+    <fecha>2018.</fecha>
+    <isbn>9788409034277; 8409034271</isbn>
+    <cdu>
+      <num>94(460)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460)"04/14" CARRETEP obraanto</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596104201">
+    <id>9917906596104201</id>
+    <iep>21178626630004201</iep>
+    <titulo>Ogniem i mieczem : powiesc</titulo>
+    <autor>Sienkiewicz, Henryk (1846-1916).</autor>
+    <lugar>Warszawa :</lugar>
+    <editor>Ex libris</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>821.162.1Sienkiewicz, Henryk7pot.03=134.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.162.1 SIENKIEW ogniemim V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596104201">
+    <id>9917906596104201</id>
+    <iep>21178626630004201</iep>
+    <titulo>Ogniem i mieczem : powiesc</titulo>
+    <autor>Sienkiewicz, Henryk (1846-1916).</autor>
+    <lugar>Warszawa :</lugar>
+    <editor>Ex libris</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>821.162.1Sienkiewicz, Henryk7pot.03=134.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.162.1 SIENKIEW ogniemim V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904099704201">
+    <id>9917904099704201</id>
+    <iep>21177327770004201</iep>
+    <titulo>Orígenes</titulo>
+    <autor>Maalouf, Amin.</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Alianza Editorial</editor>
+    <fecha>D.L. 2004.</fecha>
+    <isbn>8420645753; 9788420645759</isbn>
+    <cdu>
+      <num>821.133.1(569.3)-31"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.13 Maalouf MAALOUFA origenes</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903498704201">
+    <id>9917903498704201</id>
+    <iep>21177177380004201</iep>
+    <titulo>Otto der Grosse : Kaiser und Reich : eine Biographie</titulo>
+    <autor>Becher, Matthias.</autor>
+    <lugar>München :</lugar>
+    <editor>CH Beck</editor>
+    <fecha>cop. 2012.</fecha>
+    <isbn>9783406630613; 3406630618</isbn>
+    <cdu>
+      <num>94(430)"8"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" BECHERMA ottoderg</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904100304201">
+    <id>9917904100304201</id>
+    <iep>21177327990004201</iep>
+    <titulo>Otto von Freising : ein Intellektueller im Mittelalter : eine Biographie</titulo>
+    <autor>Ehlers, Joachim.</autor>
+    <lugar>München :</lugar>
+    <editor>Beck</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn>9783406654787; 3406654789</isbn>
+    <cdu>
+      <num>94(430)</num>
+      <num>929 Otto, Obispo de Freising</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" EHLERSJO ottovonf</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596204201">
+    <id>9917906596204201</id>
+    <iep>21178626670004201</iep>
+    <titulo>Pan Wolodyjowski</titulo>
+    <autor>Sienkiewicz, Henryk (1846-1916).</autor>
+    <lugar>Warszawa :</lugar>
+    <editor>Ex Libris</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>821.162.1Sienkiewicz, Henryk7pot.03=134.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.162.1 SIENKIEW panwolod V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596204201">
+    <id>9917906596204201</id>
+    <iep>21178626670004201</iep>
+    <titulo>Pan Wolodyjowski</titulo>
+    <autor>Sienkiewicz, Henryk (1846-1916).</autor>
+    <lugar>Warszawa :</lugar>
+    <editor>Ex Libris</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>821.162.1Sienkiewicz, Henryk7pot.03=134.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.162.1 SIENKIEW panwolod V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905600104201">
+    <id>9917905600104201</id>
+    <iep>21178397880004201</iep>
+    <titulo>Papeles en conflicto : arte y crítica entre la vanguardia y la tradición : Buenos Aires, (1920-1930)</titulo>
+    <autor>Wechsler, Diana.</autor>
+    <lugar>Buenos Aires :</lugar>
+    <editor>Universidad de Buenos Aires Facultad de Filosofía y Letras Instituto de Teoría e Historia del Arte "Julio E Payró"</editor>
+    <fecha>imp. 2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>7(82)"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>7"18/..." WECHSLER papelese</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903500104201">
+    <id>9917903500104201</id>
+    <iep>21177177930004201</iep>
+    <titulo>Pius II. Piccolomini : der Papst, mit dem die Renaissance begann : eine Biographie</titulo>
+    <autor>Reinhardt, Volker.</autor>
+    <lugar>München :</lugar>
+    <editor>C H Beck</editor>
+    <fecha>2013.</fecha>
+    <isbn>9783406655623; 3406655629</isbn>
+    <cdu>
+      <num>282.092</num>
+      <num>929 Pío II</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27-3 REINHARD piusiipi</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904094404201">
+    <id>9917904094404201</id>
+    <iep>21177325630004201</iep>
+    <titulo>Politische Interaktion in der italienischen Stadtkommune (11.-14. Jahrhundert)</titulo>
+    <autor>Dartmann, Christoph</autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>Thorbecke</editor>
+    <fecha>cop. 2012.</fecha>
+    <isbn>9783799542883; 3799542884</isbn>
+    <cdu>
+      <num>32(450)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" DARTMANN politisc</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596304201">
+    <id>9917906596304201</id>
+    <iep>21178626720004201</iep>
+    <titulo>Potop</titulo>
+    <autor>Sienkiewicz, Henryk (1846-1916).</autor>
+    <lugar>Warszawa :</lugar>
+    <editor>Ex Libris</editor>
+    <fecha>2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>821.162.1Sienkiewicz, Henryk7pot.03=134.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.162.1 SIENKIEW potop V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596304201">
+    <id>9917906596304201</id>
+    <iep>21178626720004201</iep>
+    <titulo>Potop</titulo>
+    <autor>Sienkiewicz, Henryk (1846-1916).</autor>
+    <lugar>Warszawa :</lugar>
+    <editor>Ex Libris</editor>
+    <fecha>2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>821.162.1Sienkiewicz, Henryk7pot.03=134.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.162.1 SIENKIEW potop V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906596304201">
+    <id>9917906596304201</id>
+    <iep>21178626720004201</iep>
+    <titulo>Potop</titulo>
+    <autor>Sienkiewicz, Henryk (1846-1916).</autor>
+    <lugar>Warszawa :</lugar>
+    <editor>Ex Libris</editor>
+    <fecha>2004.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>821.162.1Sienkiewicz, Henryk7pot.03=134.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.162.1 SIENKIEW potop V. 3</sig>
+        <des>V. 3</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904095304201">
+    <id>9917904095304201</id>
+    <iep>21177325880004201</iep>
+    <titulo>Ppstliche Herrschaft im Mittelalter : Funktionsweisen, Strategien, Darstellungsformen  herausgegeben von Stefan Weinfurter.</titulo>
+    <autor></autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>J Thorbecke</editor>
+    <fecha>cop. 2011.</fecha>
+    <isbn>9783799542890; 3799542892</isbn>
+    <cdu>
+      <num>27-9</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>27-9 papstlic</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906895604201">
+    <id>9917906895604201</id>
+    <iep>21178656150004201</iep>
+    <titulo>Proposal for including the Bosphorus, a singularly integrated natural, cultural and historical sea- and landscape, in the UNESCO world heritage inventory</titulo>
+    <autor>Stewig, Reinhard</autor>
+    <lugar>Kiel :</lugar>
+    <editor>Geographischen Instituts der Universität Kiel</editor>
+    <fecha>2006.</fecha>
+    <isbn>3923887558; 9783923887552</isbn>
+    <cdu>
+      <num>351.853(560)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>35 STEWIGRE proposal</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906891304201">
+    <id>9917906891304201</id>
+    <iep>21178654400004201</iep>
+    <titulo>Przemyslny szlachcic Don Kichote z Manczy</titulo>
+    <autor>Cervantes Saavedra, Miguel de (1547-1616).</autor>
+    <lugar>Kraków :</lugar>
+    <editor>Wydawnictwo Zielona Sowa</editor>
+    <fecha>2004.</fecha>
+    <isbn>8373890238; 9788373890237</isbn>
+    <cdu>
+      <num>821.134.2"15/17"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.134.2"15/17"Cer CERVANTE przemysl</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906597504201">
+    <id>9917906597504201</id>
+    <iep>21178627110004201</iep>
+    <titulo>Räuber, Henker, arme Sünder : Verbrechen und Strafe im Mittelalter</titulo>
+    <autor>Schubert, Ernst.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2007.</fecha>
+    <isbn>9783534208067; 3534208064</isbn>
+    <cdu>
+      <num>343.3/.7</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94"04/14" SCHUBERT rauberhe</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904199004201">
+    <id>9917904199004201</id>
+    <iep>21177337600004201</iep>
+    <titulo>Reflections : Van Eyck and the Pre-Raphaelites</titulo>
+    <autor></autor>
+    <lugar>London :</lugar>
+    <editor>National Gallery Company</editor>
+    <fecha>2017.</fecha>
+    <isbn>9781857096194; 1857096193</isbn>
+    <cdu>
+      <num>75 Eyck, Jan van(083.824)</num>
+      <num>75(41)"18"(083.824)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>7 Eyck reflecti</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904095404201">
+    <id>9917904095404201</id>
+    <iep>21177325920004201</iep>
+    <titulo>Reichsversammlungen im Spätmittelalter : politische willensbildung in Polen, Ungarn und Deutschland</titulo>
+    <autor>Dücker, Julia</autor>
+    <lugar>Ostfildern :</lugar>
+    <editor>Thorbecke Verlag</editor>
+    <fecha>2011.</fecha>
+    <isbn>9783795542920</isbn>
+    <cdu>
+      <num>94(4)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" DUCKERJU reichsve</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904200104201">
+    <id>9917904200104201</id>
+    <iep>21177337710004201</iep>
+    <titulo>Religion und wirtschaft bei Georg Simmel</titulo>
+    <autor>Berger, Pascal</autor>
+    <lugar>[s.l :</lugar>
+    <editor>sn</editor>
+    <fecha>2019.</fecha>
+    <isbn></isbn>
+    <cdu>
+      <num>1 Simmel, Georg.0</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>1"18/..." Simmel.0 BERGERPA religion</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906600004201">
+    <id>9917906600004201</id>
+    <iep>21178627890004201</iep>
+    <titulo>Richard Lwenherz</titulo>
+    <autor>Berg, Dieter.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2007.</fecha>
+    <isbn>9783534145119; 3534145119</isbn>
+    <cdu>
+      <num>929Richard Lwenherz</num>
+      <num>94(410) "1189/1199"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" BERGDIET richardl</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904096204201">
+    <id>9917904096204201</id>
+    <iep>21177326280004201</iep>
+    <titulo>Rittertum und höfische Kultur der Stauferzeit</titulo>
+    <autor></autor>
+    <lugar>Köln :</lugar>
+    <editor>Böhlau</editor>
+    <fecha>2006.</fecha>
+    <isbn>9783412349059; 3412349054</isbn>
+    <cdu>
+      <num>94(430)"1079/1268"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" rittertu</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905896004201">
+    <id>9917905896004201</id>
+    <iep>21178535160004201</iep>
+    <titulo>Ritual und Text : formen symbolischer Kommunikation in der Historiographie und Literatur des Sptmittelalters</titulo>
+    <autor>Witthöftt, Christiane</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2004.</fecha>
+    <isbn>3534179714; 9783534179718</isbn>
+    <cdu>
+      <num>930:39</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>930 WITTHOFT tirualun</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905895904201">
+    <id>9917905895904201</id>
+    <iep>21178535130004201</iep>
+    <titulo>Rudolf von Habsburg</titulo>
+    <autor>Krieger, Karl-Friedrich</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2003.</fecha>
+    <isbn>3534137116; 9783534137114</isbn>
+    <cdu>
+      <num>94</num>
+      <num>929Rudolf von Habsburg</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" KRIEGERK rudolfvo</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902391204201">
+    <id>9917902391204201</id>
+    <iep>21176984210004201</iep>
+    <titulo>Rusia, experimento con un pueblo : de 1991 a la actualidad</titulo>
+    <autor>Service, Robert.</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Siglo XXI de España</editor>
+    <fecha>2005.</fecha>
+    <isbn>8432311928; 9788432311925</isbn>
+    <cdu>
+      <num>321.7(470)</num>
+      <num>32(470)"1992/..."</num>
+      <num>308(470)"1992/..."</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>32 SERVICER rusiaexp</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899204201">
+    <id>9917905899204201</id>
+    <iep>21178536980004201</iep>
+    <titulo>Römische geschichte</titulo>
+    <autor>Mommsen, Theodor (1817-1903).</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2010.</fecha>
+    <isbn>9783534232376; 3534232372</isbn>
+    <cdu>
+      <num>94(37)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) MOMMSENT romische V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905899204201">
+    <id>9917905899204201</id>
+    <iep>21178536980004201</iep>
+    <titulo>Römische geschichte</titulo>
+    <autor>Mommsen, Theodor (1817-1903).</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2010.</fecha>
+    <isbn>9783534232376; 3534232372</isbn>
+    <cdu>
+      <num>94(37)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) MOMMSENT romische V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906991504201">
+    <id>9917906991504201</id>
+    <iep>21178675710004201</iep>
+    <titulo>San Martín de Pusa, historia de un señorío</titulo>
+    <autor>Reviriego Alía, Miguel Angel.</autor>
+    <lugar>[Toledo] :</lugar>
+    <editor>MA Reviriego</editor>
+    <fecha>imp. 2002.</fecha>
+    <isbn>8488048025; 9788488048028</isbn>
+    <cdu>
+      <num>94(460.285 San Martín de Pusa)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(460) REVIRIEG sanmarti</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906894104201">
+    <id>9917906894104201</id>
+    <iep>21178655400004201</iep>
+    <titulo>Schriften zur Naturwissenschaft</titulo>
+    <autor>Goethe, Johann Wolfgang von (1749-1832).</autor>
+    <lugar>Stuttgart ; :</lugar>
+    <editor>Philipp Reclam</editor>
+    <fecha>cop. 2007.</fecha>
+    <isbn>3150098661; 9783150098660</isbn>
+    <cdu>
+      <num>821.11 Goethe</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.11 Goethe GOETHEJO schrifte</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906897704201">
+    <id>9917906897704201</id>
+    <iep>21178656960004201</iep>
+    <titulo>Sehnsucht nach Paris, Heimweh nach Prag : ein Leben in Selbstzeugnissen</titulo>
+    <autor>Roth, Joseph ( 1894-1939).</autor>
+    <lugar>Köln :</lugar>
+    <editor>Kiepenheuer und Witsch</editor>
+    <fecha>2006.</fecha>
+    <isbn>3462036327; 9783462036329</isbn>
+    <cdu>
+      <num>821.112.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.112.2 ROTHJOSE sehnsuch</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905398204201">
+    <id>9917905398204201</id>
+    <iep>21178407340004201</iep>
+    <titulo>Skriptorium : die mittelalterliche Buchwerkstatt</titulo>
+    <autor>Hauschild, Stephanie</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2013.</fecha>
+    <isbn>9783534255252; 3534255259</isbn>
+    <cdu>
+      <num>091"04/14"</num>
+      <num>655.3.066.11(091</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>09 HAUSCHILD skriptor</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904094704201">
+    <id>9917904094704201</id>
+    <iep>21177325680004201</iep>
+    <titulo>Stauferreich im Wandel : Ordnungsvorstellungen und Politik in der Zeit Friedrich Barbarossas</titulo>
+    <autor></autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Thorbecke</editor>
+    <fecha>2002.</fecha>
+    <isbn>3799542604; 9783799542609</isbn>
+    <cdu>
+      <num>94(430)"1152/1190"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" stauferr</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902389104201">
+    <id>9917902389104201</id>
+    <iep>21176983420004201</iep>
+    <titulo>Sándor Márai : una vida en imágenes</titulo>
+    <autor>Zeltner, Ernö 1935-</autor>
+    <lugar>[València] :</lugar>
+    <editor>EditorialUniversidad de Granada; Universitat de València</editor>
+    <fecha>2005.</fecha>
+    <isbn>8437061695; 9788437061696; 8433834339; 9788433834331</isbn>
+    <cdu>
+      <num>929 Marai, Sándor</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.51 ZELTNERE sandorma</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905398404201">
+    <id>9917905398404201</id>
+    <iep>21178407400004201</iep>
+    <titulo>Technik in Mittelalter und früher Neuzeit</titulo>
+    <autor>Bayerl, Günter</autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Theiss</editor>
+    <fecha>2013.</fecha>
+    <isbn>9783806226348; 3806226342</isbn>
+    <cdu>
+      <num>94(430)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" BAYERLGU techniki</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917907000304201">
+    <id>9917907000304201</id>
+    <iep>21178677990004201</iep>
+    <titulo>Teoría(s) de la novela moderna en España : revisión historiográfica</titulo>
+    <autor></autor>
+    <lugar>[Oviedo, etc.] :</lugar>
+    <editor>Genueve</editor>
+    <fecha>2019.</fecha>
+    <isbn>9788494581496; 849458149X</isbn>
+    <cdu>
+      <num>821.134.2-31.09"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.134.2"18/...".0 teoriasd</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904200004201">
+    <id>9917904200004201</id>
+    <iep>21177337910004201</iep>
+    <titulo>Tesoro de tradiciones : Peñaparda (Salamanca)</titulo>
+    <autor>Fraile Gil, José Manuel.</autor>
+    <lugar>[Pamplona] :</lugar>
+    <editor>Lamiñarra</editor>
+    <fecha>imp. 2019.</fecha>
+    <isbn>9788409128518; 8409128519</isbn>
+    <cdu>
+      <num>39(460.187)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>39(460) FRAILEGI tesorode</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904200004201">
+    <id>9917904200004201</id>
+    <iep>21177337910004201</iep>
+    <titulo>Tesoro de tradiciones : Peñaparda (Salamanca)</titulo>
+    <autor>Fraile Gil, José Manuel.</autor>
+    <lugar>[Pamplona] :</lugar>
+    <editor>Lamiñarra</editor>
+    <fecha>imp. 2019.</fecha>
+    <isbn>9788409128518; 8409128519</isbn>
+    <cdu>
+      <num>39(460.187)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>CD-ROM</mat>
+        <col>Mediateca</col>
+        <sig>MED/42685</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905900304201">
+    <id>9917905900304201</id>
+    <iep>21178537990004201</iep>
+    <titulo>Teutschland : eine Spurensuche : 1500 bis 1650</titulo>
+    <autor>Lau, Thomas.</autor>
+    <lugar>Stuttgart :</lugar>
+    <editor>Theiss</editor>
+    <fecha>cop. 2010.</fecha>
+    <isbn>9783534231614; 3534231619</isbn>
+    <cdu>
+      <num>94(430)"1500/1650"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"15/17" LAUTHOMA teutschl</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905599804201">
+    <id>9917905599804201</id>
+    <iep>21178397820004201</iep>
+    <titulo>The political economy of global population change, 1950-2050</titulo>
+    <autor></autor>
+    <lugar>New York :</lugar>
+    <editor>Population Council</editor>
+    <fecha>cop. 2006.</fecha>
+    <isbn>0878341145; 9780878341146</isbn>
+    <cdu>
+      <num>314.1</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>314 politica</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902293804201">
+    <id>9917902293804201</id>
+    <iep>21177005240004201</iep>
+    <titulo>Tiempos de habitar : prácticas artísticas y mundos posibles</titulo>
+    <autor></autor>
+    <lugar>[Cuenca etc.] :</lugar>
+    <editor>Genueve</editor>
+    <fecha>2019.</fecha>
+    <isbn>9788494581403; 8494581406</isbn>
+    <cdu>
+      <num>792/793:316.74</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>792/793 tiemposd</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905896504201">
+    <id>9917905896504201</id>
+    <iep>21178535260004201</iep>
+    <titulo>Transkulturelle Verflechtungen im mittelalterlichen Jahrtausend : Europa, Ostasien, Afrika</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG Wissenschaftliche Buchgesellschaft</editor>
+    <fecha>cop. 2012.</fecha>
+    <isbn>9783534244874; 3534244877</isbn>
+    <cdu>
+      <num>930.85(100)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>930 transkult</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902389404201">
+    <id>9917902389404201</id>
+    <iep>21176983530004201</iep>
+    <titulo>Tutankhamón : vida y muerte de un rey niño</titulo>
+    <autor>El Mahdy, Christine</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Península</editor>
+    <fecha>2002.</fecha>
+    <isbn>8483075164; 9788483075166</isbn>
+    <cdu>
+      <num>929 Tutankhamon (32)</num>
+      <num>94(32)".../-0332"</num>
+      <num>904(623)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Series editoriales</col>
+        <sig>5/6(09) HIS CIE 333</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902389704201">
+    <id>9917902389704201</id>
+    <iep>21176983650004201</iep>
+    <titulo>Un amigo de Hitler : una crónica reveladora de las ambiguas relaciones de Inglaterra con Alemania antes de la Segunda Guerra Mundial</titulo>
+    <autor>Kershaw, Ian.</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Península</editor>
+    <fecha>2006.</fecha>
+    <isbn>848307723X; 9788483077238</isbn>
+    <cdu>
+      <num>929 Londonderry, Charles Stewart Henry Vane-Tempest-Stewart, Marquess</num>
+      <num>327(410:430)"19"</num>
+      <num>327(430:410)"19"</num>
+      <num>94(4)"1939/45"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." KERSHAWI amigodeh</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917904200204201">
+    <id>9917904200204201</id>
+    <iep>21177337940004201</iep>
+    <titulo>Un asunto redondo : reflexiones sobre las sociedades autóctonas en la región de Diquís, Costa Rica y Panamá, durante los últimos siglos antes de la conquista española y la importancia de las famosas bolas de piedra</titulo>
+    <autor>Thiemer-Sachse, Ursula</autor>
+    <lugar>Frankfurt am Main :</lugar>
+    <editor>Iberoamericana; Vervuert</editor>
+    <fecha>2005.</fecha>
+    <isbn>3865272037; 9783865272034; 8484891933; 9788484891932</isbn>
+    <cdu>
+      <num>94:904(728)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(728) THIEMERS asuntore</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902390304201">
+    <id>9917902390304201</id>
+    <iep>21176983900004201</iep>
+    <titulo>Una fiesta en el jardín : novela y diario de trabajo</titulo>
+    <autor>Konrád, György</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Alianza Editorial</editor>
+    <fecha>[2003].</fecha>
+    <isbn>842064398X; 9788420643984</isbn>
+    <cdu>
+      <num>821.511.141-31"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.51 KONRADGY fiestaen</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906889404201">
+    <id>9917906889404201</id>
+    <iep>21178653750004201</iep>
+    <titulo>Varsovia, 1944 : la heroica lucha de una ciudad atrapada entre la Wermacht y el Ejército Rojo</titulo>
+    <autor>Davies, Norman.</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Planeta</editor>
+    <fecha>2005.</fecha>
+    <isbn>840805306X; 9788408053064</isbn>
+    <cdu>
+      <num>94(100)"1939/45"</num>
+      <num>94(438.11 V.)"1944"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"18/..." DAVIESNO varsovia</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906893404201">
+    <id>9917906893404201</id>
+    <iep>21178655220004201</iep>
+    <titulo>Viaje a Persia</titulo>
+    <autor>Fraser, James Baillie.</autor>
+    <lugar>Pozuelo de Alarcón (Madrid) :</lugar>
+    <editor>Espasa Calpe</editor>
+    <fecha>2005.</fecha>
+    <isbn>8467018631; 9788467018639</isbn>
+    <cdu>
+      <num>821.111-992"18"</num>
+      <num>913(55)"18"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>910.4+908 FRASERJA viajeape</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887504201">
+    <id>9917906887504201</id>
+    <iep>21178653210004201</iep>
+    <titulo>Viaje a la América Meridional</titulo>
+    <autor>Ulloa, Antonio de (1716-1795).</autor>
+    <lugar>Las Rozas (Madrid) :</lugar>
+    <editor>Dastin</editor>
+    <fecha>D.L. 2002.</fecha>
+    <isbn>8449202396; 9788449202391; 844920240X; 9788449202407</isbn>
+    <cdu>
+      <num>913(8)"17"</num>
+      <num>39(8)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>910.4+908 ULLOAANT viajeala V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906887504201">
+    <id>9917906887504201</id>
+    <iep>21178653210004201</iep>
+    <titulo>Viaje a la América Meridional</titulo>
+    <autor>Ulloa, Antonio de (1716-1795).</autor>
+    <lugar>Las Rozas (Madrid) :</lugar>
+    <editor>Dastin</editor>
+    <fecha>D.L. 2002.</fecha>
+    <isbn>8449202396; 9788449202391; 844920240X; 9788449202407</isbn>
+    <cdu>
+      <num>913(8)"17"</num>
+      <num>39(8)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>910.4+908 ULLOAANT viajeala V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902390204201">
+    <id>9917902390204201</id>
+    <iep>21176983870004201</iep>
+    <titulo>Vida, representación y muerte de Lul Mazreku</titulo>
+    <autor>Kadaré, Ismaïl.</autor>
+    <lugar>Madrid :</lugar>
+    <editor>Alianza Editorial</editor>
+    <fecha>D.L. 2005.</fecha>
+    <isbn>8420645826; 9788420645827</isbn>
+    <cdu>
+      <num>821.18-31"19"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>821.1/.2 KADAREIS vidarepr</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902388904201">
+    <id>9917902388904201</id>
+    <iep>21176983300004201</iep>
+    <titulo>Von der Leibeigenschaft zu den Menschenrechten : eine Geschichte der Freiheit in Deutschland</titulo>
+    <autor>Blickle, Peter.</autor>
+    <lugar>München :</lugar>
+    <editor>CH Beck</editor>
+    <fecha>2006.</fecha>
+    <isbn>9783406507687; 3406507689</isbn>
+    <cdu>
+      <num>94(430)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4) BLICKLEP vonderle</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917905993804201">
+    <id>9917905993804201</id>
+    <iep>21178546050004201</iep>
+    <titulo>Von stadtmauern und salbtöpfen : archäologie zur siedlungs- und apothekengeschichte in Biberach</titulo>
+    <autor>Schmid, Beate</autor>
+    <lugar>Wiesbaden :</lugar>
+    <editor>Ludwig Reichert</editor>
+    <fecha>2019.</fecha>
+    <isbn>9783954903894; 395490389X</isbn>
+    <cdu>
+      <num>902(430.127)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Grandes formatos</col>
+        <sig>GRA/58349</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599904201">
+    <id>9917906599904201</id>
+    <iep>21178627860004201</iep>
+    <titulo>WBG-Weltgeschichte : eine globale Geschichte von den Anfängen bis ins 21. Jahrhundert</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2009-2010.</fecha>
+    <isbn>9783534201037; 3534201035</isbn>
+    <cdu>
+      <num>94(100)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(100) wbgweltg V. 1</sig>
+        <des>V. 1</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599904201">
+    <id>9917906599904201</id>
+    <iep>21178627860004201</iep>
+    <titulo>WBG-Weltgeschichte : eine globale Geschichte von den Anfängen bis ins 21. Jahrhundert</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2009-2010.</fecha>
+    <isbn>9783534201037; 3534201035</isbn>
+    <cdu>
+      <num>94(100)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(100) wbgweltg V. 2</sig>
+        <des>V. 2</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599904201">
+    <id>9917906599904201</id>
+    <iep>21178627860004201</iep>
+    <titulo>WBG-Weltgeschichte : eine globale Geschichte von den Anfängen bis ins 21. Jahrhundert</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2009-2010.</fecha>
+    <isbn>9783534201037; 3534201035</isbn>
+    <cdu>
+      <num>94(100)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(100) wbgweltg V. 3</sig>
+        <des>V. 3</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599904201">
+    <id>9917906599904201</id>
+    <iep>21178627860004201</iep>
+    <titulo>WBG-Weltgeschichte : eine globale Geschichte von den Anfängen bis ins 21. Jahrhundert</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2009-2010.</fecha>
+    <isbn>9783534201037; 3534201035</isbn>
+    <cdu>
+      <num>94(100)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(100) wbgweltg V. 4</sig>
+        <des>V. 4</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599904201">
+    <id>9917906599904201</id>
+    <iep>21178627860004201</iep>
+    <titulo>WBG-Weltgeschichte : eine globale Geschichte von den Anfängen bis ins 21. Jahrhundert</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2009-2010.</fecha>
+    <isbn>9783534201037; 3534201035</isbn>
+    <cdu>
+      <num>94(100)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(100) wbgweltg V. 5</sig>
+        <des>V. 5</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906599904201">
+    <id>9917906599904201</id>
+    <iep>21178627860004201</iep>
+    <titulo>WBG-Weltgeschichte : eine globale Geschichte von den Anfängen bis ins 21. Jahrhundert</titulo>
+    <autor></autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>WBG</editor>
+    <fecha>cop. 2009-2010.</fecha>
+    <isbn>9783534201037; 3534201035</isbn>
+    <cdu>
+      <num>94(100)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(100) wbgweltg V. 6</sig>
+        <des>V. 6</des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917906898004201">
+    <id>9917906898004201</id>
+    <iep>21178657050004201</iep>
+    <titulo>Wappen im Mittelalter</titulo>
+    <autor>Scheibelreiter, Georg.</autor>
+    <lugar>Darmstadt :</lugar>
+    <editor>Primus-Verl</editor>
+    <fecha>2014.</fecha>
+    <isbn>9783863120252; 3863120256</isbn>
+    <cdu>
+      <num>94(4)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Grandes formatos</col>
+        <sig>GRA/58353</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902294104201">
+    <id>9917902294104201</id>
+    <iep>21177005370004201</iep>
+    <titulo>Winckelmann e l'archeologia a Napoli : atti dell'incontro di studi - Università degli Studi di Napoli l'Orientale, 1 marzo 2017</titulo>
+    <autor></autor>
+    <lugar>Napoli :</lugar>
+    <editor>Università degli Studi di Napoli l'Orientale</editor>
+    <fecha>2019.</fecha>
+    <isbn>9788867191697; 8867191691</isbn>
+    <cdu>
+      <num>902/904(450.721)(063)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>902 winckelm</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902292904201">
+    <id>9917902292904201</id>
+    <iep>21177004980004201</iep>
+    <titulo>Women's work, health and quality of life</titulo>
+    <autor></autor>
+    <lugar>New York :</lugar>
+    <editor>Haworth Medical Press</editor>
+    <fecha>cop. 2001.</fecha>
+    <isbn>9780789016607; 0789016605</isbn>
+    <cdu>
+      <num>305-055.2</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>305-055.2 womenswo</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917903500204201">
+    <id>9917903500204201</id>
+    <iep>21177177960004201</iep>
+    <titulo>Zu Gast im Mittelalter</titulo>
+    <autor>Fried, Johannes.</autor>
+    <lugar>München :</lugar>
+    <editor>C H Beck</editor>
+    <fecha>2007.</fecha>
+    <isbn>9783406562150; 3406562159</isbn>
+    <cdu>
+      <num>94(430)"04/14"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>94(4)"04/14" FRIEDJOH zugastim</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902390004201">
+    <id>9917902390004201</id>
+    <iep>21176983770004201</iep>
+    <titulo>¿Adónde va China?</titulo>
+    <autor>Domenacha, Jean-Luc</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Paidós Ibérica</editor>
+    <fecha>D.L. 2006.</fecha>
+    <isbn>8449318416; 9788449318412</isbn>
+    <cdu>
+      <num>32(510)"1976/2002"</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>32 DOMENACH adondeva</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+  <libro id="9917902389904201">
+    <id>9917902389904201</id>
+    <iep>21176983730004201</iep>
+    <titulo>África después de la guerra fría] : la promesa rota de un continente</titulo>
+    <autor>Huband, Mark</autor>
+    <lugar>Barcelona :</lugar>
+    <editor>Paidós Ibérica</editor>
+    <fecha>D.L. 2004.</fecha>
+    <isbn>8449315220; 9788449315220</isbn>
+    <cdu>
+      <num>32(6)"1990/..."</num>
+      <num>327(100-775:6)</num>
+    </cdu>
+    <holding>
+      <ejem>
+        <mat>Book</mat>
+        <col>Secciones temáticas</col>
+        <sig>32 HUBANDMA africade</sig>
+        <des></des>
+      </ejem>
+    </holding>
+  </libro>
+</libros>
