@@ -28,7 +28,6 @@ function mostrarMaterias (e) {
     })
   })
   console.log(nMateria);
-  console.log("hola");
   nMateria  = nMateria.sort();
   nMateriaSR = [... new Set(nMateria)];
   htmlContent = '<ul>' + nMateria.map(nm =>
