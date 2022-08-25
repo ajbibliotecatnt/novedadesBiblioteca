@@ -17,7 +17,7 @@
                                 {"no":"Psicología", "nu":"159", "co":"starts-with"} ,
                                 {"no":"Lógica", "nu":"16", "co":"starts-with"} ,
                                 {"no":"Ética", "nu":"17", "co":"starts-with"} ] },
-{"no":"Religión", "nu":"^2", "sub": [
+{"no":"Religión", "nu":"2", "sub": [
                                 {"no":"Todo", "nu":"^2", "co":"starts-with"} ,
                                 {"no":"Biblia", "nu":"27-23", "co":"contains"} ,
                                 {"no":"Mitología", "nu":"25", "co":"starts-with"} ,

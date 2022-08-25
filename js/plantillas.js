@@ -1,10 +1,16 @@
+import { mostrarResultados, mostrarMaterias} from './utiles.js';
 const url = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=34CSIC_ALMA_DS';
 const context = '&context=L&vid=34CSIC_VU1&search_scope=CAT_BIB_scope&tab=default_tab&lang=es_ES';
 const portadas = 'http://cobertes.csuc.cat/cobertes.php?institucio=CSIC&isbn='
 const autorP = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/search?query=creator,exact,'
 const autorF = ',AND&tab=default_tab&search_scope=default_scope&sortby=rank&vid=34CSIC_VU1&lang=es_ES&mode=advanced&offset=0'
 
+var htmlContent = "";
+var htmlNMat = "";
+var htmlCamino = "";
+
 function plantillaLibro (libro) {
+
 	if (libro.holding[0].mat != "Issue") {
 		return (
 		`<li class="article">
@@ -29,17 +35,9 @@ function plantillaLibro (libro) {
 	}
 }  
 	
-function TemplateMenu (menu, sub, bus) {
-	
-	return (
-		`<div class="dropdown"><button class="dropbtn">${materia.no}<i class="fa fa-caret-down"></i></button>
-   	<div class="dropdown-content">` + materia.sub.map(sub =>
-    	`<a id="${sub.nu}" name="${sub.co}" href="#">${sub.no}</a>`).join('')+'</div></div>'
-                .join('')+'<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></div>');	
-}
-
-function TemplateMenuMateria (materias) {
+function TemplateMenuMateria (materias, mat) {
 	console.log(materias);
+	masMaterias.innerHTML = '';
 	return (
 	
 	`<ul class="menu">
@@ -47,30 +45,62 @@ function TemplateMenuMateria (materias) {
     	<a href="javascript:void(0)" class="dropbtn" onclick="drop()">Materias</a>
     		<div class="dropdown-content" id="myDropdown">`
     		+ materias.map(materia =>
-    		`<a id="${materia.nu}" name="${materia.no}" href="#">${materia.no}</a>`).join('')+
+    		`<a id="${materia.nu}" name="${materia.no}" data-tipo="menuD" href="#">${materia.no}</a>`).join('')+
     		`</div>
   		</li>
 		</ul>`)
 }
 
-function plantillaMateria (materia) {
-	console.log(materia.no);
-	console.log(materia.nu);
+function plantillaMateria (arra, res) {
 	resultados.innerHTML = '';
+	masMaterias.innerHTML = '';
+	camino.innerHTML = '';
 	document.getElementById("myDropdown").classList.remove("show");
-	return (
-		`<li class="article" id="${materia.nu}">
-		<name="${materia.no}" href="#">${materia.no}</li>`
-	);
+	console.log(arra);
+	console.log(res);
+	if (arra[0].nu) {
+		htmlContent =
+		 `<ul>`
+		 + arra.map (libro =>
+		`<li class="article" id="${libro.nu}" name="cdu" data-tipo="menu" href="#">${libro.no}</li>
+		      `).join('')+
+		 `</ul>`
+		 plantillaBotonMasMaterias(arra[0].nu);
+
+		 } else
+	{
+		htmlContent = 
+		`<ul>`
+		 + arra.map (libro =>
+		`<li class="article" id="${libro}" name="${res}" data-tipo="menu" href="#">${libro}</li>
+		      `).join('')+
+		 `</ul>`;
+		 if (res == "materias") {
+		 	//plantillaBotonCamino(arra, res);
+		 }
+		 
+	}
+	resultados.insertAdjacentHTML('beforeend', htmlContent);
+  	resultados.addEventListener("click", mostrarResultados, false);
+  	resultados.myParam = res;
+  	resultados.arr = arra;
 }
 
-function plantillaNuevaMateria (nmateria) {
-	resultados.innerHTML = '';
-	document.getElementById("myDropdown").classList.remove("show");
-	return (
-		`<li class="article" id="${nmateria}">
-		<name="${nmateria}" href="#">${nmateria}</li>`
-	);
+function plantillaBotonMasMaterias (m) {
+	masMaterias.innerHTML = '';
+	htmlNMat =  '<button id="'+m+'" name="prueba" data-tipo="mMaterias" type="button">+ Materias</button>'
+	masMaterias.insertAdjacentHTML('beforeend', htmlNMat);
+  	masMaterias.addEventListener("click", mostrarMaterias, false);
 }
 
-export { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaNuevaMateria };
+function plantillaBotonCamino (a, m) {
+	console.log(a, m);
+	camino.innerHTML = '';
+	htmlCamino = `<button id="eso" name="boton" type="button">Volver</button>`;
+	camino.insertAdjacentHTML('beforeend', htmlCamino);
+	var boton = document.getElementById("eso");
+	boton.addEventListener("click", plantillaMateria.bind(null, a, m), false);
+	console.log(boton);
+}
+
+export { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaBotonMasMaterias, plantillaBotonCamino};

@@ -16,13 +16,17 @@
         </div>
     </header>
     <div class="site-container">
+    	<div id="camino">
+    		<button id="refresh">Recargar</button>
+    	</div>
         <div id="resultados"></div>
+        <div id="masMaterias"></div>
     </div>
 
     <script type="module" src="app.js"></script>
     <script type="module" src="./js/plantillas.js"></script>
      <!--<script src="./js/novedades2.js"></script> -->
-    <script src="./js/libros.js"></script>
+    <!--<script src="./js/libros.js"></script>-->
     <script>
 
 		function drop () {
@@ -31,10 +35,8 @@
 
 		window.onclick = function(e) {
 			if (!e.target.matches('.dropbtn')) {
-			console.log('jajaja');
 
 				var dropdowns = document.getElementsByClassName("dropdown-content");
-				console.log('oeoe');
 				for (var d = 0; d < dropdowns.length; d++) {
 				  var openDropdown = dropdowns[d];
 				  if (openDropdown.classList.contains('show')) {

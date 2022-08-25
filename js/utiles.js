@@ -1,80 +1,95 @@
-import { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaNuevaMateria } from './plantillas.js';
+import { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaBotonMasMaterias, plantillaBotonCamino } from './plantillas.js';
 import { novedades } from '../app.js';
-var htmlNav = ""
-var htmlContent = ""
+import { materias } from '../app.js';
+var htmlNav = "";
+
 
 function mostrarMaterias (e) {
 
   if (e.target !== e.currentTarget && e.target.id !=='' && e.target.id !=='myTopnav') {
-    let mat = e.target.id;
-    console.log(mat);
-    
-    const resultado = this.find( m => m.nu === mat );
-    console.log(resultado)
-    if (resultado.sub) {
-      htmlContent = '<ul>' + resultado.sub.map(libro =>
-      plantillaMateria(libro)
-      ).join('')+'</ul>';
-    } else {
-        let nMateria = [];
-	      novedades[0].libros.map(libro => {
-        libro[mat].map(dato => {
-        console.log(dato);
-        if (!nMateria.includes(dato)) {
-          console.log(dato);
-          console.log(nMateria);
-          nMateria.push(dato)
-        }
-    })
-  })
-  console.log(nMateria);
-  nMateria  = nMateria.sort();
-  nMateriaSR = [... new Set(nMateria)];
-  htmlContent = '<ul>' + nMateria.map(nm =>
-      plantillaNuevaMateria(nm)
-      ).join('')+'</ul>';
-  }
-
-  resultados.insertAdjacentHTML('beforeend', htmlContent);
-  resultados.addEventListener("click", mostrarResultados, false);      
+  
+  	let tit = e.target.getAttribute('data-tipo');
+  	console.log(tit);
+  	let mat = e.target.id;
+  	console.log(mat);
+  	let resultado = materias[0].find( m => m.nu === mat );
+  	console.log(resultado);
+  	if (tit != "menuD") {
+  		let grupo = buscarLibros(mat, "cdu");
+  		console.log(grupo);
+  		let arrMate = buscarMaterias(grupo, "materias");
+		plantillaMateria(arrMate, "materias");
+		  	} else {
+  		if (resultado.sub) {
+  				console.log(resultado.sub, resultado);
+      		plantillaMateria(resultado.sub, "cdu");
+      		//plantillaBotonMasMaterias(mat);
+  		} else {
+  			var nma = buscarMaterias(novedades[0].libros, mat);
+  			console.log(nma, resultado.nu)
+  			plantillaMateria(nma, resultado.nu);
+  		}
+  	}  
   }
 e.stopPropagation();
 }
 
-function buscarLibros (cri) {
+function buscarMaterias (arr, mat) {
+	let nMateria = [];
+	arr.map(libro => {
+  	libro[mat].map(dato => {
+    	console.log(dato);
+      if (!nMateria.includes(dato)) {
+        nMateria.push(dato)
+        }
+    })
+  })
+	console.log(nMateria);
+  nMateria  = nMateria.sort();
+  return nMateria;
+}
 
-	var busqueda = []
-	console.log(cri)
-	console.log(novedades[0].libros)
-	let re = new RegExp(cri);
-	for (let n in novedades[0].libros) {
-    let registro = novedades[0].libros[n];
-    console.log(registro['lugares']);
-		for (let c in registro['lugares']){
-      console.log(registro.lugares[c]);
-			if (re.test(registro.lugares[c])) {
-				busqueda.push(registro)
-				break
+function buscarLibros (cri, fil) {
+
+		var busqueda = []
+		console.log(cri)
+		console.log(novedades[0].libros)
+		let re = new RegExp(cri);
+		for (let n in novedades[0].libros) {
+			for (let c in novedades[0].libros[n][fil]){
+				if (re.test(novedades[0].libros[n][fil][c])) {
+					busqueda.push(novedades[0].libros[n])
+					break
+				}
 			}
 		}
-	}
-return busqueda
+	return busqueda
 }
-	
+
+
 function mostrarResultados(e) {
 
   if (e.target !== e.currentTarget && e.target.id !=='') {
 
 	menu.insertAdjacentHTML('afterbegin', htmlNav);
+	console.log(e);
   let mat = e.target.id;
-  let co = e.target.name;
-  resultados.innerHTML = '';
+  console.log(e.currentTarget.myParam);
+  const tip = e.currentTarget.myParam 
+  let co = e.target.attributes.name.value;
   console.log(mat);
-	const libros = buscarLibros(mat)
+  console.log(co);
+  resultados.innerHTML = '';
+  masMaterias.innerHTML = '';
+  console.log(mat);
+	const libros = buscarLibros(mat, co)
 	console.log(libros)
 
   if(typeof libros !== 'undefined' && libros.length > 0) {
     var htmlContent = '';
+    var htmlCamino = '';
+    plantillaBotonCamino (e.currentTarget.arr, tip);
+	console.log(e.currentTarget.arr);
     htmlContent = '<ul>' + libros.map(libro =>
 			plantillaLibro(libro)
 			).join('')+'</ul>';

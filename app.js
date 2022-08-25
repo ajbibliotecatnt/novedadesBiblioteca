@@ -18,17 +18,14 @@ fetch("./datos/datos.json" , {cache: "no-store"})
 
 function addMenu() {
 
-	fetch("./datos/materias.json")
+	fetch("./datos/materias.json", {cache: "no-store"})
 		.then(response => response.json())
   	.then(json => { materias.push(json)
   		htmlNav = TemplateMenuMateria(materias[0]);
 		menu.insertAdjacentHTML('afterbegin', htmlNav);
-  		menu.addEventListener("click", mostrarMaterias.bind(materias[0]), false);
+  		menu.addEventListener("click", mostrarMaterias, false);
   		})
   	.catch(err => requestError(err));
-	
-	console.log(novedades);
-
 }
 
 function requestError(e, part) {
