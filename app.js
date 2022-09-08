@@ -1,17 +1,19 @@
-import { plantillaLibro, TemplateMenuMateria, plantillaMateria } from './js/plantillas.js';
-import { mostrarMaterias } from './js/utiles.js';
+import { plantillaLibro, TemplateMenuMateria, plantillaMateria} from './js/plantillas.js';
+import { mostrarMaterias, mostrarTodo, inicio} from './js/utiles.js';
 export const novedades = [];
 export const materias = [];
+export const resultados = document.querySelector('#resultados');
+
 (function () {
 'use strict';
 
-let htmlContent = '';
 let htmlNav;
-const resultados = document.querySelector('#resultados');
+
 
 fetch("./datos/datos.json" , {cache: "no-store"})
 	.then(response => response.json())
-	.then(json => novedades.push(json))
+	.then(json => { inicio(json);
+        				novedades.push(json)})
 	.then(addMenu)
 	.catch(err => requestError(err));
 

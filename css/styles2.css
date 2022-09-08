@@ -37,6 +37,31 @@ li.dropdown {
 .dropdown-content a:hover {background-color: #f1f1f1}
 
 .show {display:block;}
+/*** Botones ***/
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
 
 /*** Article Styling ***/
 ul {
@@ -55,7 +80,7 @@ ul {
     margin-bottom: 0.5em;
     padding: 1em 2em 1em 4.8em;
     border-radius: .375rem;
-		border-top: var(--accent-width,5px) solid var(--accent-color,#60D69A);
+		/*border-top: var(--accent-width,5px) solid var(--accent-color,#60D69A);*/
 }
 
 .article img {
@@ -92,5 +117,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 

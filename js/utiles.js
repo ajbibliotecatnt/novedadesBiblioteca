@@ -1,69 +1,94 @@
-import { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaBotonMasMaterias, plantillaBotonCamino } from './plantillas.js';
-import { novedades } from '../app.js';
-import { materias } from '../app.js';
-var htmlNav = "";
+import { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaBotonMasMaterias, plantillaBotonVolver, plantillaInicio, plantillaBotonInicio} from './plantillas.js';
+import { materias, novedades} from '../app.js';
 
+var htmlContent = "";
+
+function inicio(n) {
+
+	resultados.innerHTML = '';
+	masMaterias.innerHTML = '';
+	htmlContent = plantillaInicio(n);
+	resultados.insertAdjacentHTML('beforeend', htmlContent);
+	document.getElementById("todo").addEventListener("click", mostrarTodo, false);
+}
+
+function volver (lMaterias, tipo) {
+	htmlContent = plantillaMateria(lMaterias, tipo);
+	  	resultados.insertAdjacentHTML('beforeend', htmlContent);
+  	resultados.addEventListener("click", mostrarResultados, false);
+  	resultados.myParam = tipo;
+  	resultados.arr = lMaterias;
+}
 
 function mostrarMaterias (e) {
 
   if (e.target !== e.currentTarget && e.target.id !=='' && e.target.id !=='myTopnav') {
   
   	let tit = e.target.getAttribute('data-tipo');
-  	console.log(tit);
   	let mat = e.target.id;
-  	console.log(mat);
   	let resultado = materias[0].find( m => m.nu === mat );
-  	console.log(resultado);
+  	let lMaterias = []
+  	let tipo = '';
   	if (tit != "menuD") {
   		let grupo = buscarLibros(mat, "cdu");
-  		console.log(grupo);
-  		let arrMate = buscarMaterias(grupo, "materias");
-		plantillaMateria(arrMate, "materias");
+  		lMaterias = buscarMaterias(grupo, "materias", mat);
+  		tipo = resultado.campoB
+			htmlContent = plantillaMateria(lMaterias, tipo);
 		  	} else {
   		if (resultado.sub) {
-  				console.log(resultado.sub, resultado);
-      		plantillaMateria(resultado.sub, "cdu");
-      		//plantillaBotonMasMaterias(mat);
+  			lMaterias = resultado;
+  			tipo = resultado.sub[0].campoB
+      		htmlContent = plantillaMateria(resultado, tipo);
   		} else {
-  			var nma = buscarMaterias(novedades[0].libros, mat);
-  			console.log(nma, resultado.nu)
-  			plantillaMateria(nma, resultado.nu);
+  			lMaterias = buscarMaterias(novedades[0].libros, mat, "0");
+  			tipo = resultado.campoB;
+  			htmlContent = plantillaMateria(lMaterias, tipo);
+  			htmlContent = htmlContent + plantillaBotonInicio(novedades[0]);
   		}
-  	}  
+  	} 
+
+  	resultados.insertAdjacentHTML('beforeend', htmlContent);
+  	resultados.addEventListener("click", mostrarResultados, false);
+  	resultados.myParam = tipo;
+  	resultados.arr = lMaterias; 
   }
 e.stopPropagation();
 }
 
-function buscarMaterias (arr, mat) {
+function buscarMaterias (arr, mat, num) {
 	let nMateria = [];
+	let obj
 	arr.map(libro => {
   	libro[mat].map(dato => {
-    	console.log(dato);
-      if (!nMateria.includes(dato)) {
-        nMateria.push(dato)
+      if (!nMateria.find(e => e.no === dato)) {
+        nMateria.push({"no":dato, "campoB":mat, "num":num})
         }
     })
   })
-	console.log(nMateria);
-  nMateria  = nMateria.sort();
+  nMateria  = nMateria.sort((a, b) => a.no.localeCompare(b.no));
   return nMateria;
 }
 
 function buscarLibros (cri, fil) {
 
-		var busqueda = []
-		console.log(cri)
-		console.log(novedades[0].libros)
-		let re = new RegExp(cri);
-		for (let n in novedades[0].libros) {
-			for (let c in novedades[0].libros[n][fil]){
-				if (re.test(novedades[0].libros[n][fil][c])) {
-					busqueda.push(novedades[0].libros[n])
-					break
-				}
+	var busqueda = []
+	if (/\W/.test(cri)) {
+		cri = cri.replace(/(?=[() ])/g, '\\');
+	}
+	if (/^\d/.test(cri)) {
+		cri = `^${cri}|:${cri}`;
+	}
+
+	let reg = new RegExp(cri);
+	for (let n in novedades[0].libros) {
+		for (let c in novedades[0].libros[n][fil]){
+			if (reg.test(novedades[0].libros[n][fil][c])) {
+				busqueda.push(novedades[0].libros[n])
+				break
 			}
 		}
-	return busqueda
+	}
+return busqueda
 }
 
 
@@ -71,35 +96,40 @@ function mostrarResultados(e) {
 
   if (e.target !== e.currentTarget && e.target.id !=='') {
 
-	menu.insertAdjacentHTML('afterbegin', htmlNav);
-	console.log(e);
   let mat = e.target.id;
-  console.log(e.currentTarget.myParam);
   const tip = e.currentTarget.myParam 
   let co = e.target.attributes.name.value;
-  console.log(mat);
-  console.log(co);
   resultados.innerHTML = '';
   masMaterias.innerHTML = '';
-  console.log(mat);
 	const libros = buscarLibros(mat, co)
-	console.log(libros)
 
   if(typeof libros !== 'undefined' && libros.length > 0) {
     var htmlContent = '';
     var htmlCamino = '';
-    plantillaBotonCamino (e.currentTarget.arr, tip);
-	console.log(e.currentTarget.arr);
-    htmlContent = '<ul>' + libros.map(libro =>
+    
+    htmlContent = '<p>'+libros.length+' libros sobre '+ mat +'</p><ul>' + libros.map(libro =>
 			plantillaLibro(libro)
 			).join('')+'</ul>';
   } else {
     var htmlContent = '';
-    htmlContent = '<div class="mensaje">Ningún libro adquirido sobre esa materia en este mes</div>';
+    htmlContent = '<div class="mensaje">Ningún libro adquirido sobre esa materia en este mes ¿pocas novedades sobre esa materia?... cchs_adquisiciones.tnt<span class="correo">FrañldifaDF</span>@cchs.csic.es</div>';
       }
+      plantillaBotonVolver (e.currentTarget.arr, tip);
       resultados.insertAdjacentHTML('beforeend', htmlContent);       
       }
    e.stopPropagation();
 }
 
-export { mostrarMaterias, mostrarResultados};
+
+function mostrarTodo() {
+	console.log(htmlContent);
+	htmlContent = "";
+  resultados.innerHTML = '';
+  masMaterias.innerHTML = '';
+	 htmlContent = '<p>Todo:</p><ul>' + novedades[0].libros.map(libro =>
+	 		plantillaLibro(libro)
+		).join('')+'</ul>';
+		resultados.insertAdjacentHTML('beforeend', htmlContent); 
+}
+
+export { mostrarMaterias, mostrarResultados, mostrarTodo, inicio, volver};
