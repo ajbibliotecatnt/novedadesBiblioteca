@@ -7,9 +7,44 @@ const portadas = 'http://cobertes.csuc.cat/cobertes.php?institucio=CSIC&isbn='
 const autorP = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/search?query=creator,exact,'
 const autorF = ',AND&tab=default_tab&search_scope=default_scope&sortby=rank&vid=34CSIC_VU1&lang=es_ES&mode=advanced&offset=0'
 import { materias, novedades} from '../app.js';
-var htmlContent = "";
-var htmlNMat = "";
-var htmlCamino = "";
+
+export let bMasMaterias = document.querySelector("div#masMateriasMas .button[name='mas']");
+export let bMenosMaterias = document.querySelector("div#masMateriasMas .button[name='menos']");
+
+
+// Vistas
+
+function vistaInicio(htmlContent) {
+	resultados.innerHTML = '';
+	masMaterias.innerHTML = '';
+	bInicio.style.display = "none";
+	bVolver.style.display = "none";
+	bMasMaterias.style.display = "none";
+	bMenosMaterias.style.display = "none";
+	resultados.insertAdjacentHTML('beforeend', htmlContent);
+	document.getElementById("todo").addEventListener("click", mostrarTodo, false);
+}
+
+function vistaMaterias(htmlContent) {
+  	resultados.insertAdjacentHTML('beforeend', htmlContent);
+  	resultados.addEventListener("click", mostrarResultados, false);
+  	bInicio.style.display = "inline-block";
+  	bInicio.addEventListener("click", inicio, false);
+}
+
+function vistaResultados(htmlContent) {
+  resultados.innerHTML = '';
+  bMasMaterias.style.display = "none";
+  bMenosMaterias.style.display = "none";
+  bVolver.style.display = "inline-block";
+  bVolver.addEventListener("click", volver, false);
+  resultados.insertAdjacentHTML('beforeend', htmlContent);  
+
+}
+
+// -----------------------
+
+// Plantillas
 
 function plantillaLibro (libro) {
 
@@ -55,72 +90,46 @@ function TemplateMenuMateria (materias, mat) {
 function plantillaMateria (listadoMaterias, campo) {
 	resultados.innerHTML = '';
 	masMaterias.innerHTML = '';
-	camino.innerHTML = '';
+	bMenosMaterias.style.display = "none";
+	bMasMaterias.style.display = "none";
 	document.getElementById("myDropdown").classList.remove("show");
 	if (listadoMaterias.sub) {
-	
+		console.log('hola');
+		bMasMaterias.style.display = "inline-block";
+		bMasMaterias.setAttribute("id",listadoMaterias.sub[0].nu);
+		masMateriasMas.addEventListener("click", mostrarMaterias, false);
+		
 		return (
 		 `<ul><p>Materias de ${listadoMaterias.no}:</p>`
 		 
 		 + listadoMaterias.sub.map (materia =>
 		`<li class="article" id="${materia.nu}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
 		      `).join('')+
-		 `</ul>` +
-		 plantillaBotonMasMaterias(listadoMaterias.sub[0].nu));
+		 `</ul>`);
 
 		 } else
 	{
-
+		bMenosMaterias.style.display = "inline-block";
+		bMenosMaterias.setAttribute("id",listadoMaterias[0].num);
+		//masMateriasMas.addEventListener("click", mostrarMaterias, false);
 		
-		var fijo = `<ul><p>${listadoMaterias[0].campoB}:</p>`
+		return (
+			`<ul><p>${listadoMaterias[0].campoB}:</p>`
 		 + listadoMaterias.map (materia =>
 		`<li class="article" id="${materia.no}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
 		      `).join('')+
-		 `</ul>`;
-		 	if (listadoMaterias[0].campoB == "materias") {
-		 		fijo = fijo + plantillaBotonMenosMaterias(listadoMaterias[0].num);
-		 }
-		 return (fijo);
-		 
+		 `</ul>`);
+
 	}
-
-}
-
-function plantillaBotonInicio (m) {
-	masMaterias.innerHTML = '';
-	htmlCamino =  '<button id="inicio" class="button" data-tipo="inicio" type="button">Inicio</button>'
-	camino.insertAdjacentHTML('beforeend', htmlNMat);
-  camino.addEventListener("click", inicio, false);
-}
-
-function plantillaBotonMasMaterias (m) {
-	masMaterias.innerHTML = '';
-	htmlNMat =  '<button id="'+m+'" class="button" data-tipo="mMaterias" type="button">+ Materias</button>'
-	masMaterias.insertAdjacentHTML('beforeend', htmlNMat);
-  	masMaterias.addEventListener("click", mostrarMaterias, false);
-}
-
-function plantillaBotonMenosMaterias (m) {
-	masMaterias.innerHTML = '';
-	htmlNMat =  '<button id="'+m+'" class="button" data-tipo="menuD" type="button">- Materias</button>'
-	masMaterias.insertAdjacentHTML('beforeend', htmlNMat);
-  	masMaterias.addEventListener("click", mostrarMaterias, false);
-}
-
-function plantillaBotonVolver (a, m) {
-	camino.innerHTML = '';
-	htmlCamino = `<button id="eso" class="button" type="button">Volver</button>`;
-	camino.insertAdjacentHTML('beforeend', htmlCamino);
-	var boton = document.getElementById("eso");
-	boton.addEventListener("click", volver.bind(null, a, m), false);
 }
 
 function plantillaInicio (n) {
 	return (
 	`<div class="mensaje">${n.numero} nuevos documentos en el mes de ${n.mes}. Selecciona una materia del menú superior</div>
-   	<button id="todo" class="button" name="boton" type="button">Ver todo</button>
+   	<button id="todo" class="button" name="boton" type="button">Ver${n.numero} todo</button>
     <button id="revistas" class="button" name="boton" type="button">Ver revistas</button>
     <button id="electronico" class="button" name="boton" type="button">Ver electrónico</button>`);
 }
 
-export { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaBotonMasMaterias, plantillaBotonVolver, plantillaInicio, plantillaBotonInicio};
+
+export { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaInicio, vistaMaterias, vistaInicio, vistaResultados};

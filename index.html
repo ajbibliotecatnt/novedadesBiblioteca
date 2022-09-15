@@ -9,22 +9,24 @@
 </head>
 <body>
     <header class="masthead">
-       <!-- <h1>Novedades de la biblioteca</h1> -->
-        <div id="prueba">
         <div class="site-container">
-                <div id="menu"></div>
+        	<div id="menu"></div>
         </div>
     </header>
     <div class="site-container">
-    	<div id="camino"></div>
+    	<div id="navegacion">
+    			<button id="bVolver" class="button" type="button">Volver</button>
+    			<button id="bInicio" class="button" type="button">Inicio</button>
+    	</div>
         <div id="resultados"></div>
         <div id="masMaterias"></div>
+        <div id="masMateriasMas">
+          <button id="" class="button" name="mas" type="button" data-tipo="mMaterias">+</button>
+    			<button id="" class="button" name="menos" type="button" data-tipo="menuD">-</button>
+        </div>
     </div>
-
     <script type="module" src="app.js"></script>
     <script type="module" src="./js/plantillas.js"></script>
-     <!--<script src="./js/novedades2.js"></script> -->
-    <!--<script src="./js/libros.js"></script>-->
     <script>
 
 		function drop () {
@@ -38,7 +40,6 @@
 				for (var d = 0; d < dropdowns.length; d++) {
 				  var openDropdown = dropdowns[d];
 				  if (openDropdown.classList.contains('show')) {
-				    console.log('ea');
 				    openDropdown.classList.remove('show');
 				  }
 				}

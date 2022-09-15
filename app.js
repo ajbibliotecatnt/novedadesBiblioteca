@@ -2,7 +2,9 @@ import { plantillaLibro, TemplateMenuMateria, plantillaMateria} from './js/plant
 import { mostrarMaterias, mostrarTodo, inicio} from './js/utiles.js';
 export const novedades = [];
 export const materias = [];
+
 export const resultados = document.querySelector('#resultados');
+
 
 (function () {
 'use strict';

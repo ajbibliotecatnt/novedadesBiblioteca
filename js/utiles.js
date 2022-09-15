@@ -1,23 +1,20 @@
-import { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaBotonMasMaterias, plantillaBotonVolver, plantillaInicio, plantillaBotonInicio} from './plantillas.js';
+import { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaInicio, vistaMaterias, vistaInicio, vistaResultados} from './plantillas.js';
 import { materias, novedades} from '../app.js';
 
 var htmlContent = "";
+var datosMaterias = {};
 
 function inicio(n) {
-
-	resultados.innerHTML = '';
-	masMaterias.innerHTML = '';
+	if (n.target) {n = novedades[0];};
 	htmlContent = plantillaInicio(n);
-	resultados.insertAdjacentHTML('beforeend', htmlContent);
-	document.getElementById("todo").addEventListener("click", mostrarTodo, false);
+	vistaInicio(htmlContent);
 }
 
-function volver (lMaterias, tipo) {
-	htmlContent = plantillaMateria(lMaterias, tipo);
-	  	resultados.insertAdjacentHTML('beforeend', htmlContent);
-  	resultados.addEventListener("click", mostrarResultados, false);
-  	resultados.myParam = tipo;
-  	resultados.arr = lMaterias;
+function volver () {
+	bVolver.style.display = "none";
+	htmlContent = plantillaMateria(datosMaterias.lMaterias, datosMaterias.tipo);
+	resultados.insertAdjacentHTML('beforeend', htmlContent);
+  resultados.addEventListener("click", mostrarResultados, false);
 }
 
 function mostrarMaterias (e) {
@@ -27,30 +24,25 @@ function mostrarMaterias (e) {
   	let tit = e.target.getAttribute('data-tipo');
   	let mat = e.target.id;
   	let resultado = materias[0].find( m => m.nu === mat );
-  	let lMaterias = []
-  	let tipo = '';
   	if (tit != "menuD") {
   		let grupo = buscarLibros(mat, "cdu");
-  		lMaterias = buscarMaterias(grupo, "materias", mat);
-  		tipo = resultado.campoB
-			htmlContent = plantillaMateria(lMaterias, tipo);
+  		datosMaterias.lMaterias = buscarMaterias(grupo, "materias", mat);
+  		datosMaterias.tipo = "materias";
+
+			htmlContent = plantillaMateria(datosMaterias.lMaterias, datosMaterias.tipo);
+			
 		  	} else {
   		if (resultado.sub) {
-  			lMaterias = resultado;
-  			tipo = resultado.sub[0].campoB
-      		htmlContent = plantillaMateria(resultado, tipo);
+  			datosMaterias.lMaterias = resultado;
+  			datosMaterias.tipo = resultado.sub[0].campoB
+      	htmlContent = plantillaMateria(datosMaterias.lMaterias, datosMaterias.tipo);
   		} else {
-  			lMaterias = buscarMaterias(novedades[0].libros, mat, "0");
-  			tipo = resultado.campoB;
-  			htmlContent = plantillaMateria(lMaterias, tipo);
-  			htmlContent = htmlContent + plantillaBotonInicio(novedades[0]);
+  			datosMaterias.lMaterias = buscarMaterias(novedades[0].libros, mat, "0");
+  			datosMaterias.tipo = resultado.campoB;
+  			htmlContent = plantillaMateria(datosMaterias.lMaterias, datosMaterias.tipo);
   		}
   	} 
-
-  	resultados.insertAdjacentHTML('beforeend', htmlContent);
-  	resultados.addEventListener("click", mostrarResultados, false);
-  	resultados.myParam = tipo;
-  	resultados.arr = lMaterias; 
+		vistaMaterias(htmlContent);
   }
 e.stopPropagation();
 }
@@ -97,15 +89,12 @@ function mostrarResultados(e) {
   if (e.target !== e.currentTarget && e.target.id !=='') {
 
   let mat = e.target.id;
-  const tip = e.currentTarget.myParam 
-  let co = e.target.attributes.name.value;
-  resultados.innerHTML = '';
-  masMaterias.innerHTML = '';
-	const libros = buscarLibros(mat, co)
+
+  console.log(datosMaterias);
+	const libros = buscarLibros(mat, datosMaterias.tipo)
 
   if(typeof libros !== 'undefined' && libros.length > 0) {
     var htmlContent = '';
-    var htmlCamino = '';
     
     htmlContent = '<p>'+libros.length+' libros sobre '+ mat +'</p><ul>' + libros.map(libro =>
 			plantillaLibro(libro)
@@ -114,8 +103,7 @@ function mostrarResultados(e) {
     var htmlContent = '';
     htmlContent = '<div class="mensaje">Ningún libro adquirido sobre esa materia en este mes ¿pocas novedades sobre esa materia?... cchs_adquisiciones.tnt<span class="correo">FrañldifaDF</span>@cchs.csic.es</div>';
       }
-      plantillaBotonVolver (e.currentTarget.arr, tip);
-      resultados.insertAdjacentHTML('beforeend', htmlContent);       
+		vistaResultados(htmlContent);     
       }
    e.stopPropagation();
 }
@@ -132,4 +120,4 @@ function mostrarTodo() {
 		resultados.insertAdjacentHTML('beforeend', htmlContent); 
 }
 
-export { mostrarMaterias, mostrarResultados, mostrarTodo, inicio, volver};
+export { mostrarMaterias, mostrarResultados, mostrarTodo, inicio, volver, datosMaterias};
