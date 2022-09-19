@@ -1,4 +1,5 @@
-import { mostrarResultados, mostrarMaterias, mostrarTodo, volver, inicio} from './utiles.js';
+import { mostrarResultados, mostrarMaterias, inicio, datosMaterias} from './utiles.js';
+import { vistaMaterias, vistaInicio, vistaResultados, bMasMaterias, bMenosMaterias} from './vistas.js';
 const url = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=34CSIC_ALMA_DS';
 const context = '&context=L&vid=34CSIC_VU1&search_scope=CAT_BIB_scope&tab=default_tab&lang=es_ES';
 const portadas = 'http://cobertes.csuc.cat/cobertes.php?institucio=CSIC&isbn='
@@ -6,45 +7,6 @@ const portadas = 'http://cobertes.csuc.cat/cobertes.php?institucio=CSIC&isbn='
 // https://images-na.ssl-images-amazon.com/images/P/
 const autorP = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/search?query=creator,exact,'
 const autorF = ',AND&tab=default_tab&search_scope=default_scope&sortby=rank&vid=34CSIC_VU1&lang=es_ES&mode=advanced&offset=0'
-import { materias, novedades} from '../app.js';
-
-export let bMasMaterias = document.querySelector("div#masMateriasMas .button[name='mas']");
-export let bMenosMaterias = document.querySelector("div#masMateriasMas .button[name='menos']");
-
-
-// Vistas
-
-function vistaInicio(htmlContent) {
-	resultados.innerHTML = '';
-	masMaterias.innerHTML = '';
-	bInicio.style.display = "none";
-	bVolver.style.display = "none";
-	bMasMaterias.style.display = "none";
-	bMenosMaterias.style.display = "none";
-	resultados.insertAdjacentHTML('beforeend', htmlContent);
-	document.getElementById("todo").addEventListener("click", mostrarTodo, false);
-}
-
-function vistaMaterias(htmlContent) {
-  	resultados.insertAdjacentHTML('beforeend', htmlContent);
-  	resultados.addEventListener("click", mostrarResultados, false);
-  	bInicio.style.display = "inline-block";
-  	bInicio.addEventListener("click", inicio, false);
-}
-
-function vistaResultados(htmlContent) {
-  resultados.innerHTML = '';
-  bMasMaterias.style.display = "none";
-  bMenosMaterias.style.display = "none";
-  bVolver.style.display = "inline-block";
-  bVolver.addEventListener("click", volver, false);
-  resultados.insertAdjacentHTML('beforeend', htmlContent);  
-
-}
-
-// -----------------------
-
-// Plantillas
 
 function plantillaLibro (libro) {
 
@@ -132,4 +94,4 @@ function plantillaInicio (n) {
 }
 
 
-export { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaInicio, vistaMaterias, vistaInicio, vistaResultados};
+export { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaInicio};
