@@ -1,26 +1,17 @@
 body {
 	display: inline;
 	background-color: #eef1f2;
-	align-items: stretch;
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	}
 header {
 		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		justify-content: space-around;
 		margin: 0px;
-		padding-left: 8%;
-		padding-right: 8%;
-		/*padding: .5rem 0;*/
+		padding: .5rem 0;
 		background: #333333;
 		color: white;	
-}
-
-h1 {
-	
-	margin-inline: 5em;
 }
 
 hr {
@@ -32,16 +23,24 @@ hr {
     margin: 1rem 1.5rem;
 }
 
+h2 {
+	margin-inline: 5em;
+}
+
 .site-container {
-	background-color: #eef1f2;
+	/*background-color: #eef1f2;*/
 	margin: 5px;
 	border: 5px;
 	padding: 5px;
 }
 
+hr {
+    color: white;
+}
+
 li a, .dropbtn {
     display: inline-block;
-    color: black;
+    color: white;
     background: #333333;
     text-align: center;
     padding: 14px 16px;
@@ -111,12 +110,11 @@ li.dropdown {
 /*** Article Styling ***/
 ul {
     list-style: none;
-    padding:80%;
+    padding: 0;
 }
 
 .article {
     /***background: url('../images/icon-article.png'), #ffffff;***/
-    
     background-position: 1.5em 1.2em;
     background-repeat: no-repeat;
     background-size: 1.8em;
@@ -179,18 +177,6 @@ ul {
     vertical-align: calc(-50% - 4px );
 }
 
-.menu a.9 > a::after {
-    content: '';
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-top: 5px solid;
-    position: absolute;
-    margin-left: 15px;
-    top: 18px;
-    vertical-align: middle;
-    vertical-align: calc(-50% - 4px );
-}
-
 /***
 los pequeñito
 ***/
@@ -201,4 +187,3 @@ los pequeñito
     text-align: center;
   }
 }
-

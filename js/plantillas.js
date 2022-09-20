@@ -1,4 +1,4 @@
-import { mostrarResultados, mostrarMaterias, inicio, datosMaterias} from './utiles.js';
+import { mostrarResultados, mostrarMaterias,} from './utiles.js';
 import { vistaMaterias, vistaInicio, vistaResultados, bMasMaterias, bMenosMaterias} from './vistas.js';
 const url = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=34CSIC_ALMA_DS';
 const context = '&context=L&vid=34CSIC_VU1&search_scope=CAT_BIB_scope&tab=default_tab&lang=es_ES';
@@ -13,37 +13,36 @@ function plantillaLibro (libro) {
 	if (libro.holding[0].mat != "Issue") {
 		return (
 		`<li class="article">
-		<img src="${portadas}${libro.isbn}" width="80" height="110">
-		<h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
-		<p>${libro.autor}</p>
-		<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
-		<ul>`+ libro.holding.map(eje =>
-			`<li><p><b>${eje.col}</b> | <b>${eje.sig}</b> | <b>${eje.des}</b></p></li>`).join('')+
-		'</ul>'+'</li>');
-	}
-	else {
+			<img src="${portadas}${libro.isbn}" width="80" height="110">
+			<h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
+			<p>${libro.autor}</p>
+			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
+				<ul>`+ libro.holding.map(eje =>
+				`<li><p><b>${eje.col}</b> | <b>${eje.sig}</b> | <b>${eje.des}</b></p></li>`).join('')+
+				'</ul>'+'</li>');
+	} else {
 	 	return (
 		`<li class="article">
-		<img src="../images/${libro.id}" width="80" height="110">
-		<h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
-		<p>${libro.autor}</p>
-		<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
-		<ul>`+ libro.holding.map(eje =>
-  		`<li><p><b>${eje.col}</b> | <b>${eje.sig}</b> | <b>${eje.des}</b></p></li>`).join('')+
-		'</ul>'+'</li>');
+			<img src="../images/${libro.id}" width="80" height="110">
+			<h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
+			<p>${libro.autor}</p>
+			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
+				<ul>`+ libro.holding.map(eje =>
+  			`<li><p><b>${eje.col}</b> | <b>${eje.sig}</b> | <b>${eje.des}</b></p></li>`).join('')+
+			'</ul>'+'</li>');
 	}
 }  
 	
-function TemplateMenuMateria (materias, mat) {
-	masMaterias.innerHTML = '';
+function plantillaMenuMateria (materias, mat) {
 	return (
 	
 	`<ul class="menu">
   	<li class="dropdown">
     	<a href="javascript:void(0)" class="dropbtn" onclick="drop()">Materias</a>
     		<div class="dropdown-content" id="myDropdown">`
-    		+ materias.map(materia =>
-    		`<a id="${materia.nu}" name="${materia.no}" data-tipo="menuD" href="#">${materia.no}</a>`).join('')+
+    		+ materias.map((materia, index) => 
+    			`<a id="${materia.nu}" name="${materia.no}" data-tipo="menuD" href="#">${materia.no}</a>`   			
+    			).join('')+
     		`</div>
   		</li>
 		</ul>`)
@@ -51,15 +50,11 @@ function TemplateMenuMateria (materias, mat) {
 
 function plantillaMateria (listadoMaterias, campo) {
 	resultados.innerHTML = '';
-	masMaterias.innerHTML = '';
-	bMenosMaterias.style.display = "none";
-	bMasMaterias.style.display = "none";
 	document.getElementById("myDropdown").classList.remove("show");
 	if (listadoMaterias.sub) {
 		console.log('hola');
-		bMasMaterias.style.display = "inline-block";
 		bMasMaterias.setAttribute("id",listadoMaterias.sub[0].nu);
-		masMateriasMas.addEventListener("click", mostrarMaterias, false);
+		masMaterias.addEventListener("click", mostrarMaterias, false);
 		
 		return (
 		 `<ul><p>Materias de ${listadoMaterias.no}:</p>`
@@ -71,9 +66,7 @@ function plantillaMateria (listadoMaterias, campo) {
 
 		 } else
 	{
-		bMenosMaterias.style.display = "inline-block";
 		bMenosMaterias.setAttribute("id",listadoMaterias[0].num);
-		//masMateriasMas.addEventListener("click", mostrarMaterias, false);
 		
 		return (
 			`<ul><p>${listadoMaterias[0].campoB}:</p>`
@@ -94,4 +87,4 @@ function plantillaInicio (n) {
 }
 
 
-export { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaInicio};
+export { plantillaLibro, plantillaMenuMateria, plantillaMateria, plantillaInicio};

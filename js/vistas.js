@@ -1,36 +1,44 @@
-import { plantillaLibro, TemplateMenuMateria, plantillaMateria, plantillaInicio} from './plantillas.js';
-import { mostrarResultados, mostrarMaterias, inicio, datosMaterias} from './utiles.js';
+import { plantillaLibro, plantillaMenuMateria, plantillaMateria, plantillaInicio} from './plantillas.js';
+import { mostrarResultados, mostrarMaterias, datosMaterias} from './utiles.js';
 import { materias, novedades} from '../app.js';
 
-var htmlContent = "";
+let htmlContent = "";
+let htmlNav = "";
 
-export let bMasMaterias = document.querySelector("div#masMateriasMas .button[name='mas']");
-export let bMenosMaterias = document.querySelector("div#masMateriasMas .button[name='menos']");
+export let bMasMaterias = document.querySelector("div#masMaterias .button[name='mas']");
+export let bMenosMaterias = document.querySelector("div#masMaterias .button[name='menos']");
 
 
-function vistaInicio(htmlContent) {
+function vistaInicio(n) {
+	if (n.target) {n = novedades[0];};
+	htmlContent = plantillaInicio(n);
 	resultados.innerHTML = '';
-	masMaterias.innerHTML = '';
 	bInicio.style.display = "none";
-	//bVolver.style.display = "none";
-	//bMasMaterias.style.display = "none";
-	//bMenosMaterias.style.display = "none";
 	resultados.insertAdjacentHTML('beforeend', htmlContent);
 	//document.getElementById("todo").addEventListener("click", mostrarTodo, false);
 }
 
 function vistaMaterias() {
-		htmlContent = plantillaMateria(datosMaterias.lMaterias, datosMaterias.tipo);
-  	resultados.insertAdjacentHTML('beforeend', htmlContent);
-  	resultados.addEventListener("click", mostrarResultados, false);
-  	document.documentElement.scrollTop = 0;
-  	if (datosMaterias.tipo !== "cdu" || datosMaterias.tipo == "materias") {
-  		bMasMaterias.style.display = "none";
-  		bMenosMaterias.style.display = "none";
-  	}
-  	bInicio.style.display = "inline-block";
-  	bInicio.addEventListener("click", inicio, false);
-  	console.log(datosMaterias);
+	
+	document.documentElement.scrollTop = 0;
+	htmlContent = plantillaMateria(datosMaterias.lMaterias, datosMaterias.tipo);
+	resultados.insertAdjacentHTML('beforeend', htmlContent);
+	resultados.addEventListener("click", mostrarResultados, false);
+	console.log(datosMaterias.tipo);
+
+	if (datosMaterias.botones == "mas") {
+		bMenosMaterias.style.display = "none"
+		bMasMaterias.style.display = "inline-block";
+	} else if (datosMaterias.botones == "menos") {
+		bMasMaterias.style.display = "none"
+		bMenosMaterias.style.display = "inline-block"
+	} else {
+	  bMasMaterias.style.display = "none"
+		bMenosMaterias.style.display = "none"
+	}
+	
+	bInicio.style.display = "inline-block";
+	bInicio.addEventListener("click", vistaInicio, false);
 }
 
 function vistaResultados(libros) {
@@ -39,7 +47,7 @@ function vistaResultados(libros) {
   bMasMaterias.style.display = "none";
   bMenosMaterias.style.display = "none";
   bVolver.style.display = "inline-block";
-  bVolver.addEventListener("click", volver, false);
+  bVolver.addEventListener("click", vistaVolver, false);
     if(typeof libros !== 'undefined' && libros.length > 0) {
     var htmlContent = '';
     
@@ -48,17 +56,30 @@ function vistaResultados(libros) {
 			).join('')+'</ul>';
   } else {
     var htmlContent = '';
-    htmlContent = '<div class="mensaje">Ningún libro adquirido sobre esa materia en este mes ¿pocas novedades sobre esa materia?... cchs_adquisiciones.tnt<span class="correo">FrañldifaDF</span>@cchs.csic.es</div>';
+    vistaMensaje();
+    //htmlContent = '<div class="mensaje">Ningún libro adquirido sobre esa materia en este mes ¿pocas novedades sobre esa materia?... cchs_adquisiciones.tnt<span class="correo">FrañldifaDF</span>@cchs.csic.es</div>';
       }
   resultados.insertAdjacentHTML('beforeend', htmlContent); 
-} 
-function volver () {
-	bVolver.style.display = "none";
-	bMasMaterias.style.display = "none";
-  bMenosMaterias.style.display = "none";
-	htmlContent = plantillaMateria(datosMaterias.lMaterias, datosMaterias.tipo);
-	resultados.insertAdjacentHTML('beforeend', htmlContent);
-  resultados.addEventListener("click", mostrarResultados, false);
 }
 
-export { vistaMaterias, vistaInicio, vistaResultados};
+function vistaMenu (m) {
+	  htmlNav = plantillaMenuMateria(materias[0]);
+		menu.insertAdjacentHTML('afterbegin', htmlNav);
+		const lineaMenu = document.createElement("hr");
+		lineaMenu.setAttribute('id','linea');
+		const menuList = document.getElementById('myDropdown');
+		menuList.insertBefore(lineaMenu, menuList.children[9]);
+		
+  	menu.addEventListener("click", mostrarMaterias, false);
+
+}
+
+function vistaMensaje () {
+	resultados.insertAdjacentHTML('beforeend', `<p class="network-warning">Uff, algo no ha ido bien.</p>`);
+}
+function vistaVolver () {
+	bVolver.style.display = "none";
+	vistaMaterias()
+}
+
+export { vistaMaterias, vistaInicio, vistaResultados, vistaMenu, vistaMensaje};
