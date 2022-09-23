@@ -1,5 +1,5 @@
 import { plantillaLibro, plantillaMenuMateria, plantillaMateria, plantillaInicio} from './plantillas.js';
-import { mostrarResultados, mostrarMaterias, datosMaterias} from './utiles.js';
+import { mostrarResultados, mostrarMaterias, datosMaterias, datosLibros} from './utiles.js';
 import { materias, novedades} from '../app.js';
 
 let htmlContent = "";
@@ -12,10 +12,21 @@ export let bMenosMaterias = document.querySelector("div#masMaterias .button[name
 function vistaInicio(n) {
 	if (n.target) {n = novedades[0];};
 	htmlContent = plantillaInicio(n);
+	console.log(datosLibros);
 	resultados.innerHTML = '';
 	bInicio.style.display = "none";
+	bVolver.style.display = "none";
+	bMasMaterias.style.display = "none";
+	bMenosMaterias.style.display = "none";
 	resultados.insertAdjacentHTML('beforeend', htmlContent);
-	//document.getElementById("todo").addEventListener("click", mostrarTodo, false);
+	let bTodoLibros = document.getElementById("Book");
+	let bTodoRevistas = document.getElementById("Issue");
+	let bTodoDigital = document.getElementById("Digital");
+	const botones = [bTodoLibros, bTodoRevistas, bTodoDigital];
+	botones.map(b => {
+		b.style.display = "inline-block";
+		b.addEventListener("click", mostrarResultados, false);
+	});
 }
 
 function vistaMaterias() {
@@ -24,7 +35,6 @@ function vistaMaterias() {
 	htmlContent = plantillaMateria(datosMaterias.lMaterias, datosMaterias.tipo);
 	resultados.insertAdjacentHTML('beforeend', htmlContent);
 	resultados.addEventListener("click", mostrarResultados, false);
-	console.log(datosMaterias.tipo);
 
 	if (datosMaterias.botones == "mas") {
 		bMenosMaterias.style.display = "none"
@@ -41,25 +51,31 @@ function vistaMaterias() {
 	bInicio.addEventListener("click", vistaInicio, false);
 }
 
-function vistaResultados(libros) {
+function vistaResultados(t) {
   resultados.innerHTML = '';
   document.documentElement.scrollTop = 0;
   bMasMaterias.style.display = "none";
   bMenosMaterias.style.display = "none";
-  bVolver.style.display = "inline-block";
-  bVolver.addEventListener("click", vistaVolver, false);
-    if(typeof libros !== 'undefined' && libros.length > 0) {
+  if (t == "listado") {
+  	bInicio.style.display = "inline-block";
+		bInicio.addEventListener("click", vistaInicio, false);
+  } else {
+  	bVolver.style.display = "inline-block";
+  	bVolver.addEventListener("click", vistaVolver, false);
+  }
+  let documentos = datosLibros.lLibros;
+  if(typeof documentos !== 'undefined' && documentos.length > 0) {
     var htmlContent = '';
     
-    htmlContent = '<p>'+libros.length+' libros sobre '+  +'</p><ul>' + libros.map(libro =>
-			plantillaLibro(libro)
+    htmlContent = '<p>'+documentos.length+' libros sobre '+  +'</p><ul>' + documentos.map(documento =>
+			plantillaLibro(documento)
 			).join('')+'</ul>';
   } else {
     var htmlContent = '';
     vistaMensaje();
     //htmlContent = '<div class="mensaje">Ningún libro adquirido sobre esa materia en este mes ¿pocas novedades sobre esa materia?... cchs_adquisiciones.tnt<span class="correo">FrañldifaDF</span>@cchs.csic.es</div>';
       }
-  resultados.insertAdjacentHTML('beforeend', htmlContent); 
+  resultados.insertAdjacentHTML('beforeend', htmlContent);
 }
 
 function vistaMenu (m) {

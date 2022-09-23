@@ -32,7 +32,7 @@ function plantillaLibro (libro) {
 			'</ul>'+'</li>');
 	}
 }  
-	
+
 function plantillaMenuMateria (materias, mat) {
 	return (
 	
@@ -52,7 +52,6 @@ function plantillaMateria (listadoMaterias, campo) {
 	resultados.innerHTML = '';
 	document.getElementById("myDropdown").classList.remove("show");
 	if (listadoMaterias.sub) {
-		console.log('hola');
 		bMasMaterias.setAttribute("id",listadoMaterias.sub[0].nu);
 		masMaterias.addEventListener("click", mostrarMaterias, false);
 		
@@ -64,26 +63,26 @@ function plantillaMateria (listadoMaterias, campo) {
 		      `).join('')+
 		 `</ul>`);
 
-		 } else
-	{
-		bMenosMaterias.setAttribute("id",listadoMaterias[0].num);
+		 } else {
+		 	bMenosMaterias.setAttribute("id",listadoMaterias[0].num);
 		
-		return (
-			`<ul><p>${listadoMaterias[0].campoB}:</p>`
-		 + listadoMaterias.map (materia =>
-		`<li class="article" id="${materia.no}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
+			return (
+				`<ul><p>${listadoMaterias[0].campoB}:</p>`
+		 			+ listadoMaterias.map (materia =>
+					`<li class="article" id="${materia.no}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
 		      `).join('')+
-		 `</ul>`);
-
-	}
+		 		`</ul>`);
+		 }
 }
 
 function plantillaInicio (n) {
 	return (
-	`<div class="mensaje">${n.numero} nuevos documentos en el mes de ${n.mes}. Selecciona una materia del menú superior</div>
-   	<button id="todo" class="button" name="boton" type="button">Ver${n.numero} todo</button>
-    <button id="revistas" class="button" name="boton" type="button">Ver revistas</button>
-    <button id="electronico" class="button" name="boton" type="button">Ver electrónico</button>`);
+	`<div class="mensaje">${n.numero} nuevos documentos en el mes de ${n.mes}:</div>
+		
+   	<button id="Book" class="button" name="boton" type="button">Ver ${n.numero} libros</button>
+    <button id="Issue" class="button" name="boton" type="button">Ver revistas</button>
+    <button id="Digital" class="button" name="boton" type="button">Ver electrónico</button>
+    <p>o selecciona una materia del menú superior</p>`);
 }
 
 

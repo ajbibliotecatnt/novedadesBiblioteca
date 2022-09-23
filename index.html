@@ -4,19 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Novedades de la biblioteca</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
     <link href="./css/styles3.css" rel="stylesheet">
 </head>
 <body>
     <header>
-    	<span class="navbar-logo">	
-      	<a href="http://biblioteca.cchs.csic.es/index.php">
-        	<img src="./images/firma-blanca-s-1-1505x238B.png" alt="Biblioteca Tomás Navarro Tomás" title="" media-simple="true" style="height: 3rem;">
-        </a>
-      </span>
       <div id="titulo">
 	   		<h1>NOVEDADES</h1>
 	   	</div>
+	   	<span class="navbar-logo">	
+      	<a href="http://biblioteca.cchs.csic.es/index.php">
+        	<img src="./images/firma-blanca-s-1-1505x238B.png" alt="Biblioteca Tomás Navarro Tomás">
+        </a>
+      </span>
     	<div id="menu"></div>
     </header>
     <div class="site-container">
@@ -50,6 +50,18 @@
 				}
 			}
 		}
+		window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("navegacion");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
     </script>
 
 </body>

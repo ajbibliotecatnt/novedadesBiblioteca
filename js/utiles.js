@@ -7,15 +7,12 @@ let datosLibros = {};
 function mostrarMaterias (e) {
 
   if (e.target !== e.currentTarget && e.target.id !=='' && e.target.id !=='myTopnav') {
-  	console.log(e);
-  	console.log(datosMaterias);
   	let tit = e.target.getAttribute('data-tipo');
   	let mat = e.target.id;
   	let resultado = materias[0].find( m => m.nu === mat );
-  	console.log(mat, resultado);
   	if (tit != "menuD") {
   		let grupo = buscarLibros(mat, "cdu");
-  		datosMaterias.lMaterias = buscarMaterias(grupo, "materias", mat);
+  		datosMaterias.lMaterias = buscarMaterias(datosLibros.lLibros, "materias", mat);
   		datosMaterias.tipo = "materias";
   		datosMaterias.botones ="menos";		
 		  	} else {
@@ -34,20 +31,6 @@ function mostrarMaterias (e) {
 	e.stopPropagation();
 }
 
-function mostrarResultados(e) {
-
-  if (e.target !== e.currentTarget && e.target.id !=='') {
-
-  let mat = e.target.id;
-  console.log(mat);
-  console.log(datosMaterias);
-  console.log(datosLibros);
-	buscarLibros(mat, datosMaterias.tipo)
-	vistaResultados(datosLibros.lLibros);     
-  }
-   e.stopPropagation();
-}
-
 function buscarMaterias (arr, mat, num) {
 	let nMateria = [];
 	let obj
@@ -58,33 +41,56 @@ function buscarMaterias (arr, mat, num) {
         }
     })
   })
+	/* Ordena alfabéticamente el listado de materias */
   nMateria  = nMateria.sort((a, b) => a.no.localeCompare(b.no));
   return nMateria;
 }
 
+function mostrarResultados(e) {
+	if (e.target.id == "Book" || e.target.id == "Issue" || e.target.id == "Digital") {
+	let documentos = [];
+	novedades[0].libros.map(n => {
+		if (n.holding[0].mat == e.target.id) {
+			documentos.push(n)
+		}
+	});
+	datosLibros.lLibros = documentos;
+	vistaResultados("listado");
+	}
+  if (e.target !== e.currentTarget && e.target.id !=='') {
+  let mat = e.target.id;
+  datosLibros.lLibros = buscarLibros(mat, datosMaterias.tipo);
+	vistaResultados("busqueda");     
+  }
+   e.stopPropagation();
+}
+
 function buscarLibros (cri, fil) {
 
-	console.log(cri, fil);
-
-	var busqueda = []
+	let busqueda = []
+	/* "Escapa" los paréntesis de las palabras de las búsquedas con letras para que funcionen correctamente*/
 	if (/\W/.test(cri)) {
 		cri = cri.replace(/(?=[() ])/g, '\\');
 	}
 	if (/^\d/.test(cri)) {
 		cri = `^${cri}|:${cri}`;
 	}
-
 	let reg = new RegExp(cri);
 	for (let n in novedades[0].libros) {
 		for (let c in novedades[0].libros[n][fil]){
 			if (reg.test(novedades[0].libros[n][fil][c])) {
 				busqueda.push(novedades[0].libros[n])
-				break
 			}
 		}
 	}
+	/* Elimina los registros que se han recuperado más de una vez en la búsqueda */
+	busqueda = busqueda.filter((value, index, self) =>
+  index === self.findIndex((t) => (
+    t.id === value.id
+  ))
+)
 	datosLibros.lLibros = busqueda;
-return busqueda
+	return busqueda
 }
 
-export { mostrarMaterias, mostrarResultados, datosMaterias};
+export { mostrarMaterias, mostrarResultados, datosMaterias, datosLibros};

@@ -1,17 +1,60 @@
-body {
-	display: inline;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+/** {
+	box-sizing: border-box;
+	margin; 0;
+	padding: 0;
 	background-color: #eef1f2;
-	margin: 0px;
+}
+*/
+
+body {
+	/*display: inline;*/
+	/*text-align:center;*/
+	background-color: #eef1f2;
+	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	}
+	
+	
 header {
 		display: flex;
 		justify-content: space-around;
-		margin: 0px;
+		text-align: center;
+		margin: auto;
 		padding: .5rem 0;
 		background: #333333;
 		color: white;	
+}
+#titulo {
+	
+	text-align:center;
+}
+
+#navegacion {
+	background-color: #898989;
+	display: flex;
+	align-items: left;
+	padding: 30px 10%;
+	/*justify-content: space-around;*/
+	margin; 0;
+	padding: 0;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + #resultados {
+  padding-top: 102px;
+}
+
+.navbar-logo img {
+	height: 3rem;
 }
 
 hr {
@@ -29,16 +72,23 @@ h2 {
 
 .site-container {
 	/*background-color: #eef1f2;*/
-	margin: 5px;
+	/*margin: 5px;
 	border: 5px;
-	padding: 5px;
+	padding: 5px;*/
 }
 
-hr {
-    color: white;
+#resultados {
+	margin: 3%;
+	padding: 0.2%;
 }
 
-li a, .dropbtn {
+#masMaterias {
+	align-items: center;
+	text-align: center;
+	padding: 0 0 30px 0;
+}
+
+a.dropbtn {
     display: inline-block;
     color: white;
     background: #333333;
@@ -118,12 +168,14 @@ ul {
     background-position: 1.5em 1.2em;
     background-repeat: no-repeat;
     background-size: 1.8em;
-    border: solid 1px #dbe2e8;
+    background-color: #ffffff;
+    /*border: solid 1px #dbe2e8;*/
     /*box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);*/
     /*box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);*/
     margin-bottom: 0.5em;
     padding: 1em 2em 1em 4.8em;
     border-radius: .375rem;
+    list-style-type: none;
 		/*border-top: var(--accent-width,5px) solid var(--accent-color,#60D69A);*/
 }
 
