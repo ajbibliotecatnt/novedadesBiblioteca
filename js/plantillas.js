@@ -1,20 +1,19 @@
-import { mostrarResultados, mostrarMaterias,} from './utiles.js';
+import { mostrarResultados, mostrarMaterias, datosMaterias} from './utiles.js';
 import { vistaMaterias, vistaInicio, vistaResultados, bMasMaterias, bMenosMaterias} from './vistas.js';
 const url = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=34CSIC_ALMA_DS';
 const context = '&context=L&vid=34CSIC_VU1&search_scope=CAT_BIB_scope&tab=default_tab&lang=es_ES';
 const portadas = 'http://cobertes.csuc.cat/cobertes.php?institucio=CSIC&isbn='
-// https://covers.openlibrary.org/b/lccn/
-// https://images-na.ssl-images-amazon.com/images/P/
+const portadas2 = 'https://covers.openlibrary.org/b/lccn/'
+const portadas3 = 'https://images-na.ssl-images-amazon.com/images/P/'
 const autorP = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/search?query=creator,exact,'
 const autorF = ',AND&tab=default_tab&search_scope=default_scope&sortby=rank&vid=34CSIC_VU1&lang=es_ES&mode=advanced&offset=0'
 
 function plantillaLibro (libro) {
-
 	if (libro.holding[0].mat != "Issue") {
 		return (
 		`<li class="article">
-			<img src="${portadas}${libro.isbn}" width="80" height="110">
-			<h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
+			<div class="portada"><img src="${portadas}${libro.isbn}" width="80" height="110"></div>
+			<div class="registro"><h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
 			<p>${libro.autor}</p>
 			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
 				<ul>`+ libro.holding.map(eje =>
@@ -23,8 +22,8 @@ function plantillaLibro (libro) {
 	} else {
 	 	return (
 		`<li class="article">
-			<img src="../images/${libro.id}" width="80" height="110">
-			<h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
+			<div class="portada"><img src="../images/${libro.id}" width="80" height="110"></div>
+			<div class="registro"><h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
 			<p>${libro.autor}</p>
 			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
 				<ul>`+ libro.holding.map(eje =>
@@ -56,7 +55,7 @@ function plantillaMateria (listadoMaterias, campo) {
 		masMaterias.addEventListener("click", mostrarMaterias, false);
 		
 		return (
-		 `<ul><p>Materias de ${listadoMaterias.no}:</p>`
+		 `<ul><p>${datosMaterias.titulo}:</p>`
 		 
 		 + listadoMaterias.sub.map (materia =>
 		`<li class="article" id="${materia.nu}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
@@ -67,7 +66,7 @@ function plantillaMateria (listadoMaterias, campo) {
 		 	bMenosMaterias.setAttribute("id",listadoMaterias[0].num);
 		
 			return (
-				`<ul><p>${listadoMaterias[0].campoB}:</p>`
+				`<ul><p>${datosMaterias.titulo}:</p>`
 		 			+ listadoMaterias.map (materia =>
 					`<li class="article" id="${materia.no}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
 		      `).join('')+
@@ -84,6 +83,5 @@ function plantillaInicio (n) {
     <button id="Digital" class="button" name="boton" type="button">Ver electrónico</button>
     <p>o selecciona una materia del menú superior</p>`);
 }
-
 
 export { plantillaLibro, plantillaMenuMateria, plantillaMateria, plantillaInicio};

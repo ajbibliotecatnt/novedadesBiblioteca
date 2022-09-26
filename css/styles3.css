@@ -35,10 +35,10 @@ header {
 #navegacion {
 	background-color: #898989;
 	display: flex;
-	align-items: left;
+	/*align-items: left;*/
 	padding: 30px 10%;
 	/*justify-content: space-around;*/
-	margin; 0;
+	margin: 0;
 	padding: 0;
 
 }
@@ -55,6 +55,7 @@ header {
 
 .navbar-logo img {
 	height: 3rem;
+	align-content: center;
 }
 
 hr {
@@ -126,7 +127,9 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #333333;}
+.dropdown-content a:hover {
+	color: #b3b3b3;
+}
 
 .show {display:block;}
 /*** Botones ***/
@@ -134,15 +137,16 @@ li.dropdown {
 .button {
 	display: none;
   background-color: #4CAF50; /* Green */
+  font-weight: bold;
   border-radius: 5px;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 1em 2em;
   text-align: center;
   text-decoration: none;
   /*display: inline-block;*/
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1em;
+  margin: 0.5em 0.5em;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -164,10 +168,14 @@ ul {
 }
 
 .article {
+		display: flex;
+		Justify-content: space-between;
+		align-content: space-between;
+		cursor: pointer;
     /***background: url('../images/icon-article.png'), #ffffff;***/
-    background-position: 1.5em 1.2em;
+    /*background-position: 1.5em 1.2em;
     background-repeat: no-repeat;
-    background-size: 1.8em;
+    background-size: 1.8em;*/
     background-color: #ffffff;
     /*border: solid 1px #dbe2e8;*/
     /*box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);*/
@@ -179,17 +187,21 @@ ul {
 		/*border-top: var(--accent-width,5px) solid var(--accent-color,#60D69A);*/
 }
 
-.article img {
+.article li {
+	padding: 0.1 px;
+}
+
+/*.article img {
     float: right;
     margin: 0 50px 10px 50px;
-}
+}*/
 
 .article:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .article h2 {
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 600;
     margin: 0;
 }
@@ -205,8 +217,20 @@ ul {
 
 .article p {
     font-size: 0.9em;
-    line-height: 1.4;
+    line-height: 1em;
 }
+
+.portada {
+	order: 2;
+	display: block;
+	width: 6em;
+  height: 7.5em;
+  margin: 0.2em;
+	padding: 0.1em;
+	background-color: red;
+
+}
+
 .menu {
 		display: block;
     list-style-type: none;
@@ -234,8 +258,18 @@ los pequeñito
 ***/
 
 @media screen and (max-width:600px) {
+	.article {
+		font-size: 0.9em;
+	}
   header, nav ul {
     flex-direction: column;
     text-align: center;
+    font-size: 0.9em;
+    padding: 0;
+  }
+  
+  
+  .article {
+  	padding: 1em 2em 1em 2em;
   }
 }
