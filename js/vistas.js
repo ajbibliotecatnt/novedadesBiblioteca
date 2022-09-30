@@ -74,9 +74,8 @@ function vistaResultados(t) {
 			).join('')+'</ul>';
   } else {
     var htmlContent = '';
-    vistaMensaje();
-    //htmlContent = '<div class="mensaje">Ningún libro adquirido sobre esa materia en este mes ¿pocas novedades sobre esa materia?... cchs_adquisiciones.tnt<span class="correo">FrañldifaDF</span>@cchs.csic.es</div>';
-      }
+    vistaMensaje('Ningún libro adquirido sobre esa materia en este mes. ¿Pocas novedades sobre esa materia?... cchs_adquisiciones.tnt<code>@</code>cchs.csic.es');  
+  }
   resultados.insertAdjacentHTML('beforeend', htmlContent);
 }
 
@@ -92,8 +91,8 @@ function vistaMenu (m) {
 
 }
 
-function vistaMensaje () {
-	resultados.insertAdjacentHTML('beforeend', `<p class="network-warning">Uff, algo no ha ido bien.</p>`);
+function vistaMensaje (m) {
+	resultados.insertAdjacentHTML('beforeend', `<p class="mensaje">${m}</p>`);
 }
 function vistaVolver () {
 	bVolver.style.display = "none";

@@ -4,7 +4,7 @@ export const materias = [];
 
 (function () {
 
-fetch("./datos/datos.json" , {cache: "no-store"})
+fetch("./datos/datosPrueba.json" , {cache: "no-store"})
 	.then(response => response.json())
 	.then(json => { vistaInicio(json);
         				novedades.push(json)})
@@ -23,7 +23,7 @@ function addMenu() {
 
 function requestError(e, part) {
     console.log(e);
-    vistaMensaje();
+    vistaMensaje('¡Uf!, algo no ha ido bien');
 }
 
 })();

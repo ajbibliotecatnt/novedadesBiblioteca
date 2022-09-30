@@ -1,18 +1,19 @@
 import { mostrarResultados, mostrarMaterias, datosMaterias} from './utiles.js';
-import { vistaMaterias, vistaInicio, vistaResultados, bMasMaterias, bMenosMaterias} from './vistas.js';
+import { vistaMaterias, vistaInicio, vistaResultados, bMasMaterias, bMenosMaterias, vistaMensaje} from './vistas.js';
 const url = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=34CSIC_ALMA_DS';
 const context = '&context=L&vid=34CSIC_VU1&search_scope=CAT_BIB_scope&tab=default_tab&lang=es_ES';
 const portadas = 'http://cobertes.csuc.cat/cobertes.php?institucio=CSIC&isbn='
-const portadas2 = 'https://covers.openlibrary.org/b/lccn/'
+const portadas2 = 'https://covers.openlibrary.org/b/isbn/'
 const portadas3 = 'https://images-na.ssl-images-amazon.com/images/P/'
 const autorP = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/search?query=creator,exact,'
 const autorF = ',AND&tab=default_tab&search_scope=default_scope&sortby=rank&vid=34CSIC_VU1&lang=es_ES&mode=advanced&offset=0'
 
 function plantillaLibro (libro) {
+	
 	if (libro.holding[0].mat != "Issue") {
 		return (
 		`<li class="article">
-			<div class="portada"><img src="${portadas}${libro.isbn}" width="80" height="110"></div>
+			<div class="portada"><img src="${portadas}${libro.isbn}"></div>
 			<div class="registro"><h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
 			<p>${libro.autor}</p>
 			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
@@ -22,7 +23,7 @@ function plantillaLibro (libro) {
 	} else {
 	 	return (
 		`<li class="article">
-			<div class="portada"><img src="../images/${libro.id}" width="80" height="110"></div>
+			<div class="portada"><img src="../images/${libro.id}"></div>
 			<div class="registro"><h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
 			<p>${libro.autor}</p>
 			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
@@ -50,38 +51,42 @@ function plantillaMenuMateria (materias, mat) {
 function plantillaMateria (listadoMaterias, campo) {
 	resultados.innerHTML = '';
 	document.getElementById("myDropdown").classList.remove("show");
-	if (listadoMaterias.sub) {
-		bMasMaterias.setAttribute("id",listadoMaterias.sub[0].nu);
-		masMaterias.addEventListener("click", mostrarMaterias, false);
-		
-		return (
-		 `<ul><p>${datosMaterias.titulo}:</p>`
-		 
-		 + listadoMaterias.sub.map (materia =>
-		`<li class="article" id="${materia.nu}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
-		      `).join('')+
-		 `</ul>`);
-
-		 } else {
-		 	bMenosMaterias.setAttribute("id",listadoMaterias[0].num);
-		
+	if (typeof listadoMaterias == "object" && listadoMaterias.length !== 0) {
+		if (listadoMaterias.sub) {
+			bMasMaterias.setAttribute("id",listadoMaterias.sub[0].nu);
+			masMaterias.addEventListener("click", mostrarMaterias, false);
 			return (
-				`<ul><p>${datosMaterias.titulo}:</p>`
-		 			+ listadoMaterias.map (materia =>
-					`<li class="article" id="${materia.no}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
+			 `<ul><p>${datosMaterias.titulo}:</p>`
+		 			+ listadoMaterias.sub.map (materia =>
+				`<li class="article" id="${materia.nu}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
 		      `).join('')+
-		 		`</ul>`);
-		 }
+			 `</ul>`);
+			 } else {
+			 	bMenosMaterias.setAttribute("id", listadoMaterias[0].num);
+				return (
+					`<ul><p>${datosMaterias.titulo}:</p>`
+		 				+ listadoMaterias.map (materia =>
+						`<li class="article" id="${materia.no}" name="${materia.campoB}" data-tipo="menu" href="#">${materia.no}</li>
+		     	 `).join('')+
+		 			`</ul>`);
+			 }
+		} else {     
+
+    	return(`<p class="mensaje">No hay nada por ese criterio</p>`);
+    }
 }
 
 function plantillaInicio (n) {
 	return (
-	`<div class="mensaje">${n.numero} nuevos documentos en el mes de ${n.mes}:</div>
-		
-   	<button id="Book" class="button" name="boton" type="button">Ver ${n.numero} libros</button>
-    <button id="Issue" class="button" name="boton" type="button">Ver revistas</button>
-    <button id="Digital" class="button" name="boton" type="button">Ver electrónico</button>
-    <p>o selecciona una materia del menú superior</p>`);
+	`<div class="mensaje">
+			<p>${n.numero} nuevos documentos en el mes de ${n.mes}:</p>
+			<div class="botoneria">
+   			<button id="Book" class="button" name="boton" type="button">Ver ${n.numero} libros</button>
+    		<button id="Issue" class="button" name="boton" type="button">Ver revistas</button>
+    		<button id="Digital" class="button" name="boton" type="button">Ver electrónico</button>
+    	</div>
+    	<p>o selecciona una materia del menú superior</p>
+    </div>`);
 }
 
 export { plantillaLibro, plantillaMenuMateria, plantillaMateria, plantillaInicio};
