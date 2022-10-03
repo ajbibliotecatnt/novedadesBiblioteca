@@ -9,8 +9,16 @@ const autorP = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/search
 const autorF = ',AND&tab=default_tab&search_scope=default_scope&sortby=rank&vid=34CSIC_VU1&lang=es_ES&mode=advanced&offset=0'
 
 function plantillaLibro (libro) {
+
+	if(libro.autor !== '') {
+  	let autorU = encodeURI(libro.autor);
+    libro.autor = `<b>Autor: </b>${libro.autor} <a href=${autorP}${autorU}${autorF} target="_blank">(+)</a>`
+  }
 	
 	if (libro.holding[0].mat != "Issue") {
+		if (libro.isbn == '') {
+    	libro.isbn = "9781111111111"
+    }
 		return (
 		`<li class="article">
 			<div class="portada"><img src="${portadas}${libro.isbn}"></div>
@@ -23,7 +31,7 @@ function plantillaLibro (libro) {
 	} else {
 	 	return (
 		`<li class="article">
-			<div class="portada"><img src="../images/${libro.id}"></div>
+			<div class="portada"><img src="../images/000/${libro.id}"></div>
 			<div class="registro"><h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
 			<p>${libro.autor}</p>
 			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
@@ -79,11 +87,11 @@ function plantillaMateria (listadoMaterias, campo) {
 function plantillaInicio (n) {
 	return (
 	`<div class="mensaje">
-			<p>${n.numero} nuevos documentos en el mes de ${n.mes}:</p>
+			<p>${n.numeroL + n.numeroD + n.numeroR} nuevos títulos en el mes de ${n.mes}:</p>
 			<div class="botoneria">
-   			<button id="Book" class="button" name="boton" type="button">Ver ${n.numero} libros</button>
-    		<button id="Issue" class="button" name="boton" type="button">Ver revistas</button>
-    		<button id="Digital" class="button" name="boton" type="button">Ver electrónico</button>
+   			<button id="Book" class="button" name="boton" type="button">Ver ${n.numeroL} libros impresos</button>
+    		<button id="Issue" class="button" name="boton" type="button">Ver ${n.numeroR} revistas</button>
+    		<button id="Digital" class="button" name="boton" type="button">Ver ${n.numeroD} libros digitales</button>
     	</div>
     	<p>o selecciona una materia del menú superior</p>
     </div>`);

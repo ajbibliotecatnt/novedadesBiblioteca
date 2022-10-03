@@ -11,7 +11,6 @@ function mostrarMaterias (e) {
   	let mat = e.target.id;
   	let resultado = materias[0].find( m => m.nu === mat );
   	datosMaterias.titulo = resultado.no;
-  	console.log(datosMaterias.titulo);
   	if (tit != "menuD") {
   		let grupo = buscarLibros(mat, "cdu");
   		datosMaterias.lMaterias = buscarMaterias(datosLibros.lLibros, "materias", mat);
@@ -51,25 +50,39 @@ function buscarMaterias (arr, mat, num) {
 function mostrarResultados(e) {
 
 	if (e.target.id == "Book" || e.target.id == "Issue" || e.target.id == "Digital") {
-	let documentos = [];
-	novedades[0].libros.map(n => {
-		if (n.holding[0].mat == e.target.id) {
-			documentos.push(n)
+		
+		let documentos = [];
+
+		if (e.target.id == "Issue") {
+			datosLibros.titulo = "Números de revista";
+			novedades[0].libros.map(n => {
+			if (n.holding[0].mat == e.target.id) {
+				documentos.push(n)
+			}
+		});
+		} else if (e.target.id == "Digital") {
+			datosLibros.titulo = "Recursos digitales";
+			novedades[0].libros.map(n => {
+			if (n.holding[0].mat == e.target.id) {
+				documentos.push(n)
+			}
+		});
+		} else {
+			datosLibros.titulo = "Libros impresos";
+			novedades[0].libros.map(n => {
+			if (n.holding[0].mat !== "Issue" && n.holding[0].mat !== "Digital") {
+				documentos.push(n)
+			}
+		});
 		}
-	});
-	if (e.target.id == "Book") {
-		datosLibros.titulo = "Libros impresos";
-	} else if (e.target.id == "Issue") {
-		datosLibros.titulo = "Números de revista";
-	} else { datosLibros.titulo = "Recursos electrónicos";}
-	datosLibros.lLibros = documentos;
-	vistaResultados("listado");
+		datosLibros.lLibros = documentos;
+		vistaResultados("listado");
 	}
   if (e.target !== e.currentTarget && e.target.id !=='') {
-  let mat = e.target.id;
-  datosLibros.lLibros = buscarLibros(mat, datosMaterias.tipo);
-  datosLibros.titulo = e.target.textContent;
-	vistaResultados("busqueda");     
+  	let mat = e.target.id;
+  	datosLibros.lLibros = buscarLibros(mat, datosMaterias.tipo);
+  	datosLibros.titulo = e.target.textContent;
+		vistaResultados("busqueda");     
   }
    e.stopPropagation();
 }
@@ -98,6 +111,8 @@ function buscarLibros (cri, fil) {
     t.id === value.id
   ))
 )
+	/* Ordena alfabéticamente el listado de búsqueda */
+	busqueda = busqueda.sort((a, b) => a.titulo.localeCompare(b.titulo));
 	datosLibros.lLibros = busqueda;
 	return busqueda
 }

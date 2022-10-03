@@ -12,7 +12,6 @@ export let bMenosMaterias = document.querySelector("div#masMaterias .button[name
 function vistaInicio(n) {
 	if (n.target) {n = novedades[0];};
 	htmlContent = plantillaInicio(n);
-	console.log(datosLibros);
 	resultados.innerHTML = '';
 	bInicio.style.display = "none";
 	bVolver.style.display = "none";
