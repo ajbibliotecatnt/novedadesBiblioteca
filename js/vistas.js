@@ -64,11 +64,11 @@ function vistaResultados(t) {
   }
   let documentos = datosLibros.lLibros;
   let suf = 's';
-  let encabezamiento = `${documentos.length} documento${documentos.length !== 1 ? suf : ''} (${datosLibros.titulo}):`;
+  let encabezamiento = `${documentos.length} título${documentos.length !== 1 ? suf : ''} (${datosLibros.titulo}):`;
   if(typeof documentos !== 'undefined' && documentos.length > 0) {
     var htmlContent = '';
     
-    htmlContent = '<p>'+ encabezamiento +'</p><ul>' + documentos.map(documento =>
+    htmlContent = '<p class="cabecera">'+ encabezamiento +'</p><ul>' + documentos.map(documento =>
 			plantillaLibro(documento)
 			).join('')+'</ul>';
   } else {

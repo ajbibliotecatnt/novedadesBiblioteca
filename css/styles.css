@@ -1,43 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
-/** {
-	box-sizing: border-box;
-	margin; 0;
-	padding: 0;
-	background-color: #eef1f2;
-}
-*/
-
 body {
-	/*display: inline;*/
-	/*text-align:center;*/
 	background-color: #eef1f2;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
-	}
-	
+}
 	
 header {
 		display: flex;
 		justify-content: space-around;
 		align-items: baseline;
 		margin: auto;
-		/*padding: .5rem 0;*/
 		background: #333333;
 		color: white;	
 }
+
 #titulo {
-	
 	text-align:center;
 }
 
 #navegacion {
 	background-color: #898989;
 	display: flex;
-	/*align-items: left;*/
 	padding: 30px 10%;
-	/*justify-content: space-around;*/
 	margin: 0;
 	padding: 0;
 
@@ -65,19 +51,11 @@ header {
 }
 
 hr {
-
 	  border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin: 1rem 1.5rem;
-}
-
-.site-container {
-	/*background-color: #eef1f2;*/
-	/*margin: 5px;
-	border: 5px;
-	padding: 5px;*/
 }
 
 #resultados {
@@ -107,11 +85,6 @@ a.dropbtn {
 
 a, .dropbtn::after {
 		content: '  \25BC';
-		/*font-size: 11px;*/
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-    /*background-color: red;*/
 }
 
 li.dropdown {
@@ -139,6 +112,7 @@ li.dropdown {
 }
 
 .show {display:block;}
+
 /*** Botones ***/
 
 .button {
@@ -151,24 +125,13 @@ li.dropdown {
   padding: 1em 2em;
   text-align: center;
   text-decoration: none;
-  /*display: inline-block;*/
   font-size: 1em;
   margin: 0.5em 0.5em;
   transition-duration: 0.4s;
   cursor: pointer;
 }
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-}
 
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-/*** Article Styling ***/
+/*** Articulos ***/
 ul {
     list-style: none;
     padding: 0;
@@ -179,29 +142,12 @@ ul {
 		Justify-content: space-between;
 		align-content: space-between;
 		cursor: pointer;
-    /***background: url('../images/icon-article.png'), #ffffff;***/
-    /*background-position: 1.5em 1.2em;
-    background-repeat: no-repeat;
-    background-size: 1.8em;*/
     background-color: #ffffff;
-    /*border: solid 1px #dbe2e8;*/
-    /*box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);*/
-    /*box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);*/
     margin-bottom: 0.5em;
     padding: 1em 2em 1em 4.8em;
     border-radius: .375rem;
     list-style-type: none;
-		/*border-top: var(--accent-width,5px) solid var(--accent-color,#60D69A);*/
 }
-
-.article li {
-	/*padding: 0.1em;*/
-}
-
-/*.article img {
-    float: right;
-    margin: 0 50px 10px 50px;
-}*/
 
 .article:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
@@ -227,6 +173,10 @@ ul {
     line-height: 1.5em;
 }
 
+.cabecera {
+	font-weight: bold;
+}
+
 .portada {
 	order: 2;
 	display: block;
@@ -234,8 +184,6 @@ ul {
 	width: 6em;
 	height: 8.5em;
 	padding: 0.1em;
-	/*border-style: none;*/
-	/*background-color: #3498db;*/
 	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
 
 }
@@ -262,7 +210,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
 }
 
 .menu a#dropbtn > a::after {
@@ -277,9 +224,7 @@ ul {
     vertical-align: calc(-50% - 4px );
 }
 
-/***
-los pequeñito
-***/
+/*** Lo pequeñito ***/
 
 @media screen and (max-width:600px) {
 	.article {
@@ -305,11 +250,17 @@ los pequeñito
 	}
   .mensaje {
 	font-size: 1em;
-}
-#menu {
+	}
+	#menu {
 	order: 1;
 	flex-basis: 60%;
-}
+	}
+	.portada {
+		order: 1;
+		margin-right: 1.5em;
+		width: 4.5em;
+		height: 6em;
+	}
 	h1 {
 	padding: 0;
 	margin: 0;

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Novedades de la biblioteca</title>
     <link href="./css/styles.css" rel="stylesheet">
-</head>
-<body>
+	</head>
+	<body>
     <header>
 	   	<div class="logo">	
       	<a href="http://biblioteca.cchs.csic.es/index.php">
@@ -33,11 +33,11 @@
     <script type="module" src="./js/plantillas.js"></script>
     <script>
 
-		function drop () {
+function drop () {
 				document.getElementById("myDropdown").classList.toggle("show");
 		}
 
-		window.onclick = function(e) {
+window.onclick = function(e) {
 			if (!e.target.matches('.dropbtn')) {
 
 				var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -49,12 +49,13 @@
 				}
 			}
 		}
-		window.onscroll = function() {myFunction()};
+
+window.onscroll = function() {stickyF()};
 
 var header = document.getElementById("navegacion");
 var sticky = header.offsetTop;
 
-function myFunction() {
+function stickyF () {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
   } else {

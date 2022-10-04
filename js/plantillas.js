@@ -31,7 +31,7 @@ function plantillaLibro (libro) {
 	} else {
 	 	return (
 		`<li class="article">
-			<div class="portada"><img src="../images/000/${libro.id}"></div>
+			<div class="portada"><img src="/images/000/${libro.id}"></div>
 			<div class="registro"><h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
 			<p>${libro.autor}</p>
 			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
