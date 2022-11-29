@@ -7,13 +7,15 @@
     <link href="./css/styles.css" rel="stylesheet">
 	</head>
 	<body>
+	<div class="contenedor">
     <header>
 	   	<div class="logo">	
-      	<a href="http://biblioteca.cchs.csic.es/index.php">
+      	<a href="http://biblioteca.cchs.csic.es/index.php" target="_blank">
         	<img src="./images/logoTNT.svg" alt="Biblioteca Tomás Navarro Tomás">
+        	<img src="./images/nb2.svg" alt="Biblioteca Tomás Navarro Tomás">
         </a>
         <div id="titulo">
-	   			<h1>NOVEDADES</h1>
+	   			<h1>NOVEDADES BIBLIOGRÁFICAS</h1>
 	   		</div>
       </div>
     	<div id="menu"></div>
@@ -22,47 +24,32 @@
     	<div id="navegacion">
     	   	<button id="bInicio" class="button" type="button">INICIO</button>
     			<button id="bVolver" class="button" type="button">VOLVER</button>
+    			<button id="bFiltro" class="button" type="button">FILTRO</button>
     	</div>
+    	<div id="contenedorFiltro">
+    		<div id="listaFiltro"></div>
+				<button id="bFiltrar" class="buttonF" type = "button" value = "Filtrar">Filtrar</button>
+			</div>
       <div id="resultados"></div>
+
       <div id="masMaterias">
           <button id="" class="button" name="mas" type="button" data-tipo="mMaterias">+ MATERIAS</button>
     			<button id="" class="button" name="menos" type="button" data-tipo="menuD">- MATERIAS</button>
-      </div>
+      </div>	
     </div>
+    <footer>
+      <a href="http://www.cchs.csic.es" target="_blank">
+      	<img id="imagenCCHS" src="./images/logoCCHS.svg" alt="Centro de Ciencias Humanas y Sociales">
+      </a>
+    	<a href="https://www.csic.es/es" target="_blank">
+      	<img id="imagenCSIC" src="./images/logoCSIC.svg" alt="Consejo Superior de Investigaciones Científicas">
+      </a>
+      <a href="http://bibliotecas.csic.es/" target="_blank">
+      	<img id="imagenRed" src="./images/logoRed.svg" alt="Red de Bibliotecas del CSIC">
+       </a>
+    </footer>
+    </div>
+    <script src="./js/utiles.js"></script>
     <script type="module" src="app.js"></script>
-    <script type="module" src="./js/plantillas.js"></script>
-    <script>
-
-function drop () {
-				document.getElementById("myDropdown").classList.toggle("show");
-		}
-
-window.onclick = function(e) {
-			if (!e.target.matches('.dropbtn')) {
-
-				var dropdowns = document.getElementsByClassName("dropdown-content");
-				for (var d = 0; d < dropdowns.length; d++) {
-				  var openDropdown = dropdowns[d];
-				  if (openDropdown.classList.contains('show')) {
-				    openDropdown.classList.remove('show');
-				  }
-				}
-			}
-		}
-
-window.onscroll = function() {stickyF()};
-
-var header = document.getElementById("navegacion");
-var sticky = header.offsetTop;
-
-function stickyF () {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-    </script>
-
-</body>
+	</body>
 </html>

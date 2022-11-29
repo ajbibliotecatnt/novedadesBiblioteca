@@ -1,4 +1,4 @@
-import { mostrarResultados, mostrarMaterias, datosMaterias} from './utiles.js';
+import { mostrarResultados, mostrarMaterias, datosMaterias} from './controlador.js';
 import { vistaMaterias, vistaInicio, vistaResultados, bMasMaterias, bMenosMaterias, vistaMensaje} from './vistas.js';
 const url = 'https://csic-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=34CSIC_ALMA_DS';
 const context = '&context=L&vid=34CSIC_VU1&search_scope=CAT_BIB_scope&tab=default_tab&lang=es_ES';
@@ -12,8 +12,8 @@ function plantillaLibro (libro) {
 
 	if(libro.autor !== '') {
   	let autorU = encodeURI(libro.autor);
-    libro.autor = `<b>Autor: </b>${libro.autor} <a href=${autorP}${autorU}${autorF} target="_blank">(+)</a>`
-  }
+    libro.autorUrl = `<b>Autor: </b>${libro.autor} <a href=${autorP}${autorU}${autorF} target="_blank">(+)</a>`
+  } else {libro.autorUrl= ''}
 	
 	if (libro.holding[0].mat != "Issue") {
 		if (libro.isbn == '') {
@@ -23,7 +23,7 @@ function plantillaLibro (libro) {
 		`<li class="article">
 			<div class="portada"><img src="${portadas}${libro.isbn}"></div>
 			<div class="registro"><h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
-			<p>${libro.autor}</p>
+			<p>${libro.autorUrl}</p>
 			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
 				<ul>`+ libro.holding.map(eje =>
 				`<li><p><b>${eje.col}</b> | <b>${eje.sig}</b> | <b>${eje.des}</b></p></li>`).join('')+
@@ -33,7 +33,7 @@ function plantillaLibro (libro) {
 		`<li class="article">
 			<div class="portada"><img src="./images/000/${libro.id}"></div>
 			<div class="registro"><h2><a href=${url}${libro.iep}${context} target="_blank">${libro.titulo}</a></h2>
-			<p>${libro.autor}</p>
+			<p>${libro.autorUrl}</p>
 			<p><b>Edición: </b>${libro.lugar} ${libro.editor}, ${libro.fecha}</p>
 				<ul>`+ libro.holding.map(eje =>
   			`<li><p><b>${eje.col}</b> | <b>${eje.sig}</b> | <b>${eje.des}</b></p></li>`).join('')+
@@ -84,6 +84,17 @@ function plantillaMateria (listadoMaterias, campo) {
     }
 }
 
+function plantillaFiltro (f) {
+	return (
+		`<form id="FiltroTipos">`
+				+ f.map((filtro, index) => 
+    			`<label class="filtro">
+        		<input class="check" type="checkbox" value="${filtro.va}"/>${filtro.la} (${filtro.num})</label>`
+       		).join('')+
+		`</form>`
+	)
+}
+
 function plantillaInicio (n) {
 	return (
 	`<div class="mensaje">
@@ -97,4 +108,4 @@ function plantillaInicio (n) {
     </div>`);
 }
 
-export { plantillaLibro, plantillaMenuMateria, plantillaMateria, plantillaInicio};
+export { plantillaLibro, plantillaMenuMateria, plantillaMateria, plantillaInicio, plantillaFiltro};
