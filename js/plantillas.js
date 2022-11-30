@@ -88,8 +88,10 @@ function plantillaFiltro (f) {
 	return (
 		`<form id="FiltroTipos">`
 				+ f.map((filtro, index) => 
-    			`<label class="filtro">
-        		<input class="check" type="checkbox" value="${filtro.va}"/>${filtro.la} (${filtro.num})</label>`
+    			`<label class="filtro">${filtro.la} (${filtro.num})
+        			<input class="check" type="checkbox" value="${filtro.va}"/>
+        			<span class="checkmark"></span>
+        	 </label>`
        		).join('')+
 		`</form>`
 	)

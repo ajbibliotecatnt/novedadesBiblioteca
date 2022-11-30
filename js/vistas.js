@@ -4,8 +4,6 @@ import { materias, novedades} from '../app.js';
 
 let htmlContent = "";
 let htmlNav = "";
-//let datosFiltroTipos = [{"va":"Book", "la":"Libros", "num":0}, {"va":"Pamphlet", "la":"Folletos", "num":0}, {"va":"Issue", "la":"Revistas", "num":0}, {"va":"Digital", "la":"Digital", "num":0} ]
-//let datosFiltroMaterias = [{"va":"1", "la":"Filosofía", "num":0}, {"va":"2", "la":"Religión", "num":0}, {"va":"3", "la":"Ciencias Sociales", "num":0}, {"va":"5", "la":"Ciencias", "num":0}, {"va":"6", "la":"Técnica", "num":0}, {"va":"7", "la":"Arte", "num":0}, {"va":"8", "la":"Lengua y literatura", "num":0}, {"va":"9", "la":"Geografía e historia", "num":0}]
 
 export let bMasMaterias = document.querySelector("div#masMaterias .button[name='mas']");
 export let bMenosMaterias = document.querySelector("div#masMaterias .button[name='menos']");
@@ -62,7 +60,7 @@ function vistaMaterias() {
 function vistaResultados(t, documentos=datosLibros.lLibros) {
 	
   resultados.innerHTML = '';
-  listaFiltro.innerHTML = '';
+  //listaFiltro.innerHTML = '';
   document.documentElement.scrollTop = 0;
   bMasMaterias.style.display = "none";
   bMenosMaterias.style.display = "none";
@@ -113,6 +111,7 @@ function vistaMensaje (m) {
 function vistaVolver () {
 	bFiltro.style.display = "none";
 	bVolver.style.display = "none";
+	contenedorFiltro.style.display = "none";
 	listaFiltro.innerHTML = '';
 	//limpiarFiltro();
 	vistaMaterias();
@@ -121,11 +120,10 @@ function vistaVolver () {
 function mostrarFiltro () {
 	
 	//listaFiltro.innerHTML = '';
+	document.documentElement.scrollTop = 0;
 	let f;
 
 	f = f || plantillaFiltro(filtroActivo);
-	console.log(filtroActivo);
-
 
 	const listaFiltros = document.getElementById('FiltroTipos');
 	if (listaFiltros === null) {
@@ -135,7 +133,7 @@ function mostrarFiltro () {
 	if (contenedorFiltro.style.display !== "none") {
         contenedorFiltro.style.display = "none";
       } else {
-        contenedorFiltro.style.display = "block";
+        contenedorFiltro.style.display = "flex";
       };
   
 }

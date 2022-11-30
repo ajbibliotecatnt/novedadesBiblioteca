@@ -139,38 +139,31 @@ function filtrar() {
 	let seleccionados = [];
 	let datosFiltro = [];
 	
-	contenedorFiltro.style.display = "none";
- 
-        //Reference all the CheckBoxes in Table.
-        var cheks = FiltroTipos.getElementsByTagName("input");
- 
-        // Loop and push the checked CheckBox value in Array.
-        for (var i = 0; i < cheks.length; i++) {
-            if (cheks[i].checked) {
-                seleccionados.push(cheks[i].value);
-            }
-        }
- 
-        //Display the selected CheckBox values.
-        if (seleccionados.length > 0) {
-        }
+	//contenedorFiltro.style.display = "none";
+  var cheks = FiltroTipos.getElementsByTagName("input");
 
-      datosLibros.lLibros.map(n => {
-			if (seleccionados.includes(n.holding[0].mat)) {
-				datosFiltro.push(n)
-			}
-			}
-		);
+  for (var i = 0; i < cheks.length; i++) {
+      if (cheks[i].checked) {
+          seleccionados.push(cheks[i].value);
+      }
+  }
+
+  datosLibros.lLibros.map(n => {
+		if (seleccionados.includes(n.holding[0].mat)) {
+			datosFiltro.push(n)
+		}
+	}
+);
 		/* Elimina los registros que se han recuperado más de una vez en la búsqueda */
-		datosFiltro = datosFiltro.filter((value, index, self) =>
-  		index === self.findIndex((t) => (
-    		t.id === value.id
-  			)
-  		)
+	datosFiltro = datosFiltro.filter((value, index, self) =>
+		index === self.findIndex((t) => (
+  		t.id === value.id
+			)
 		)
-		vistaResultados("filtro", datosFiltro);
-		datosFiltro = [];
-		seleccionados = [];
+	)
+	vistaResultados("filtro", datosFiltro);
+	datosFiltro = [];
+	seleccionados = [];
         
 };
 
